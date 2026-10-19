@@ -1,6 +1,6 @@
 ********************************************************************************
 *  H032_circ01                                                                 *
-*  October 13, 2026 at 11:14:57                                                *
+*  October 19, 2026 at 11:06:52                                                *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,29 +8,29 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-ka_C_pop            :      0.9729
+ka_C_pop            :      0.9707
 Cl_C_pop            :       3.975
-V_C_pop             :       51.86
+V_C_pop             :       51.71
 R0_pop              :       100.8
 kout_pop            :      0.6632
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.4279
-omega_Cl_C          :       0.272
-omega_V_C           :      0.1625
+omega_ka_C          :      0.4254
+omega_Cl_C          :      0.2719
+omega_V_C           :      0.1635
 omega_R0            :      0.1102
-omega_kout          :      0.3194
+omega_kout          :      0.3188
 
 Error Model Parameters ----------
 b_C                 :      0.1502
-b_R                 :     0.05176
+b_R                 :     0.05174
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :       52296.88
-Akaike Information Criteria        (AIC) :       52320.88
-Corrected Bayesian Inf. Criteria  (BICc) :       52383.18
-Bayesian Information Criteria       (BIC):       52352.14
+-2 x log-likelihood                (OFV) :       52286.56
+Akaike Information Criteria        (AIC) :       52310.56
+Corrected Bayesian Inf. Criteria  (BICc) :       52372.86
+Bayesian Information Criteria       (BIC):       52341.82
 Standard error of -2LL (importance s.)   :           0.10
 
 RUN SETTINGS ___________________________________________________________________
@@ -50,7 +50,7 @@ Population parameters (VAE) ----------------------
     Encoder                           : LSTM, hidden dim 50
     Precision                         : float32
     ODE solver                        : Tsit5
-    ODE tolerance (rtol / atol)       : 0.0001 / 1e-06  (default)
+    ODE tolerance (rtol / atol)       : 0.001 / 1e-06
     ODE tolerance for SE (rtol / atol): 1e-06 / 1e-09
     Random seed                       : 1234
 
@@ -66,9 +66,9 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 8 min 13 s
-    Conditional distributions         : 8.4 s
-    Log-likelihood                    : 39.5 s
+    Population parameters             : 6 min 32 s
+    Conditional distributions         : 6.4 s
+    Log-likelihood                    : 30.2 s
 
 DATASET INFORMATION
 Number of individuals: 100

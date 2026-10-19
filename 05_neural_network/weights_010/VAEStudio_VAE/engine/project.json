@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "H002_circ01",
-  "saved": "2026-10-13T10:30:23",
+  "saved": "2026-10-19T10:23:53",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -336,17 +336,18 @@
     "enc_dropout": "0.0",
     "enc_bidirectional": false,
     "nn_hidden_dim": 30,
-    "ode_rtol": "",
-    "ode_atol": "",
+    "ode_rtol": "1e-3",
+    "ode_atol": "1e-6",
     "ode_stiff": false,
     "ode_solver": "Tsit5",
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 51.18516397476196,
-      "cond": 3.662703037261963,
-      "ll": 21.58892011642456
-    }
+      "pop": 46.75264883041382,
+      "cond": 4.277730941772461,
+      "ll": 19.03416395187378
+    },
+    "task_settings": {}
   },
   "active": [
     true,
@@ -450,5 +451,5 @@
     true,
     true
   ],
-  "results_signature": "da1d2696226eee6d"
+  "results_signature": "20ca242719257508"
 }
