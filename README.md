@@ -22,9 +22,9 @@ There is one folder per data set. Inside, every tool has its own subfolder, name
 | `03_small_data_sets/<class>/<model>/N020_rep01_single_dose` … | first 20 or 50 individuals of rep01–rep05 and rep11–rep15 | Figures 2–3, Table S1 |
 | `04_population_size/{1cmt_oral,indirect_response}/N00050_rep01` … `N10000_rep03` | 50 to 10 000 individuals, three nested data sets per size | Figures 2, 3 and 5 |
 | `05_neural_network/weights_010` … `weights_160` | indirect response model with a neural network in the production, 10 to 160 weights | Figure 6 |
-| `06_covariate_selection/candidates_000` … `candidates_512` | covariate selection with 0 to 512 candidate covariates | Figure 7, Supplement S9 |
-| `07_stiff_models_tolerance/rtol_1e-3` … `rtol_1e-7` | stiff models at different solver tolerances (SAEM, VAE) | Supplement S7 |
-| `08_FOCEI_rtol_1e-3/` | problem classes with FOCEI at rtol 1e-3, and the repeats with NSIG=2 (`NSIG2_repeats/`) | Supplement S7 |
+| `06_covariate_selection/candidates_000` … `candidates_512` | covariate selection with 0 to 512 candidate covariates | Figure 7 |
+| `07_stiff_models_tolerance/rtol_1e-3` … `rtol_1e-7` | stiff models at different solver tolerances (SAEM, VAE) | Supplement S6 |
+| `08_FOCEI_rtol_1e-3/` | problem classes with FOCEI at rtol 1e-3, and the repeats with NSIG=2 (`NSIG2_repeats/`) | Supplement S6 |
 
 Problem classes (`<class>`): `closed_form` (1cmt_oral, 2cmt_oral, 2cmt_infusion, 3cmt_iv_bolus), `nonstiff_ODE`
 (1cmt_Michaelis-Menten, 2cmt_Michaelis-Menten, transit_absorption, effect_compartment, parent_metabolite,
