@@ -250,7 +250,7 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 30,
+    "cond_rounds": 10,
     "cond_tdof": 5,
     "se_enabled": false,
     "se_max_iter": 50,
