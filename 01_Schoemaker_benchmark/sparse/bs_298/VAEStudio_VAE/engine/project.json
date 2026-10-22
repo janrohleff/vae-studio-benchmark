@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_298",
-  "saved": "2026-10-05T23:27:54",
+  "saved": "2026-10-22T01:48:14",
   "source_name": "bs_298.csv",
   "data_file": "bs_298.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9657800197601318,
-      "cond": 0.27010107040405273,
+      "cond": 0.22501111030578613,
       "se": 0.10362100601196289,
-      "ll": 1.2602128982543945
-    }
+      "ll": 0.6065342426300049
+    },
+    "task_settings": {}
   },
   "active": [
     true,

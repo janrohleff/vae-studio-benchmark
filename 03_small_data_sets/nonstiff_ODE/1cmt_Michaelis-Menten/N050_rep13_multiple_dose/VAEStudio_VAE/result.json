@@ -16,18 +16,18 @@
  },
  "beta": {},
  "ll": {
-  "OFV": -691.5509733991373,
-  "AIC": -673.5509733991373,
-  "BIC": -656.342766350284,
-  "BICc": -641.4194097193111
+  "OFV": -691.60391857907,
+  "AIC": -673.60391857907,
+  "BIC": -656.3957115302167,
+  "BICc": -641.4723548992438
  },
  "tool": "VAE",
  "model": "pkmm",
  "times": {
-  "compile": 6.985664367675781e-05,
+  "compile": 5.5789947509765625e-05,
   "pop": 5.911343097686768,
-  "cond": 0.9458460807800293,
-  "ll": 3.885867118835449
+  "cond": 0.7868142127990723,
+  "ll": 3.3073599338531494
  },
  "n_iter": 510,
  "phases": {
@@ -44,5 +44,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 50,
- "n_obs": 989
+ "n_obs": 989,
+ "cond_info": {
+  "rounds": 4,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

@@ -21,10 +21,10 @@
  "tool": "VAE",
  "model": "idrcov",
  "times": {
-  "compile": 1.2529702186584473,
+  "compile": 2.0761661529541016,
   "pop": 13.61083698272705,
-  "cond": 1.8321621417999268,
-  "ll": 12.281774044036865
+  "cond": 2.0535690784454346,
+  "ll": 10.148284912109375
  },
  "n_iter": 298,
  "phases": {
@@ -41,5 +41,20 @@
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 400,
- "n_obs": 4000
+ "n_obs": 4000,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "N050_rep05",
-  "saved": "2026-10-05T16:55:09",
+  "saved": "2026-10-22T01:28:48",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -250,10 +250,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": false,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -286,9 +289,10 @@
     "seed": 1234,
     "runtimes": {
       "pop": 3.982673168182373,
-      "cond": 0.6276049613952637,
-      "ll": 3.142462968826294
-    }
+      "cond": 0.5787761211395264,
+      "ll": 2.561048746109009
+    },
+    "task_settings": {}
   },
   "active": [
     true,

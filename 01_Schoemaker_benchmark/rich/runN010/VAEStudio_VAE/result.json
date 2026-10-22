@@ -30,15 +30,15 @@
  "run": "runN010",
  "model": "bolus_1cpt_VVmKm",
  "times": {
-  "compile": 0.20681285858154297,
+  "compile": 0.21015214920043945,
   "pop": 11.07865309715271,
   "ess": [
    5.781109820605959,
    1.4272679949497302
   ],
-  "cond": 0.946760892868042,
+  "cond": 0.8957719802856445,
   "se": 0.16707992553710938,
-  "ll": 5.351469993591309,
+  "ll": 4.562928915023804,
   "total": 17.544734954833984
  },
  "n_iter": 443,
@@ -83,5 +83,20 @@
  },
  "enc_hidden_dim": 50,
  "n_subjects": 120,
- "n_obs": 4676
+ "n_obs": 4676,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

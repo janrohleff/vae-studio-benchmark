@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep03                                                                  *
-*  October 05, 2026 at 16:47:26                                                *
+*  October 22, 2026 at 01:14:41                                                *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -41,14 +41,23 @@ omega_Km            :     0.04259
 
 Error Model Parameters ----------
 a_C                 :       20.63
+b_C                 :      0.1647
+
+RUN TIME _______________________________________________________________________
+
+Estimation time (pure engine computation, excluding load/compile):
+
+    Population parameters             : 9.3 s
+    Conditional distributions         : 3.4 s
+    Log-likelihood                    : 3.8 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        3489.64
-Akaike Information Criteria        (AIC) :        3549.64
-Corrected Bayesian Inf. Criteria  (BICc) :        3606.59
-Bayesian Information Criteria       (BIC):        3579.51
-Standard error of -2LL (importance s.)   :           0.14
+-2 x log-likelihood                (OFV) :        3489.76
+Akaike Information Criteria        (AIC) :        3549.76
+Corrected Bayesian Inf. Criteria  (BICc) :        3606.71
+Bayesian Information Criteria       (BIC):        3579.63
+Standard error of -2LL (importance s.)   :           0.12
 
 RUN SETTINGS ___________________________________________________________________
 
@@ -75,16 +84,9 @@ Other tasks ---------------------------------------
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
     Cond. distribution rounds         : 30
+    Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000
     Importance-sampling proposal      : t distribution, 5 degrees of freedom
-
-RUN TIME _______________________________________________________________________
-
-Estimation time (pure engine computation, excluding load/compile):
-
-    Population parameters             : 9.3 s
-    Conditional distributions         : 8.0 s
-    Log-likelihood                    : 4.1 s
 
 DATASET INFORMATION
 Number of individuals: 20

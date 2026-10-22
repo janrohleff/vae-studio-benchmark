@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "N02000_rep03",
-  "saved": "2026-10-05T20:42:42",
+  "saved": "2026-10-22T00:04:42",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -277,10 +277,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": false,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -313,9 +316,10 @@
     "seed": 1234,
     "runtimes": {
       "pop": 69.60621309280396,
-      "cond": 64.82971501350403,
-      "ll": 71.29502201080322
-    }
+      "cond": 10.215731143951416,
+      "ll": 57.32283115386963
+    },
+    "task_settings": {}
   },
   "active": [
     true,

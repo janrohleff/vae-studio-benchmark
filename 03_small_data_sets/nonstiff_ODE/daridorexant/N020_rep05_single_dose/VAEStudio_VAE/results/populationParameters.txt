@@ -32,3 +32,4 @@ omega_Km            :     0.03068
 
 Error Model Parameters ----------
 a_C                 :       17.61
+b_C                 :      0.1471

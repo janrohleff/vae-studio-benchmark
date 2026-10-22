@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_069",
-  "saved": "2026-10-05T23:17:34",
+  "saved": "2026-10-22T01:44:48",
   "source_name": "bs_069.csv",
   "data_file": "bs_069.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.1340501308441162,
-      "cond": 0.29053425788879395,
+      "cond": 0.22681498527526855,
       "se": 0.1050570011138916,
-      "ll": 1.2455470561981201
-    }
+      "ll": 0.6258540153503418
+    },
+    "task_settings": {}
   },
   "active": [
     true,

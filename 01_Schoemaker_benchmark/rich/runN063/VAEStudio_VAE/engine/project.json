@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN063",
-  "saved": "2026-10-05T23:11:40",
+  "saved": "2026-10-22T01:42:50",
   "source_name": "Oral_2CPT_all.csv",
   "data_file": "Oral_2CPT_all.csv",
   "mapping": {
@@ -329,10 +329,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -365,10 +368,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 7.487494945526123,
-      "cond": 0.499330997467041,
+      "cond": 0.48116588592529297,
       "se": 0.3462409973144531,
-      "ll": 2.5503690242767334
-    }
+      "ll": 1.79073166847229
+    },
+    "task_settings": {}
   },
   "active": [
     true,

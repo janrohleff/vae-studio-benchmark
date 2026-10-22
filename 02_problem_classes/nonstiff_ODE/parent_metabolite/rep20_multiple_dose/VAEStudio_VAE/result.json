@@ -27,10 +27,10 @@
  "tool": "VAE",
  "model": "parmet",
  "times": {
-  "compile": 7.081031799316406e-05,
+  "compile": 7.486343383789062e-05,
   "pop": 5.6998982429504395,
-  "cond": 1.4410228729248047,
-  "ll": 8.897772789001465
+  "cond": 1.574465036392212,
+  "ll": 9.315638065338135
  },
  "n_iter": 223,
  "phases": {
@@ -47,5 +47,20 @@
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 100,
- "n_obs": 3767
+ "n_obs": 3767,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

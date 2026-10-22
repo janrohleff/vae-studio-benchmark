@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_231",
-  "saved": "2026-10-06T02:49:45",
+  "saved": "2026-10-22T01:47:14",
   "source_name": "bs_231.csv",
   "data_file": "bs_231.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9419841766357422,
-      "cond": 0.4405238628387451,
+      "cond": 0.2888178825378418,
       "se": 0.11121916770935059,
-      "ll": 1.2363810539245605
-    }
+      "ll": 0.6189320087432861
+    },
+    "task_settings": {}
   },
   "active": [
     true,

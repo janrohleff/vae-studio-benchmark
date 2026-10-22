@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_364",
-  "saved": "2026-10-05T23:30:52",
+  "saved": "2026-10-22T01:49:13",
   "source_name": "bs_364.csv",
   "data_file": "bs_364.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.0768160820007324,
-      "cond": 0.2841308116912842,
+      "cond": 0.22417402267456055,
       "se": 0.11234903335571289,
-      "ll": 1.2580468654632568
-    }
+      "ll": 0.6031198501586914
+    },
+    "task_settings": {}
   },
   "active": [
     true,

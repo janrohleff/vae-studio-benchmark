@@ -1,6 +1,6 @@
 ********************************************************************************
 *  runN047                                                                     *
-*  October 05, 2026 at 23:07:27                                                *
+*  October 22, 2026 at 01:41:18                                                *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -22,19 +22,21 @@ omega_V2_C          :      0.3421   0.03483      10.2    0.2738    0.4103
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
 b_C                 :      0.2057  0.002324      1.13    0.2011    0.2102
 
-ESTIMATION OF THE FISHER INFORMATION MATRIX ____________________________________
+RUN TIME _______________________________________________________________________
 
-                              min       max   max/min
-Eigen values           :   0.6427     1.689     2.628
+Estimation time (pure engine computation, excluding load/compile):
 
-Fisher information matrix and correlation matrix of the estimates: see results/fisherInformation.txt
+    Population parameters             : 5.4 s
+    Conditional distributions         : 0.5 s
+    Standard errors (Fisher)          : 0.2 s
+    Log-likelihood                    : 1.4 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :       54575.30
-Akaike Information Criteria        (AIC) :       54593.30
-Corrected Bayesian Inf. Criteria  (BICc) :       54636.71
-Bayesian Information Criteria       (BIC):       54618.39
+-2 x log-likelihood                (OFV) :       54575.19
+Akaike Information Criteria        (AIC) :       54593.19
+Corrected Bayesian Inf. Criteria  (BICc) :       54636.60
+Bayesian Information Criteria       (BIC):       54618.28
 Standard error of -2LL (importance s.)   :           0.12
 
 RUN SETTINGS ___________________________________________________________________
@@ -61,19 +63,11 @@ Other tasks ---------------------------------------
 
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
-    Fisher max. iterations            : 50
+    Standard errors: iterations       : 50–500, autostop: interval 5 %
     Cond. distribution rounds         : 30
+    Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000
     Importance-sampling proposal      : t distribution, 5 degrees of freedom
-
-RUN TIME _______________________________________________________________________
-
-Estimation time (pure engine computation, excluding load/compile):
-
-    Population parameters             : 5.4 s
-    Conditional distributions         : 0.6 s
-    Standard errors (Fisher)          : 0.2 s
-    Log-likelihood                    : 2.3 s
 
 DATASET INFORMATION
 Number of individuals: 120

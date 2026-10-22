@@ -1,6 +1,6 @@
 ********************************************************************************
 *  runN023                                                                     *
-*  October 05, 2026 at 23:03:33                                                *
+*  October 22, 2026 at 01:40:00                                                *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -20,12 +20,14 @@ omega_V_C           :      0.2735    0.0189      6.91    0.2364    0.3105
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
 b_C                 :      0.1986  0.003294      1.66    0.1921    0.2051
 
-ESTIMATION OF THE FISHER INFORMATION MATRIX ____________________________________
+RUN TIME _______________________________________________________________________
 
-                              min       max   max/min
-Eigen values           :   0.9124     1.136     1.245
+Estimation time (pure engine computation, excluding load/compile):
 
-Fisher information matrix and correlation matrix of the estimates: see results/fisherInformation.txt
+    Population parameters             : 1.7 s
+    Conditional distributions         : 0.4 s
+    Standard errors (Fisher)          : 0.1 s
+    Log-likelihood                    : 0.8 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
@@ -59,19 +61,11 @@ Other tasks ---------------------------------------
 
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
-    Fisher max. iterations            : 50
+    Standard errors: iterations       : 50–500, autostop: interval 5 %
     Cond. distribution rounds         : 30
+    Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000
     Importance-sampling proposal      : t distribution, 5 degrees of freedom
-
-RUN TIME _______________________________________________________________________
-
-Estimation time (pure engine computation, excluding load/compile):
-
-    Population parameters             : 1.7 s
-    Conditional distributions         : 0.4 s
-    Standard errors (Fisher)          : 0.1 s
-    Log-likelihood                    : 1.8 s
 
 DATASET INFORMATION
 Number of individuals: 120

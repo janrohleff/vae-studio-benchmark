@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_468",
-  "saved": "2026-10-05T23:35:30",
+  "saved": "2026-10-22T01:50:46",
   "source_name": "bs_468.csv",
   "data_file": "bs_468.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.8541510105133057,
-      "cond": 0.28491711616516113,
+      "cond": 0.21628475189208984,
       "se": 0.11650896072387695,
-      "ll": 1.2600440979003906
-    }
+      "ll": 0.5678019523620605
+    },
+    "task_settings": {}
   },
   "active": [
     true,

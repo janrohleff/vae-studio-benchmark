@@ -21,18 +21,18 @@
  },
  "beta": {},
  "ll": {
-  "OFV": 2269.460155654761,
-  "AIC": 2297.460155654761,
-  "BIC": 2311.4004074845166,
-  "BICc": 2339.7325409250793
+  "OFV": 2269.4875463841227,
+  "AIC": 2297.4875463841227,
+  "BIC": 2311.4277982138783,
+  "BICc": 2339.759931654441
  },
  "tool": "VAE",
  "model": "tmdd",
  "times": {
-  "compile": 7.987022399902344e-05,
+  "compile": 7.82012939453125e-05,
   "pop": 0.9796299934387207,
-  "cond": 0.46520495414733887,
-  "ll": 1.3832728862762451
+  "cond": 0.48078107833862305,
+  "ll": 1.2142069339752197
  },
  "n_iter": 229,
  "phases": {
@@ -49,5 +49,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 20,
- "n_obs": 340
+ "n_obs": 340,
+ "cond_info": {
+  "rounds": 4,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

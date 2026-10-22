@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep13                                                                  *
-*  October 05, 2026 at 17:13:03                                                *
+*  October 22, 2026 at 01:22:06                                                *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -26,10 +26,18 @@ Error Model Parameters ----------
 b_C                 :      0.1544
 b_Circ              :      0.2082
 
+RUN TIME _______________________________________________________________________
+
+Estimation time (pure engine computation, excluding load/compile):
+
+    Population parameters             : 2.1 s
+    Conditional distributions         : 0.8 s
+    Log-likelihood                    : 3.4 s
+
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :         314.61
-Akaike Information Criteria        (AIC) :         340.61
+-2 x log-likelihood                (OFV) :         314.62
+Akaike Information Criteria        (AIC) :         340.62
 Corrected Bayesian Inf. Criteria  (BICc) :         379.58
 Bayesian Information Criteria       (BIC):         353.56
 Standard error of -2LL (importance s.)   :           0.05
@@ -60,16 +68,9 @@ Other tasks ---------------------------------------
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
     Cond. distribution rounds         : 30
+    Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000
     Importance-sampling proposal      : t distribution, 5 degrees of freedom
-
-RUN TIME _______________________________________________________________________
-
-Estimation time (pure engine computation, excluding load/compile):
-
-    Population parameters             : 2.1 s
-    Conditional distributions         : 0.9 s
-    Log-likelihood                    : 3.5 s
 
 DATASET INFORMATION
 Number of individuals: 20

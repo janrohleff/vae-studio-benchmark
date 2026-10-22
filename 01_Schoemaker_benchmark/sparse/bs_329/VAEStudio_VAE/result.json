@@ -30,15 +30,15 @@
  "run": "bs_329",
  "model": "oral1_1cpt_kaVCl",
  "times": {
-  "compile": 5.364418029785156e-05,
+  "compile": 5.2928924560546875e-05,
   "pop": 1.0988280773162842,
   "ess": [
    6.77980288559755,
    2.675308613358872
   ],
-  "cond": 0.2824981212615967,
+  "cond": 0.2678840160369873,
   "se": 0.11556196212768555,
-  "ll": 1.2538118362426758,
+  "ll": 0.6260471343994141,
   "total": 2.7514612674713135
  },
  "n_iter": 299,
@@ -83,5 +83,20 @@
  },
  "enc_hidden_dim": 25,
  "n_subjects": 120,
- "n_obs": 480
+ "n_obs": 480,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

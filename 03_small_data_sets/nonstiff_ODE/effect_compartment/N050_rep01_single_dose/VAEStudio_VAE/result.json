@@ -31,10 +31,10 @@
  "tool": "VAE",
  "model": "effcmt",
  "times": {
-  "compile": 1.2549293041229248,
+  "compile": 6.985664367675781e-05,
   "pop": 2.6042520999908447,
-  "cond": 0.4718587398529053,
-  "ll": 2.1621618270874023
+  "cond": 0.4805412292480469,
+  "ll": 1.7878048419952393
  },
  "n_iter": 353,
  "phases": {
@@ -51,5 +51,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 50,
- "n_obs": 850
+ "n_obs": 850,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

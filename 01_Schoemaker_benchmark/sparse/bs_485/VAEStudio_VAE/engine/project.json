@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_485",
-  "saved": "2026-10-05T23:36:16",
+  "saved": "2026-10-22T01:51:01",
   "source_name": "bs_485.csv",
   "data_file": "bs_485.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.1794610023498535,
-      "cond": 0.2822742462158203,
+      "cond": 0.2283029556274414,
       "se": 0.10609006881713867,
-      "ll": 1.2283637523651123
-    }
+      "ll": 0.6250569820404053
+    },
+    "task_settings": {}
   },
   "active": [
     true,

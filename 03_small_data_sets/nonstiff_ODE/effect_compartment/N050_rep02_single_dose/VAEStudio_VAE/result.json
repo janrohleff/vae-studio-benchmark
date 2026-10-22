@@ -23,18 +23,18 @@
  },
  "beta": {},
  "ll": {
-  "OFV": 2634.5733350855057,
-  "AIC": 2666.5733350855057,
-  "BIC": 2697.165703172356,
-  "BICc": 2722.6646232688618
+  "OFV": 2634.559596697292,
+  "AIC": 2666.559596697292,
+  "BIC": 2697.1519647841424,
+  "BICc": 2722.650884880648
  },
  "tool": "VAE",
  "model": "effcmt",
  "times": {
-  "compile": 7.915496826171875e-05,
+  "compile": 6.771087646484375e-05,
   "pop": 2.6799800395965576,
-  "cond": 3.761566400527954,
-  "ll": 2.198032855987549
+  "cond": 0.8387019634246826,
+  "ll": 1.8325691223144531
  },
  "n_iter": 306,
  "phases": {
@@ -51,5 +51,33 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 50,
- "n_obs": 850
+ "n_obs": 850,
+ "cond_info": {
+  "rounds": 7,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ },
+ "recomputed_prev": [
+  {
+   "tasks": [
+    "cond",
+    "ll"
+   ],
+   "settings": {
+    "cond_rounds": 20
+   },
+   "reason": "conditional distributions with at most 10 adaptive rounds, 20 for daridorexant, IDR and the effect compartment model (2026-10-21)",
+   "tag": "cond+ll@rounds10/20"
+  }
+ ]
 }

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  rep16                                                                       *
-*  October 05, 2026 at 12:32:36                                                *
+*  October 21, 2026 at 23:50:36                                                *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -21,6 +21,14 @@ omega_Cl            :      0.2935
 
 Error Model Parameters ----------
 b_C                 :       0.149
+
+RUN TIME _______________________________________________________________________
+
+Estimation time (pure engine computation, excluding load/compile):
+
+    Population parameters             : 15.5 s
+    Conditional distributions         : 2.4 s
+    Log-likelihood                    : 14.7 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
@@ -55,16 +63,9 @@ Other tasks ---------------------------------------
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
     Cond. distribution rounds         : 30
+    Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000
     Importance-sampling proposal      : t distribution, 5 degrees of freedom
-
-RUN TIME _______________________________________________________________________
-
-Estimation time (pure engine computation, excluding load/compile):
-
-    Population parameters             : 15.5 s
-    Conditional distributions         : 2.3 s
-    Log-likelihood                    : 14.8 s
 
 DATASET INFORMATION
 Number of individuals: 100

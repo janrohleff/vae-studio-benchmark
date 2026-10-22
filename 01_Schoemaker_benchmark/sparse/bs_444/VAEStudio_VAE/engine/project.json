@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_444",
-  "saved": "2026-10-05T23:34:27",
+  "saved": "2026-10-22T01:50:24",
   "source_name": "bs_444.csv",
   "data_file": "bs_444.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.8924269676208496,
-      "cond": 0.29012298583984375,
+      "cond": 0.2200016975402832,
       "se": 0.11688113212585449,
-      "ll": 1.2379751205444336
-    }
+      "ll": 0.6197512149810791
+    },
+    "task_settings": {}
   },
   "active": [
     true,

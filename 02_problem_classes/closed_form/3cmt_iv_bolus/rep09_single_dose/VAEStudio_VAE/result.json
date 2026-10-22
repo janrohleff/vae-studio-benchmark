@@ -26,10 +26,10 @@
  "tool": "VAE",
  "model": "pk3cmt",
  "times": {
-  "compile": 6.723403930664062e-05,
+  "compile": 6.914138793945312e-05,
   "pop": 2.033543825149536,
-  "cond": 0.3569200038909912,
-  "ll": 1.4329700469970703
+  "cond": 0.37825608253479004,
+  "ll": 0.7621219158172607
  },
  "n_iter": 265,
  "phases": {
@@ -46,5 +46,20 @@
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 100,
- "n_obs": 1300
+ "n_obs": 1300,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

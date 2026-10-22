@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_449",
-  "saved": "2026-10-05T23:34:40",
+  "saved": "2026-10-22T01:50:29",
   "source_name": "bs_449.csv",
   "data_file": "bs_449.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.055237054824829,
-      "cond": 0.28196096420288086,
+      "cond": 0.21850204467773438,
       "se": 0.1163330078125,
-      "ll": 1.2599890232086182
-    }
+      "ll": 0.6234710216522217
+    },
+    "task_settings": {}
   },
   "active": [
     true,

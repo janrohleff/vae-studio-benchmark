@@ -29,10 +29,10 @@
  "tool": "VAE",
  "model": "tmddfull",
  "times": {
-  "compile": 9.322166442871094e-05,
+  "compile": 8.106231689453125e-05,
   "pop": 10.11056900024414,
-  "cond": 1.060654878616333,
-  "ll": 6.407994031906128
+  "cond": 1.1395800113677979,
+  "ll": 6.676635026931763
  },
  "n_iter": 321,
  "phases": {
@@ -49,5 +49,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 50,
- "n_obs": 850
+ "n_obs": 850,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

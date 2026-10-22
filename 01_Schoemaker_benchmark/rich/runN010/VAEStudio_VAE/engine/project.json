@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN010",
-  "saved": "2026-10-05T23:00:55",
+  "saved": "2026-10-22T01:38:27",
   "source_name": "Bolus_1CPTMM_md.csv",
   "data_file": "Bolus_1CPTMM_md.csv",
   "mapping": {
@@ -269,10 +269,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -305,10 +308,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 11.07865309715271,
-      "cond": 0.946760892868042,
+      "cond": 0.8957719802856445,
       "se": 0.16707992553710938,
-      "ll": 5.351469993591309
-    }
+      "ll": 4.562928915023804
+    },
+    "task_settings": {}
   },
   "active": [
     true,

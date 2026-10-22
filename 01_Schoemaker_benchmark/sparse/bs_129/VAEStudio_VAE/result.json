@@ -22,23 +22,23 @@
  "b": 0.17872417435382876,
  "se_b": 0.008177228258898403,
  "ll": {
-  "OFV": 5422.553291158687,
-  "AIC": 5436.553291158687,
-  "BIC": 5456.065733358161,
-  "BICc": 5461.61091080264
+  "OFV": 5422.553497505969,
+  "AIC": 5436.553497505969,
+  "BIC": 5456.065939705443,
+  "BICc": 5461.611117149922
  },
  "run": "bs_129",
  "model": "oral1_1cpt_kaVCl",
  "times": {
-  "compile": 4.9114227294921875e-05,
+  "compile": 5.602836608886719e-05,
   "pop": 0.8947510719299316,
   "ess": [
    6.75947510561092,
    2.4115479190370803
   ],
-  "cond": 0.44200587272644043,
+  "cond": 0.28635525703430176,
   "se": 0.11020302772521973,
-  "ll": 1.2787060737609863,
+  "ll": 0.6190838813781738,
   "total": 2.7264461517333984
  },
  "n_iter": 249,
@@ -83,5 +83,20 @@
  },
  "enc_hidden_dim": 25,
  "n_subjects": 120,
- "n_obs": 480
+ "n_obs": 480,
+ "cond_info": {
+  "rounds": 5,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

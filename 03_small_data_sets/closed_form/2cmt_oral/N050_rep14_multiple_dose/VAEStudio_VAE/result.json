@@ -26,10 +26,10 @@
  "tool": "VAE",
  "model": "pk2oral",
  "times": {
-  "compile": 7.200241088867188e-05,
+  "compile": 6.699562072753906e-05,
   "pop": 1.5710480213165283,
-  "cond": 0.335284948348999,
-  "ll": 0.8878312110900879
+  "cond": 0.31807684898376465,
+  "ll": 0.5977580547332764
  },
  "n_iter": 287,
  "phases": {
@@ -46,5 +46,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 50,
- "n_obs": 1250
+ "n_obs": 1250,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

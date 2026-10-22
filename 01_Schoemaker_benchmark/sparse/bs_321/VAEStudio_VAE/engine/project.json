@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_321",
-  "saved": "2026-10-05T23:28:56",
+  "saved": "2026-10-22T01:48:35",
   "source_name": "bs_321.csv",
   "data_file": "bs_321.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9702751636505127,
-      "cond": 0.3976101875305176,
+      "cond": 0.26984500885009766,
       "se": 0.11147713661193848,
-      "ll": 1.251244068145752
-    }
+      "ll": 0.6116158962249756
+    },
+    "task_settings": {}
   },
   "active": [
     true,

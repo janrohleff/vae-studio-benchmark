@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_187",
-  "saved": "2026-10-05T23:22:55",
+  "saved": "2026-10-22T01:46:34",
   "source_name": "bs_187.csv",
   "data_file": "bs_187.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9091260433197021,
-      "cond": 0.2749819755554199,
+      "cond": 0.2140970230102539,
       "se": 0.11848616600036621,
-      "ll": 1.2419309616088867
-    }
+      "ll": 0.6203866004943848
+    },
+    "task_settings": {}
   },
   "active": [
     true,

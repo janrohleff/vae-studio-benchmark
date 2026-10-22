@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN029",
-  "saved": "2026-10-05T23:04:00",
+  "saved": "2026-10-22T01:40:11",
   "source_name": "Oral_1CPTMM_sd.csv",
   "data_file": "Oral_1CPTMM_sd.csv",
   "mapping": {
@@ -303,10 +303,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -339,10 +342,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 5.43817663192749,
-      "cond": 1.0098180770874023,
+      "cond": 0.9078199863433838,
       "se": 0.17134404182434082,
-      "ll": 5.469667673110962
-    }
+      "ll": 4.6687331199646
+    },
+    "task_settings": {}
   },
   "active": [
     true,

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_483",
-  "saved": "2026-10-05T23:36:10",
+  "saved": "2026-10-22T01:50:59",
   "source_name": "bs_483.csv",
   "data_file": "bs_483.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.1732659339904785,
-      "cond": 0.2790687084197998,
+      "cond": 0.2649190425872803,
       "se": 0.1157231330871582,
-      "ll": 1.25148606300354
-    }
+      "ll": 0.6190378665924072
+    },
+    "task_settings": {}
   },
   "active": [
     true,

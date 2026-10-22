@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN002",
-  "saved": "2026-10-05T23:00:20",
+  "saved": "2026-10-22T01:38:14",
   "source_name": "Bolus_1CPT_md.csv",
   "data_file": "Bolus_1CPT_md.csv",
   "mapping": {
@@ -245,10 +245,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -281,10 +284,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 2.1210498809814453,
-      "cond": 0.42757105827331543,
+      "cond": 0.4274108409881592,
       "se": 0.10976099967956543,
-      "ll": 2.210306167602539
-    }
+      "ll": 1.2514939308166504
+    },
+    "task_settings": {}
   },
   "active": [
     true,

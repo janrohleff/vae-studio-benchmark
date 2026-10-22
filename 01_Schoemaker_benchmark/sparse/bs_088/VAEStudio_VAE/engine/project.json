@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_088",
-  "saved": "2026-10-05T23:18:25",
+  "saved": "2026-10-22T01:45:05",
   "source_name": "bs_088.csv",
   "data_file": "bs_088.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.89398193359375,
-      "cond": 0.4035160541534424,
+      "cond": 0.27837491035461426,
       "se": 0.11171293258666992,
-      "ll": 1.2661800384521484
-    }
+      "ll": 0.5755109786987305
+    },
+    "task_settings": {}
   },
   "active": [
     true,

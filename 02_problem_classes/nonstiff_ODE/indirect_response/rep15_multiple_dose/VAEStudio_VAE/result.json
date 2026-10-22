@@ -29,10 +29,10 @@
  "tool": "VAE",
  "model": "idr",
  "times": {
-  "compile": 7.295608520507812e-05,
+  "compile": 6.389617919921875e-05,
   "pop": 6.408524751663208,
-  "cond": 1.107940912246704,
-  "ll": 6.186177968978882
+  "cond": 1.046734094619751,
+  "ll": 5.741745710372925
  },
  "n_iter": 287,
  "phases": {
@@ -49,5 +49,20 @@
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 100,
- "n_obs": 3100
+ "n_obs": 3100,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

@@ -20,18 +20,18 @@
  },
  "beta": {},
  "ll": {
-  "OFV": 630.6150669713736,
-  "AIC": 656.6150669713736,
-  "BIC": 681.4713660419395,
-  "BICc": 701.8167705052352
+  "OFV": 630.5729713307227,
+  "AIC": 656.5729713307227,
+  "BIC": 681.4292704012886,
+  "BICc": 701.7746748645843
  },
  "tool": "VAE",
  "model": "friberg",
  "times": {
-  "compile": 7.510185241699219e-05,
+  "compile": 7.390975952148438e-05,
   "pop": 2.1043448448181152,
-  "cond": 0.8215148448944092,
-  "ll": 3.143688917160034
+  "cond": 0.6727259159088135,
+  "ll": 2.5895349979400635
  },
  "n_iter": 237,
  "phases": {
@@ -48,5 +48,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 50,
- "n_obs": 636
+ "n_obs": 636,
+ "cond_info": {
+  "rounds": 4,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

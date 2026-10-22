@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_145",
-  "saved": "2026-10-05T23:21:01",
+  "saved": "2026-10-22T01:45:57",
   "source_name": "bs_145.csv",
   "data_file": "bs_145.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.8988239765167236,
-      "cond": 0.28624582290649414,
+      "cond": 0.21381878852844238,
       "se": 0.11313009262084961,
-      "ll": 1.2417118549346924
-    }
+      "ll": 0.5959720611572266
+    },
+    "task_settings": {}
   },
   "active": [
     true,

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_372",
-  "saved": "2026-10-05T23:31:13",
+  "saved": "2026-10-22T01:49:20",
   "source_name": "bs_372.csv",
   "data_file": "bs_372.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9451897144317627,
-      "cond": 0.38820505142211914,
+      "cond": 0.2982349395751953,
       "se": 0.1013650894165039,
-      "ll": 1.2653858661651611
-    }
+      "ll": 0.5701661109924316
+    },
+    "task_settings": {}
   },
   "active": [
     true,

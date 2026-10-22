@@ -24,10 +24,10 @@
  "tool": "VAE",
  "model": "transit",
  "times": {
-  "compile": 7.009506225585938e-05,
+  "compile": 6.508827209472656e-05,
   "pop": 15.045264959335327,
-  "cond": 2.2720110416412354,
-  "ll": 14.627955913543701
+  "cond": 2.405529022216797,
+  "ll": 14.662946939468384
  },
  "n_iter": 342,
  "phases": {
@@ -44,5 +44,20 @@
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 100,
- "n_obs": 2410
+ "n_obs": 2410,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

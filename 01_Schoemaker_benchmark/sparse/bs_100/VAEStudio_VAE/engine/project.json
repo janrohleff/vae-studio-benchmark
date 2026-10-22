@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_100",
-  "saved": "2026-10-05T23:18:58",
+  "saved": "2026-10-22T01:45:16",
   "source_name": "bs_100.csv",
   "data_file": "bs_100.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.0081028938293457,
-      "cond": 0.28795623779296875,
+      "cond": 0.2668170928955078,
       "se": 0.1061558723449707,
-      "ll": 1.2508270740509033
-    }
+      "ll": 0.5823760032653809
+    },
+    "task_settings": {}
   },
   "active": [
     true,

@@ -31,8 +31,8 @@
  "times": {
   "compile": 8.225440979003906e-05,
   "pop": 16.597543239593506,
-  "cond": 1.9576280117034912,
-  "ll": 12.360721349716187
+  "cond": 1.985018253326416,
+  "ll": 12.309222936630249
  },
  "n_iter": 256,
  "phases": {
@@ -49,5 +49,20 @@
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 100,
- "n_obs": 1700
+ "n_obs": 1700,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_284",
-  "saved": "2026-10-05T23:27:16",
+  "saved": "2026-10-22T01:48:01",
   "source_name": "bs_284.csv",
   "data_file": "bs_284.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9339809417724609,
-      "cond": 0.28879594802856445,
+      "cond": 0.21509289741516113,
       "se": 0.11023306846618652,
-      "ll": 1.2607581615447998
-    }
+      "ll": 0.579197883605957
+    },
+    "task_settings": {}
   },
   "active": [
     true,

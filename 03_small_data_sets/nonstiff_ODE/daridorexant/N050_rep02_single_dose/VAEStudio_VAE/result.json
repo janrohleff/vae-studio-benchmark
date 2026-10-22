@@ -38,18 +38,18 @@
   "Km~COV_LALP": 0.5747329605143362
  },
  "ll": {
-  "OFV": 8799.17973275062,
-  "AIC": 8859.17973275062,
-  "BIC": 8916.540422913464,
-  "BICc": 8943.620924924486
+  "OFV": 8799.076314062979,
+  "AIC": 8859.076314062979,
+  "BIC": 8916.437004225823,
+  "BICc": 8943.517506236845
  },
  "tool": "VAE",
  "model": "daridorexant",
  "times": {
-  "compile": 8.702278137207031e-05,
+  "compile": 8.797645568847656e-05,
   "pop": 23.57334804534912,
-  "cond": 9.288564920425415,
-  "ll": 8.959794998168945
+  "cond": 3.2216880321502686,
+  "ll": 8.866419315338135
  },
  "n_iter": 655,
  "phases": {
@@ -83,5 +83,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 50,
- "n_obs": 750
+ "n_obs": 750,
+ "cond_info": {
+  "rounds": 19,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

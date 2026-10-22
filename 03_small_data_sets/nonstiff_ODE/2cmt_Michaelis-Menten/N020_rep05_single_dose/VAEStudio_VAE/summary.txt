@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep05                                                                  *
-*  October 05, 2026 at 16:53:53                                                *
+*  October 22, 2026 at 01:28:20                                                *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -23,12 +23,20 @@ omega_V2            :       0.321
 Error Model Parameters ----------
 b_C                 :      0.1475
 
+RUN TIME _______________________________________________________________________
+
+Estimation time (pure engine computation, excluding load/compile):
+
+    Population parameters             : 1.5 s
+    Conditional distributions         : 0.5 s
+    Log-likelihood                    : 1.2 s
+
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :         605.39
-Akaike Information Criteria        (AIC) :         625.39
-Corrected Bayesian Inf. Criteria  (BICc) :         649.10
-Bayesian Information Criteria       (BIC):         635.35
+-2 x log-likelihood                (OFV) :         605.41
+Akaike Information Criteria        (AIC) :         625.41
+Corrected Bayesian Inf. Criteria  (BICc) :         649.12
+Bayesian Information Criteria       (BIC):         635.36
 Standard error of -2LL (importance s.)   :           0.04
 
 RUN SETTINGS ___________________________________________________________________
@@ -57,16 +65,9 @@ Other tasks ---------------------------------------
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
     Cond. distribution rounds         : 30
+    Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000
     Importance-sampling proposal      : t distribution, 5 degrees of freedom
-
-RUN TIME _______________________________________________________________________
-
-Estimation time (pure engine computation, excluding load/compile):
-
-    Population parameters             : 1.5 s
-    Conditional distributions         : 0.5 s
-    Log-likelihood                    : 1.4 s
 
 DATASET INFORMATION
 Number of individuals: 20

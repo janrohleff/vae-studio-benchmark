@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_376",
-  "saved": "2026-10-05T23:31:25",
+  "saved": "2026-10-22T01:49:24",
   "source_name": "bs_376.csv",
   "data_file": "bs_376.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.437854290008545,
-      "cond": 0.28152918815612793,
+      "cond": 0.21769285202026367,
       "se": 0.11425614356994629,
-      "ll": 1.257336139678955
-    }
+      "ll": 0.6141512393951416
+    },
+    "task_settings": {}
   },
   "active": [
     true,

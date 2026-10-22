@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_304",
-  "saved": "2026-10-05T23:28:10",
+  "saved": "2026-10-22T01:48:20",
   "source_name": "bs_304.csv",
   "data_file": "bs_304.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9279060363769531,
-      "cond": 0.2735137939453125,
+      "cond": 0.27730298042297363,
       "se": 0.11648797988891602,
-      "ll": 1.257110834121704
-    }
+      "ll": 0.6245148181915283
+    },
+    "task_settings": {}
   },
   "active": [
     true,

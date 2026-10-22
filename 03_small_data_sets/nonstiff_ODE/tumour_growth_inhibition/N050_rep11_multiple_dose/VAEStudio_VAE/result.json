@@ -25,10 +25,10 @@
  "tool": "VAE",
  "model": "tgi",
  "times": {
-  "compile": 7.295608520507812e-05,
+  "compile": 7.104873657226562e-05,
   "pop": 5.1953349113464355,
-  "cond": 1.162045955657959,
-  "ll": 6.885791063308716
+  "cond": 1.1558969020843506,
+  "ll": 6.344497203826904
  },
  "n_iter": 295,
  "phases": {
@@ -45,5 +45,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 50,
- "n_obs": 479
+ "n_obs": 479,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

@@ -18,18 +18,18 @@
  },
  "beta": {},
  "ll": {
-  "OFV": 37.393629828060895,
-  "AIC": 59.393629828060895,
-  "BIC": 80.4258828877705,
-  "BICc": 95.78782262220702
+  "OFV": 37.44634068387687,
+  "AIC": 59.44634068387687,
+  "BIC": 80.47859374358647,
+  "BICc": 95.84053347802299
  },
  "tool": "VAE",
  "model": "pk2oral",
  "times": {
-  "compile": 6.222724914550781e-05,
+  "compile": 5.507469177246094e-05,
   "pop": 1.1689250469207764,
-  "cond": 0.28763699531555176,
-  "ll": 0.672482967376709
+  "cond": 0.23374605178833008,
+  "ll": 0.3853340148925781
  },
  "n_iter": 289,
  "phases": {
@@ -46,5 +46,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 50,
- "n_obs": 647
+ "n_obs": 647,
+ "cond_info": {
+  "rounds": 4,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

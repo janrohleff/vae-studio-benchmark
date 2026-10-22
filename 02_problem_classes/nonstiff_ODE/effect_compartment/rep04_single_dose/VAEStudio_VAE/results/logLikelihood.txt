@@ -1,5 +1,5 @@
--2 x log-likelihood                (OFV) :        5154.72
-Akaike Information Criteria        (AIC) :        5186.72
-Corrected Bayesian Inf. Criteria  (BICc) :        5253.91
-Bayesian Information Criteria       (BIC):        5228.41
-Standard error of -2LL (importance s.)   :           0.14
+-2 x log-likelihood                (OFV) :        5154.69
+Akaike Information Criteria        (AIC) :        5186.69
+Corrected Bayesian Inf. Criteria  (BICc) :        5253.87
+Bayesian Information Criteria       (BIC):        5228.37
+Standard error of -2LL (importance s.)   :           0.15

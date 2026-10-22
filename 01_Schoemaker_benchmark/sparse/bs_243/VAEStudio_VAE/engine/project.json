@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_243",
-  "saved": "2026-10-05T23:25:26",
+  "saved": "2026-10-22T01:47:25",
   "source_name": "bs_243.csv",
   "data_file": "bs_243.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9983186721801758,
-      "cond": 0.3948030471801758,
+      "cond": 0.273439884185791,
       "se": 0.11935830116271973,
-      "ll": 1.2776782512664795
-    }
+      "ll": 0.5786759853363037
+    },
+    "task_settings": {}
   },
   "active": [
     true,

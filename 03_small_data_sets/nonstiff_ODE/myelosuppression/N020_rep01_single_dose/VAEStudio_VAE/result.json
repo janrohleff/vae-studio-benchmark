@@ -28,10 +28,10 @@
  "tool": "VAE",
  "model": "friberg",
  "times": {
-  "compile": 0.42021989822387695,
+  "compile": 0.4132349491119385,
   "pop": 1.1476531028747559,
-  "cond": 0.3723766803741455,
-  "ll": 1.3017921447753906
+  "cond": 0.4132080078125,
+  "ll": 1.212315320968628
  },
  "n_iter": 248,
  "phases": {
@@ -48,5 +48,20 @@
  ],
  "enc_hidden_dim": 25,
  "n_subjects": 20,
- "n_obs": 257
+ "n_obs": 257,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

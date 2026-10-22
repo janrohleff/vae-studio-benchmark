@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_317",
-  "saved": "2026-10-05T23:28:45",
+  "saved": "2026-10-22T01:48:31",
   "source_name": "bs_317.csv",
   "data_file": "bs_317.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.0247690677642822,
-      "cond": 0.2768549919128418,
+      "cond": 0.22864985466003418,
       "se": 0.11365723609924316,
-      "ll": 1.2562930583953857
-    }
+      "ll": 0.6732869148254395
+    },
+    "task_settings": {}
   },
   "active": [
     true,

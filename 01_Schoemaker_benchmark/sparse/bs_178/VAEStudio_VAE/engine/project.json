@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_178",
-  "saved": "2026-10-05T23:22:30",
+  "saved": "2026-10-22T01:46:26",
   "source_name": "bs_178.csv",
   "data_file": "bs_178.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9597880840301514,
-      "cond": 0.29085493087768555,
+      "cond": 0.2718057632446289,
       "se": 0.11153411865234375,
-      "ll": 1.2707788944244385
-    }
+      "ll": 0.6297950744628906
+    },
+    "task_settings": {}
   },
   "active": [
     true,

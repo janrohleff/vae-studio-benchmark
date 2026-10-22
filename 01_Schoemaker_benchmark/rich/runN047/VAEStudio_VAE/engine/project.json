@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN047",
-  "saved": "2026-10-05T23:07:27",
+  "saved": "2026-10-22T01:41:18",
   "source_name": "Infusion_2CPT_md.csv",
   "data_file": "Infusion_2CPT_md.csv",
   "mapping": {
@@ -310,10 +310,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -346,10 +349,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 5.4415507316589355,
-      "cond": 0.5724830627441406,
+      "cond": 0.48003697395324707,
       "se": 0.21498799324035645,
-      "ll": 2.301104784011841
-    }
+      "ll": 1.3756070137023926
+    },
+    "task_settings": {}
   },
   "active": [
     true,

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_140",
-  "saved": "2026-10-05T23:20:47",
+  "saved": "2026-10-22T01:45:52",
   "source_name": "bs_140.csv",
   "data_file": "bs_140.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9487900733947754,
-      "cond": 0.28088808059692383,
+      "cond": 0.22326302528381348,
       "se": 0.11942696571350098,
-      "ll": 1.2431678771972656
-    }
+      "ll": 0.6073930263519287
+    },
+    "task_settings": {}
   },
   "active": [
     true,

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "rep12",
-  "saved": "2026-10-05T13:01:52",
+  "saved": "2026-10-21T23:05:01",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -299,10 +299,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": false,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -335,9 +338,10 @@
     "seed": 1234,
     "runtimes": {
       "pop": 7.751922845840454,
-      "cond": 2.5757639408111572,
-      "ll": 12.201518774032593
-    }
+      "cond": 2.04129695892334,
+      "ll": 12.020756244659424
+    },
+    "task_settings": {}
   },
   "active": [
     true,

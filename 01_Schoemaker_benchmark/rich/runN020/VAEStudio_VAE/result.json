@@ -30,15 +30,15 @@
  "run": "runN020",
  "model": "infusion_1cpt_VVmKm",
  "times": {
-  "compile": 0.8401978015899658,
+  "compile": 0.6135919094085693,
   "pop": 6.482906818389893,
   "ess": [
    6.660661344471261,
    1.7852333933558737
   ],
-  "cond": 0.7814171314239502,
+  "cond": 0.9030342102050781,
   "se": 0.1709909439086914,
-  "ll": 4.502410650253296,
+  "ll": 4.381274938583374,
   "total": 11.93855905532837
  },
  "n_iter": 398,
@@ -83,5 +83,20 @@
  },
  "enc_hidden_dim": 50,
  "n_subjects": 120,
- "n_obs": 2276
+ "n_obs": 2276,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

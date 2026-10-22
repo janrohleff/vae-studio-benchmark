@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "H002_circ01",
-  "saved": "2026-10-19T10:23:53",
+  "saved": "2026-10-21T23:52:05",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -308,10 +308,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": false,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -344,8 +347,8 @@
     "seed": 1234,
     "runtimes": {
       "pop": 46.75264883041382,
-      "cond": 4.277730941772461,
-      "ll": 19.03416395187378
+      "cond": 2.578300952911377,
+      "ll": 15.300565958023071
     },
     "task_settings": {}
   },

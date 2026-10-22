@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_434",
-  "saved": "2026-10-05T23:34:00",
+  "saved": "2026-10-22T01:50:16",
   "source_name": "bs_434.csv",
   "data_file": "bs_434.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.0925188064575195,
-      "cond": 0.29172730445861816,
+      "cond": 0.22265982627868652,
       "se": 0.11674976348876953,
-      "ll": 1.2878921031951904
-    }
+      "ll": 0.599419116973877
+    },
+    "task_settings": {}
   },
   "active": [
     true,

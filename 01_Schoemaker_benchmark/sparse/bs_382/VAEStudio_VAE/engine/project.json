@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_382",
-  "saved": "2026-10-05T23:31:41",
+  "saved": "2026-10-22T01:49:29",
   "source_name": "bs_382.csv",
   "data_file": "bs_382.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 1.1524791717529297,
-      "cond": 0.28829169273376465,
+      "cond": 0.23241901397705078,
       "se": 0.11033892631530762,
-      "ll": 1.2634410858154297
-    }
+      "ll": 0.566220760345459
+    },
+    "task_settings": {}
   },
   "active": [
     true,

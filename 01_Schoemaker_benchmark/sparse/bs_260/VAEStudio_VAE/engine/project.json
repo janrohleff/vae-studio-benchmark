@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_260",
-  "saved": "2026-10-05T23:26:12",
+  "saved": "2026-10-22T01:47:40",
   "source_name": "bs_260.csv",
   "data_file": "bs_260.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.8775718212127686,
-      "cond": 0.2924799919128418,
+      "cond": 0.22617602348327637,
       "se": 0.11736488342285156,
-      "ll": 1.2592530250549316
-    }
+      "ll": 0.5604710578918457
+    },
+    "task_settings": {}
   },
   "active": [
     true,

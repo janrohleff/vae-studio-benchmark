@@ -34,15 +34,15 @@
  "run": "runN032",
  "model": "bolus_2cpt_ClV1QV2",
  "times": {
-  "compile": 1.866375207901001,
+  "compile": 1.856740951538086,
   "pop": 2.7883689403533936,
   "ess": [
    6.016938435176798,
    2.132649904881014
   ],
-  "cond": 0.37547874450683594,
+  "cond": 0.41231775283813477,
   "se": 0.16482305526733398,
-  "ll": 1.7713770866394043,
+  "ll": 0.8219592571258545,
   "total": 5.1007537841796875
  },
  "n_iter": 255,
@@ -87,5 +87,20 @@
  },
  "enc_hidden_dim": 50,
  "n_subjects": 120,
- "n_obs": 2280
+ "n_obs": 2280,
+ "cond_info": {
+  "rounds": 3,
+  "converged": 1.0
+ },
+ "recomputed": {
+  "tasks": [
+   "cond",
+   "ll"
+  ],
+  "settings": {
+   "cond_rounds": 30
+  },
+  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
+  "tag": "cond+ll@freeze30"
+ }
 }

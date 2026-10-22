@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_475",
-  "saved": "2026-10-05T23:35:49",
+  "saved": "2026-10-22T01:50:52",
   "source_name": "bs_475.csv",
   "data_file": "bs_475.csv",
   "mapping": {
@@ -228,10 +228,13 @@
     "ebe_optimizer": "LBFGS",
     "cond_enabled": true,
     "cond_iter": 500,
-    "cond_rounds": 10,
+    "cond_rounds": 30,
+    "cond_ess_min": 0.25,
     "cond_tdof": 5,
     "se_enabled": true,
-    "se_max_iter": 50,
+    "se_min_iter": 50,
+    "se_max_iter": 500,
+    "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
     "vpc_bins": 10,
@@ -264,10 +267,11 @@
     "seed": 1234,
     "runtimes": {
       "pop": 0.9214308261871338,
-      "cond": 0.27886414527893066,
+      "cond": 0.23276591300964355,
       "se": 0.10307002067565918,
-      "ll": 1.275202751159668
-    }
+      "ll": 0.5680749416351318
+    },
+    "task_settings": {}
   },
   "active": [
     true,
