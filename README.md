@@ -78,11 +78,11 @@ SIGMA belongs to which parameter).
 
 ### VAE Studio (`VAEStudio_VAE`)
 
-A run folder is a VAE Studio project: the data file, `model.txt` (structural model in plain text), `summary.txt` and
-`results/` (readable results) and `engine/` (everything the engine needs, including the project specification
-`engine/project.json`).
+A run folder is a VAE Studio project: the project file `<run>.vae`, the data file, `model.txt` (structural model
+in plain text), `summary.txt` and `results/` (readable results) and `engine/` (everything the engine needs,
+including the project specification `engine/project.json`).
 
-* Open: VAE Studio → *Open project* → select the run folder.
+* Open: VAE Studio → *Open project* → `<run>.vae`. Up to VAE Studio 0.9.5: *Open project* → select the run folder.
 * Re-run: Structural Model → *Apply model*, then Run → *Run*. Settings, starting values and the seed are stored
   in the project. Closed-form models reproduce bit for bit, ODE models up to the order of the threaded summation
   (−2LL typically within a few hundredths).
