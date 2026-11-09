@@ -1,6 +1,6 @@
 ********************************************************************************
 *  bs_259                                                                      *
-*  October 22, 2026 at 01:47:39                                                *
+*  November 08, 2026 at 18:22:18                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,33 +8,33 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------     se_sa    rse(%)      P2.5     P97.5
-ka_C_pop            :       1.037    0.1338      12.9    0.7752       1.3
-Cl_C_pop            :       3.857    0.1609      4.17     3.542     4.173
-V_C_pop             :       70.88     2.478       3.5     66.03     75.74
+ka_C_pop            :        1.04    0.1226      11.8    0.7995      1.28
+Cl_C_pop            :       3.868    0.1596      4.13     3.555     4.181
+V_C_pop             :       70.61     2.448      3.47     65.81     75.41
 
 Standard Deviation of the Random Effects      se_sa    rse(%)      P2.5     P97.5
-omega_ka_C          :      0.2883    0.1948      67.6  -0.09358    0.6702
-omega_Cl_C          :      0.3797   0.03259      8.58    0.3159    0.4436
-omega_V_C           :      0.2753   0.03196      11.6    0.2126    0.3379
+omega_ka_C          :       0.295    0.1824      61.8  -0.06247    0.6524
+omega_Cl_C          :      0.3763   0.03201      8.51    0.3136     0.439
+omega_V_C           :      0.2766    0.0316      11.4    0.2146    0.3385
 
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
-b_C                 :      0.1995  0.008764      4.39    0.1823    0.2167
+b_C                 :      0.2001  0.008811       4.4    0.1828    0.2173
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 1.1 s
-    Conditional distributions         : 0.2 s
+    Population parameters             : 0.8 s
+    Conditional distributions         : 0.3 s
     Standard errors (Fisher)          : 0.1 s
     Log-likelihood                    : 0.6 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        5500.25
-Akaike Information Criteria        (AIC) :        5514.25
-Corrected Bayesian Inf. Criteria  (BICc) :        5539.30
-Bayesian Information Criteria       (BIC):        5533.76
+-2 x log-likelihood                (OFV) :        5500.39
+Akaike Information Criteria        (AIC) :        5514.39
+Corrected Bayesian Inf. Criteria  (BICc) :        5539.45
+Bayesian Information Criteria       (BIC):        5533.90
 Standard error of -2LL (importance s.)   :           0.11
 
 RUN SETTINGS ___________________________________________________________________
@@ -48,7 +48,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32
@@ -61,7 +61,8 @@ Other tasks ---------------------------------------
 
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
-    Standard errors: iterations       : 50–500, autostop: interval 5 %
+    Standard errors: iterations       : 50–50, autostop: interval 5 %
+    Standard errors: iterations run   : 50 (maximum reached, 1 weakly determined direction (more than 99 % of the information missing))
     Cond. distribution rounds         : 30
     Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000

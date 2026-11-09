@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN070",
-  "saved": "2026-10-22T01:43:45",
+  "saved": "2026-11-08T18:14:01",
   "source_name": "Oral_2CPTMM_all.csv",
   "data_file": "Oral_2CPTMM_all.csv",
   "mapping": {
@@ -152,7 +152,8 @@
       }
     ],
     "dvid_labels": {},
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -370,7 +371,7 @@
     "cond_tdof": 5,
     "se_enabled": true,
     "se_min_iter": 50,
-    "se_max_iter": 500,
+    "se_max_iter": 50,
     "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
@@ -383,9 +384,9 @@
     "ll_iter": 10000,
     "ll_tdof": 5,
     "learning_rate": "4e-3",
-    "burn_lr": "8e-3",
+    "burn_lr": "",
     "lr_decoder": "1e-2",
-    "lr_nn": "1e-3",
+    "lr_nn": "3e-3",
     "lr_encoder_node": "3e-3",
     "adam_beta1": "0.9",
     "adam_beta2": "0.999",
@@ -403,10 +404,10 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 38.40887188911438,
-      "cond": 3.527333974838257,
-      "se": 0.778217077255249,
-      "ll": 21.396606922149658
+      "pop": 39.43425893783569,
+      "cond": 3.461596965789795,
+      "se": 0.5539119243621826,
+      "ll": 21.63847780227661
     },
     "task_settings": {}
   },
@@ -532,5 +533,5 @@
     true,
     true
   ],
-  "results_signature": "778afe585d1c9a6d"
+  "results_signature": "92ccf1af6c5a1fbc"
 }

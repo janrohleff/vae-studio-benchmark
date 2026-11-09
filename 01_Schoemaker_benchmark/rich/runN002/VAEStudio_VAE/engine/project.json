@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN002",
-  "saved": "2026-10-22T01:38:14",
+  "saved": "2026-11-08T18:00:34",
   "source_name": "Bolus_1CPT_md.csv",
   "data_file": "Bolus_1CPT_md.csv",
   "mapping": {
@@ -134,7 +134,8 @@
       }
     ],
     "dvid_labels": {},
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -250,7 +251,7 @@
     "cond_tdof": 5,
     "se_enabled": true,
     "se_min_iter": 50,
-    "se_max_iter": 500,
+    "se_max_iter": 50,
     "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
@@ -263,9 +264,9 @@
     "ll_iter": 10000,
     "ll_tdof": 5,
     "learning_rate": "4e-3",
-    "burn_lr": "8e-3",
+    "burn_lr": "",
     "lr_decoder": "1e-2",
-    "lr_nn": "1e-3",
+    "lr_nn": "3e-3",
     "lr_encoder_node": "3e-3",
     "adam_beta1": "0.9",
     "adam_beta2": "0.999",
@@ -283,10 +284,10 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 2.1210498809814453,
-      "cond": 0.4274108409881592,
-      "se": 0.10976099967956543,
-      "ll": 1.2514939308166504
+      "pop": 2.054682970046997,
+      "cond": 0.38073277473449707,
+      "se": 0.05609703063964844,
+      "ll": 1.244568109512329
     },
     "task_settings": {}
   },
@@ -412,5 +413,5 @@
     true,
     true
   ],
-  "results_signature": "e169a7aacda2ad84"
+  "results_signature": "945a0456dd4da87c"
 }

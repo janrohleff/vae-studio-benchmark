@@ -2,4 +2,4 @@
 Akaike Information Criteria        (AIC) :        -350.70
 Corrected Bayesian Inf. Criteria  (BICc) :        -329.64
 Bayesian Information Criteria       (BIC):        -341.74
-Standard error of -2LL (importance s.)   :           0.04
+Standard error of -2LL (importance s.)   :           0.05

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  rep15                                                                       *
-*  October 21, 2026 at 23:00:01                                                *
+*  November 08, 2026 at 11:26:20                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -9,20 +9,20 @@ ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
 Cl_C_pop            :       4.776
-V1_C_pop            :        10.2
+V1_C_pop            :       10.22
 Q2_C_pop            :       10.06
-V2_C_pop            :       30.17
+V2_C_pop            :       30.24
 Q3_C_pop            :       1.987
-V3_C_pop            :         101
+V3_C_pop            :       101.1
 
 Standard Deviation of the Random Effects 
-omega_Cl_C          :      0.3271
-omega_V1_C          :      0.2879
-omega_V2_C          :      0.3134
-omega_V3_C          :      0.3013
+omega_Cl_C          :      0.3272
+omega_V1_C          :      0.2884
+omega_V2_C          :      0.3122
+omega_V3_C          :      0.3022
 
 Error Model Parameters ----------
-b_C                 :     0.09991
+b_C                 :     0.09997
 
 RUN TIME _______________________________________________________________________
 
@@ -37,7 +37,7 @@ ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 -2 x log-likelihood                (OFV) :        6500.52
 Akaike Information Criteria        (AIC) :        6522.52
 Corrected Bayesian Inf. Criteria  (BICc) :        6573.12
-Bayesian Information Criteria       (BIC):        6551.18
+Bayesian Information Criteria       (BIC):        6551.17
 Standard error of -2LL (importance s.)   :           0.09
 
 RUN SETTINGS ___________________________________________________________________
@@ -51,7 +51,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Learning rate (params w/o IIV)    : 0.01
     Encoder                           : LSTM, hidden dim 50

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  rep04                                                                       *
-*  October 21, 2026 at 22:38:48                                                *
+*  November 08, 2026 at 11:43:32                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -20,10 +20,10 @@ Standard Deviation of the Random Effects
 omega_ka_C          :       0.398
 omega_Cl_C          :      0.3035
 omega_V_C           :      0.1711
-omega_ke0           :      0.3346
-omega_E0            :     0.05935
-omega_Emax          :       0.154
-omega_EC50          :      0.4039
+omega_ke0           :      0.3345
+omega_E0            :     0.05948
+omega_Emax          :      0.1542
+omega_EC50          :      0.4036
 
 Error Model Parameters ----------
 b_C                 :      0.1568
@@ -39,10 +39,10 @@ Estimation time (pure engine computation, excluding load/compile):
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        5154.69
-Akaike Information Criteria        (AIC) :        5186.69
-Corrected Bayesian Inf. Criteria  (BICc) :        5253.87
-Bayesian Information Criteria       (BIC):        5228.37
+-2 x log-likelihood                (OFV) :        5154.70
+Akaike Information Criteria        (AIC) :        5186.70
+Corrected Bayesian Inf. Criteria  (BICc) :        5253.88
+Bayesian Information Criteria       (BIC):        5228.38
 Standard error of -2LL (importance s.)   :           0.15
 
 RUN SETTINGS ___________________________________________________________________
@@ -56,7 +56,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 50
     Precision                         : float32

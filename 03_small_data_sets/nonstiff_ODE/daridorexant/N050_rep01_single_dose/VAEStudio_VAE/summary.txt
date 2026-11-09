@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N050_rep01                                                                  *
-*  October 22, 2026 at 01:16:41                                                *
+*  November 08, 2026 at 13:54:04                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,55 +8,55 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-F_pop               :      0.4669
-tlag_pop            :       0.486
-ka_pop              :       0.653
-Vc_pop              :       14.94
-Vp_pop              :       14.89
-Q_pop               :       4.726
-Vm_pop              :       9.237
-Km_pop              :       2.622
-beta_F_COV_LDOSE    :     -0.5224
-beta_tlag_COV_FASTED:     -0.9006
-beta_tlag_COV_FED   :      0.4624
-beta_ka_COV_FASTED  :      0.3005
-beta_ka_COV_FED     :     -0.5915
-beta_ka_COV_MORNING :       1.135
-beta_Vc_COV_LLBW    :       0.526
-beta_Vp_COV_LFM     :      0.5553
-beta_Q_COV_LFM      :       1.115
-beta_Km_COV_LLBW    :    -0.01174
-beta_Km_COV_LAGE    :      0.1315
-beta_Km_COV_LALP    :      0.2183
+F_pop               :      0.4384
+tlag_pop            :      0.4838
+ka_pop              :      0.6421
+Vc_pop              :       13.83
+Vp_pop              :       14.02
+Q_pop               :       4.603
+Vm_pop              :       8.952
+Km_pop              :       2.657
+beta_F_COV_LDOSE    :     -0.5066
+beta_tlag_COV_FASTED:     -0.8912
+beta_tlag_COV_FED   :      0.4794
+beta_ka_COV_FASTED  :      0.2972
+beta_ka_COV_FED     :     -0.5757
+beta_ka_COV_MORNING :       1.124
+beta_Vc_COV_LLBW    :      0.5732
+beta_Vp_COV_LFM     :      0.5695
+beta_Q_COV_LFM      :       1.105
+beta_Km_COV_LLBW    :    -0.02328
+beta_Km_COV_LAGE    :      0.1733
+beta_Km_COV_LALP    :      0.2231
 
 Standard Deviation of the Random Effects 
-omega_F             :      0.3837
-omega_tlag          :      0.5123
-omega_ka            :      0.7166
-omega_Vc            :      0.1499
-omega_Vp            :      0.2537
-omega_Q             :      0.3314
-omega_Vm            :      0.2314
-omega_Km            :      0.3038
+omega_F             :       0.364
+omega_tlag          :      0.5058
+omega_ka            :      0.7156
+omega_Vc            :      0.1798
+omega_Vp            :      0.2592
+omega_Q             :       0.406
+omega_Vm            :      0.2292
+omega_Km            :      0.3089
 
 Error Model Parameters ----------
-a_C                 :       17.07
-b_C                 :      0.1744
+a_C                 :       17.05
+b_C                 :      0.1729
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 21.8 s
-    Conditional distributions         : 1.8 s
-    Log-likelihood                    : 8.4 s
+    Population parameters             : 21.1 s
+    Conditional distributions         : 1.7 s
+    Log-likelihood                    : 8.6 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        8688.11
-Akaike Information Criteria        (AIC) :        8748.11
-Corrected Bayesian Inf. Criteria  (BICc) :        8832.55
-Bayesian Information Criteria       (BIC):        8805.47
+-2 x log-likelihood                (OFV) :        8687.89
+Akaike Information Criteria        (AIC) :        8747.89
+Corrected Bayesian Inf. Criteria  (BICc) :        8832.33
+Bayesian Information Criteria       (BIC):        8805.25
 Standard error of -2LL (importance s.)   :           0.17
 
 RUN SETTINGS ___________________________________________________________________
@@ -70,7 +70,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float64

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep11                                                                  *
-*  October 22, 2026 at 01:28:01                                                *
+*  November 08, 2026 at 14:17:56                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,25 +8,25 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-Cl_C_pop            :       4.873
-V1_C_pop            :       9.703
-Q_C_pop             :       8.574
+Cl_C_pop            :       4.876
+V1_C_pop            :       9.707
+Q_C_pop             :       8.575
 V2_C_pop            :       35.78
 
 Standard Deviation of the Random Effects 
-omega_Cl_C          :      0.2747
-omega_V1_C          :      0.3941
-omega_Q_C           :       0.278
-omega_V2_C          :      0.2888
+omega_Cl_C          :      0.2742
+omega_V1_C          :       0.393
+omega_Q_C           :      0.2801
+omega_V2_C          :      0.2894
 
 Error Model Parameters ----------
-b_C                 :     0.09924
+b_C                 :     0.09931
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 0.8 s
+    Population parameters             : 0.7 s
     Conditional distributions         : 0.2 s
     Log-likelihood                    : 0.2 s
 
@@ -49,7 +49,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32

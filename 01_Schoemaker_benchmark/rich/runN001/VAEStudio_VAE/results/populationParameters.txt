@@ -4,7 +4,7 @@ V_C_pop             :       66.93     1.876       2.8     63.25      70.6
 
 Standard Deviation of the Random Effects      se_sa    rse(%)      P2.5     P97.5
 omega_Cl_C          :      0.2701   0.01792      6.63     0.235    0.3052
-omega_V_C           :      0.3017   0.02008      6.66    0.2624    0.3411
+omega_V_C           :      0.3017   0.02008      6.65    0.2624    0.3411
 
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
 b_C                 :       0.198  0.003206      1.62    0.1917    0.2043

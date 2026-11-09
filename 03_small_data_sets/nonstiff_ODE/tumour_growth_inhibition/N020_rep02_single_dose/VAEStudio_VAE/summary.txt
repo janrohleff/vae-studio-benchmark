@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep02                                                                  *
-*  October 22, 2026 at 01:30:43                                                *
+*  November 08, 2026 at 13:55:14                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -10,28 +10,28 @@ ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 Fixed Effects -------------------
 ke_C_pop            :           5
 V_C_pop             :           1
-lambda0_pop         :      0.2551
-lambda1_pop         :      0.1701
+lambda0_pop         :       0.255
+lambda1_pop         :      0.1702
 k1_pop              :      0.9454
-k2_pop              :      0.4981
-w0_pop              :    0.009908
+k2_pop              :      0.4977
+w0_pop              :    0.009921
 
 Standard Deviation of the Random Effects 
-omega_lambda0       :      0.1688
-omega_lambda1       :      0.3417
-omega_k2            :      0.3534
-omega_w0            :       0.183
+omega_lambda0       :      0.1684
+omega_lambda1       :      0.3414
+omega_k2            :      0.3532
+omega_w0            :      0.1848
 
 Error Model Parameters ----------
-b_w                 :     0.09285
+b_w                 :     0.09287
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 3.6 s
+    Population parameters             : 3.4 s
     Conditional distributions         : 0.6 s
-    Log-likelihood                    : 3.2 s
+    Log-likelihood                    : 3.1 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
@@ -52,7 +52,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Learning rate (params w/o IIV)    : 0.01
     Encoder                           : LSTM, hidden dim 25

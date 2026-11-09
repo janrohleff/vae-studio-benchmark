@@ -11,10 +11,10 @@ Standard Deviation of the Random Effects
 omega_ka_C          :       0.398
 omega_Cl_C          :      0.3035
 omega_V_C           :      0.1711
-omega_ke0           :      0.3346
-omega_E0            :     0.05935
-omega_Emax          :       0.154
-omega_EC50          :      0.4039
+omega_ke0           :      0.3345
+omega_E0            :     0.05948
+omega_Emax          :      0.1542
+omega_EC50          :      0.4036
 
 Error Model Parameters ----------
 b_C                 :      0.1568

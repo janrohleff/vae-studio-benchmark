@@ -1,37 +1,37 @@
 {
  "typ": {
-  "R0": 100.33760349973477,
-  "kout": 0.08623648847559859,
-  "IC50": 4.848703428858554
+  "R0": 100.40489569965696,
+  "kout": 0.0866002191330267,
+  "IC50": 4.824220871981602
  },
  "omega": {
-  "kout": 0.5296269827656922,
-  "IC50": 0.13167766513737605
+  "kout": 0.522682725170543,
+  "IC50": 0.13335525112248095
  },
  "error": {
-  "Response": 0.10122858203490002
+  "Response": 0.10123504201805808
  },
  "beta": {
-  "beta_kout_FEAT0001": -0.27879832623106454,
+  "beta_kout_FEAT0001": -0.2772946382806874,
   "beta_kout_FEAT0002": 0.0,
-  "beta_kout_FEAT0003": 0.650764582507708,
+  "beta_kout_FEAT0003": 0.6470585937380543,
   "beta_kout_FEAT0004": 0.0,
-  "beta_kout_FEAT0005": 0.3660085031464458,
+  "beta_kout_FEAT0005": 0.37131859250434307,
   "beta_kout_FEAT0006": 0.0,
   "beta_kout_FEAT0007": 0.0,
-  "beta_kout_FEAT0008": 1.0629915600100894,
+  "beta_kout_FEAT0008": 1.054195664075433,
   "beta_kout_FEAT0009": 0.0,
   "beta_kout_FEAT0010": 0.0,
   "beta_kout_FEAT0011": 0.0,
-  "beta_kout_FEAT0012": 0.30705474280562167,
+  "beta_kout_FEAT0012": 0.30876956366301567,
   "beta_kout_FEAT0013": 0.0,
   "beta_kout_FEAT0014": 0.0,
   "beta_kout_FEAT0015": 0.0,
   "beta_kout_FEAT0016": 0.0,
-  "beta_kout_FEAT0017": 0.33411340124141636,
-  "beta_kout_FEAT0018": 0.24060798725910545,
+  "beta_kout_FEAT0017": 0.33616478556301543,
+  "beta_kout_FEAT0018": 0.240711653179753,
   "beta_kout_FEAT0019": 0.0,
-  "beta_kout_FEAT0020": -0.3880466795958231,
+  "beta_kout_FEAT0020": -0.3883353455650088,
   "beta_kout_FEAT0021": 0.0,
   "beta_kout_FEAT0022": 0.0,
   "beta_kout_FEAT0023": 0.0,
@@ -43,7 +43,7 @@
   "beta_kout_FEAT0029": 0.0,
   "beta_kout_FEAT0030": 0.0,
   "beta_kout_FEAT0031": 0.0,
-  "beta_kout_FEAT0032": -0.10437788947612277,
+  "beta_kout_FEAT0032": -0.10334847191974197,
   "beta_IC50_FEAT0001": 0.0,
   "beta_IC50_FEAT0002": 0.0,
   "beta_IC50_FEAT0003": 0.0,
@@ -78,10 +78,10 @@
   "beta_IC50_FEAT0032": 0.0
  },
  "ll": {
-  "OFV": 29264.503586744664,
-  "AIC": 29294.503586744664,
-  "BIC": 29354.375554951283,
-  "BICc": 29363.58589532326
+  "OFV": 29264.63049543346,
+  "AIC": 29294.63049543346,
+  "BIC": 29354.502463640078,
+  "BICc": 29363.712804012055
  },
  "selected": [
   "kout~FEAT0001",
@@ -98,40 +98,25 @@
  "tool": "VAE",
  "model": "idrcov",
  "times": {
-  "compile": 0.20701003074645996,
-  "pop": 14.625919103622437,
-  "cond": 1.6739161014556885,
-  "ll": 9.918111085891724
+  "compile": 0.21024084091186523,
+  "pop": 14.464109897613525,
+  "cond": 1.7012529373168945,
+  "ll": 10.387612104415894
  },
- "n_iter": 308,
+ "n_iter": 317,
  "phases": {
-  "kl_end": 54,
-  "switch_iter": 233,
-  "n_iter": 282,
+  "kl_end": 113,
+  "switch_iter": 242,
+  "n_iter": 291,
   "stop_reason": "stable",
   "unstable": [],
   "clipped": 0
  },
  "ess": [
-  8.517420854351421,
-  3.808272257238262
+  8.511759247902425,
+  3.827453182620124
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 400,
- "n_obs": 4000,
- "cond_info": {
-  "rounds": 3,
-  "converged": 1.0
- },
- "recomputed": {
-  "tasks": [
-   "cond",
-   "ll"
-  ],
-  "settings": {
-   "cond_rounds": 30
-  },
-  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
-  "tag": "cond+ll@freeze30"
- }
+ "n_obs": 4000
 }

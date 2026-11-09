@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N00200_rep03                                                                *
-*  October 22, 2026 at 01:00:09                                                *
+*  November 08, 2026 at 15:36:31                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -26,7 +26,7 @@ Estimation time (pure engine computation, excluding load/compile):
 
     Population parameters             : 1.5 s
     Conditional distributions         : 0.4 s
-    Log-likelihood                    : 1.0 s
+    Log-likelihood                    : 1.2 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
@@ -47,7 +47,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 50
     Precision                         : float32

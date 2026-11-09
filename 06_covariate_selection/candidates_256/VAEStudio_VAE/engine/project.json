@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "C256_rep01",
-  "saved": "2026-10-21T22:19:34",
+  "saved": "2026-11-08T15:15:59",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -2366,7 +2366,8 @@
       }
     ],
     "dvid_labels": {},
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -5404,9 +5405,9 @@
     "ll_iter": 10000,
     "ll_tdof": 5,
     "learning_rate": "4e-3",
-    "burn_lr": "8e-3",
+    "burn_lr": "",
     "lr_decoder": "1e-2",
-    "lr_nn": "1e-3",
+    "lr_nn": "3e-3",
     "lr_encoder_node": "3e-3",
     "adam_beta1": "0.9",
     "adam_beta2": "0.999",
@@ -5424,9 +5425,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 16.692997217178345,
-      "cond": 1.691957712173462,
-      "ll": 9.877017259597778
+      "pop": 17.680572032928467,
+      "cond": 1.6888220310211182,
+      "ll": 10.464257001876831
     },
     "task_settings": {}
   },
@@ -5832,5 +5833,5 @@
     true,
     true
   ],
-  "results_signature": "b40bcefb8f936d0b"
+  "results_signature": "dab4a59664a21b64"
 }

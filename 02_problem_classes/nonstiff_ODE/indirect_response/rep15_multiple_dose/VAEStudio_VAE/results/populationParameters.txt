@@ -3,7 +3,7 @@ ka_C_pop            :       1.053
 Cl_C_pop            :       3.855
 V_C_pop             :       51.33
 R0_pop              :       100.4
-kout_pop            :      0.1013
+kout_pop            :      0.1014
 IC50_pop            :       1.043
 
 Standard Deviation of the Random Effects 

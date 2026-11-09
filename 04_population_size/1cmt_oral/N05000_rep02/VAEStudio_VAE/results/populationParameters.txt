@@ -4,9 +4,9 @@ Cl_C_pop            :       4.018
 V_C_pop             :       50.35
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.5034
-omega_Cl_C          :      0.3008
+omega_ka_C          :      0.5035
+omega_Cl_C          :      0.3007
 omega_V_C           :      0.2511
 
 Error Model Parameters ----------
-b_C                 :      0.1502
+b_C                 :      0.1503

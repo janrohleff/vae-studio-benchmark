@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN022",
-  "saved": "2026-10-22T01:39:57",
+  "saved": "2026-11-08T18:03:31",
   "source_name": "Infusion_1CPTMM_all.csv",
   "data_file": "Infusion_1CPTMM_all.csv",
   "mapping": {
@@ -134,7 +134,8 @@
       }
     ],
     "dvid_labels": {},
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -283,7 +284,7 @@
     "cond_tdof": 5,
     "se_enabled": true,
     "se_min_iter": 50,
-    "se_max_iter": 500,
+    "se_max_iter": 50,
     "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
@@ -296,9 +297,9 @@
     "ll_iter": 10000,
     "ll_tdof": 5,
     "learning_rate": "4e-3",
-    "burn_lr": "8e-3",
+    "burn_lr": "",
     "lr_decoder": "1e-2",
-    "lr_nn": "1e-3",
+    "lr_nn": "3e-3",
     "lr_encoder_node": "3e-3",
     "adam_beta1": "0.9",
     "adam_beta2": "0.999",
@@ -316,10 +317,10 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 25.088685989379883,
-      "cond": 4.626410007476807,
-      "se": 0.4508650302886963,
-      "ll": 29.050491333007812
+      "pop": 20.422388076782227,
+      "cond": 3.5383167266845703,
+      "se": 0.3268098831176758,
+      "ll": 22.376662015914917
     },
     "task_settings": {}
   },
@@ -445,5 +446,5 @@
     true,
     true
   ],
-  "results_signature": "8f91b7633dae9cd2"
+  "results_signature": "bc87e3072eadbff9"
 }

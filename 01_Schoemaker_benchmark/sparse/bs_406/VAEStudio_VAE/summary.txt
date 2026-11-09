@@ -1,6 +1,6 @@
 ********************************************************************************
 *  bs_406                                                                      *
-*  October 22, 2026 at 01:49:51                                                *
+*  November 08, 2026 at 18:26:58                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,33 +8,33 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------     se_sa    rse(%)      P2.5     P97.5
-ka_C_pop            :       1.136    0.1849      16.3    0.7734     1.498
-Cl_C_pop            :       3.854     0.159      4.13     3.542     4.165
-V_C_pop             :       70.51     2.537       3.6     65.54     75.48
+ka_C_pop            :       1.118    0.1236      11.1     0.876      1.36
+Cl_C_pop            :       3.841     0.153      3.98     3.541     4.141
+V_C_pop             :       70.59     2.554      3.62     65.58     75.59
 
 Standard Deviation of the Random Effects      se_sa    rse(%)      P2.5     P97.5
-omega_ka_C          :      0.3783    0.3403      89.9   -0.2886     1.045
-omega_Cl_C          :        0.35   0.03065      8.76    0.2899    0.4101
-omega_V_C           :      0.3086   0.03048      9.88    0.2489    0.3683
+omega_ka_C          :      0.3453    0.2212        64  -0.08817    0.7788
+omega_Cl_C          :      0.3479   0.03042      8.74    0.2883    0.4075
+omega_V_C           :      0.3123   0.03012      9.64    0.2533    0.3714
 
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
-b_C                 :      0.1943  0.009631      4.96    0.1754    0.2132
+b_C                 :      0.1958  0.009414      4.81    0.1774    0.2143
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 0.8 s
+    Population parameters             : 0.9 s
     Conditional distributions         : 0.2 s
     Standard errors (Fisher)          : 0.1 s
     Log-likelihood                    : 0.6 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        5543.09
-Akaike Information Criteria        (AIC) :        5557.09
-Corrected Bayesian Inf. Criteria  (BICc) :        5582.15
-Bayesian Information Criteria       (BIC):        5576.60
+-2 x log-likelihood                (OFV) :        5542.77
+Akaike Information Criteria        (AIC) :        5556.77
+Corrected Bayesian Inf. Criteria  (BICc) :        5581.83
+Bayesian Information Criteria       (BIC):        5576.28
 Standard error of -2LL (importance s.)   :           0.12
 
 RUN SETTINGS ___________________________________________________________________
@@ -48,7 +48,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32
@@ -61,7 +61,8 @@ Other tasks ---------------------------------------
 
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
-    Standard errors: iterations       : 50–500, autostop: interval 5 %
+    Standard errors: iterations       : 50–50, autostop: interval 5 %
+    Standard errors: iterations run   : 50 (maximum reached, 1 weakly determined direction (more than 99 % of the information missing))
     Cond. distribution rounds         : 30
     Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000

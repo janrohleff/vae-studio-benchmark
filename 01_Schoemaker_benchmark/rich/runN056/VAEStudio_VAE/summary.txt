@@ -1,6 +1,6 @@
 ********************************************************************************
 *  runN056                                                                     *
-*  October 22, 2026 at 01:42:42                                                *
+*  November 08, 2026 at 18:10:52                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,37 +8,37 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------     se_sa    rse(%)      P2.5     P97.5
-Vm_pop              :        1014     37.36      3.68     940.6      1087
-Km_pop              :       249.2      12.1      4.86     225.5       273
-Q_pop               :       3.821    0.1948       5.1     3.439     4.203
-V1_pop              :       70.21     1.964       2.8     66.36     74.06
-V2_pop              :       50.11     1.921      3.83     46.34     53.87
+Vm_pop              :        1010     36.96      3.66     937.8      1083
+Km_pop              :       247.4     11.61      4.69     224.7     270.2
+Q_pop               :       3.819    0.1916      5.02     3.444     4.195
+V1_pop              :       70.21     1.966       2.8     66.35     74.06
+V2_pop              :       50.38     1.877      3.73      46.7     54.06
 
 Standard Deviation of the Random Effects      se_sa    rse(%)      P2.5     P97.5
-omega_Vm            :      0.3218   0.02629      8.17    0.2703    0.3734
-omega_Km            :      0.3058   0.03902      12.8    0.2293    0.3823
-omega_Q             :      0.2729   0.06446      23.6    0.1465    0.3992
-omega_V1            :      0.2965   0.01983      6.69    0.2576    0.3354
-omega_V2            :      0.3166   0.02953      9.33    0.2587    0.3745
+omega_Vm            :      0.3227   0.02629      8.15    0.2712    0.3742
+omega_Km            :       0.303   0.03894      12.9    0.2267    0.3793
+omega_Q             :      0.2857   0.06126      21.4    0.1657    0.4058
+omega_V1            :       0.297   0.01988      6.69    0.2581     0.336
+omega_V2            :      0.3039   0.02816      9.27    0.2487    0.3591
 
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
-b_C                 :      0.2003  0.001832     0.915    0.1967    0.2039
+b_C                 :      0.2005  0.001832     0.914    0.1969    0.2041
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 46.4 s
+    Population parameters             : 49.6 s
     Conditional distributions         : 4.7 s
-    Standard errors (Fisher)          : 0.8 s
+    Standard errors (Fisher)          : 0.6 s
     Log-likelihood                    : 29.8 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :       87854.62
-Akaike Information Criteria        (AIC) :       87876.62
-Corrected Bayesian Inf. Criteria  (BICc) :       87931.64
-Bayesian Information Criteria       (BIC):       87907.28
+-2 x log-likelihood                (OFV) :       87855.23
+Akaike Information Criteria        (AIC) :       87877.23
+Corrected Bayesian Inf. Criteria  (BICc) :       87932.25
+Bayesian Information Criteria       (BIC):       87907.89
 Standard error of -2LL (importance s.)   :           0.16
 
 RUN SETTINGS ___________________________________________________________________
@@ -52,7 +52,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 50
     Precision                         : float32
@@ -65,7 +65,8 @@ Other tasks ---------------------------------------
 
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
-    Standard errors: iterations       : 50–500, autostop: interval 5 %
+    Standard errors: iterations       : 50–50, autostop: interval 5 %
+    Standard errors: iterations run   : 50 (maximum reached)
     Cond. distribution rounds         : 30
     Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000

@@ -1,10 +1,10 @@
 Fixed Effects -------------------
 ka_C_pop            :       1.197
 Cl_C_pop            :       4.014
-V_C_pop             :       50.42
+V_C_pop             :       50.41
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.5149
+omega_ka_C          :       0.515
 omega_Cl_C          :      0.2903
 omega_V_C           :      0.2556
 

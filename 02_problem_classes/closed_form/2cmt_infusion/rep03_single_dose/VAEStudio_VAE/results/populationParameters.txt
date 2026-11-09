@@ -1,14 +1,14 @@
 Fixed Effects -------------------
-Cl_C_pop            :       4.794
-V1_C_pop            :       9.958
-Q_C_pop             :       7.789
+Cl_C_pop            :       4.793
+V1_C_pop            :       9.959
+Q_C_pop             :       7.786
 V2_C_pop            :       40.02
 
 Standard Deviation of the Random Effects 
-omega_Cl_C          :      0.3521
-omega_V1_C          :      0.3003
-omega_Q_C           :      0.2671
-omega_V2_C          :       0.303
+omega_Cl_C          :      0.3522
+omega_V1_C          :      0.3004
+omega_Q_C           :      0.2677
+omega_V2_C          :      0.3033
 
 Error Model Parameters ----------
-b_C                 :      0.1038
+b_C                 :      0.1036

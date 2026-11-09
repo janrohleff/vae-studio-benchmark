@@ -4,18 +4,18 @@ Cl_C_pop            :        3.95
 V_C_pop             :       50.85
 ke0_pop             :      0.3139
 E0_pop              :       9.883
-Emax_pop            :       44.05
+Emax_pop            :       44.06
 EC50_pop            :       1.813
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.2443
-omega_Cl_C          :       0.387
-omega_V_C           :      0.1729
-omega_ke0           :      0.3058
-omega_E0            :     0.08798
+omega_ka_C          :      0.2442
+omega_Cl_C          :      0.3869
+omega_V_C           :      0.1728
+omega_ke0           :      0.3059
+omega_E0            :     0.08808
 omega_Emax          :      0.2745
-omega_EC50          :     0.07664
+omega_EC50          :     0.07678
 
 Error Model Parameters ----------
-b_C                 :      0.1313
-a_E                 :        1.69
+b_C                 :      0.1314
+a_E                 :       1.689

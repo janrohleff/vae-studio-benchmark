@@ -1,1 +1,1 @@
-{"z_pop":[1.3577890668132122,4.199211244536607],"omega":[0.07351770386049393,0.09726506700516567],"sigma":[0.204497935267907],"param_names":["Cl_C","V_C"],"warn":"","kl_end":37,"switch_iter":137,"n_iter":186,"stop_reason":"stable","clipped":1}
+{"z_pop":[1.3577904395264115,4.199216052742154],"omega":[0.07351757172801668,0.09726784677732],"sigma":[0.20449810881526034],"param_names":["Cl_C","V_C"],"warn":"","kl_end":37,"switch_iter":137,"n_iter":186,"stop_reason":"stable","clipped":1}

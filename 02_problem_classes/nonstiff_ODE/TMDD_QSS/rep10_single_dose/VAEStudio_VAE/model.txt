@@ -28,7 +28,7 @@ ddt_Rtot = kdeg*R0 - kdeg*Rtot - (kint - kdeg)*Occ
 Rtot(0) = R0
 
 [DOSE]
-; <name>: <data column> -> <state>, kind = bolus|rate
+; <name>: <data column> -> <state>, kind = bolus|rate[, from = <time>, until = <time>]
 Dose: Dose -> Atot, kind = bolus
 
 [OUTPUT]

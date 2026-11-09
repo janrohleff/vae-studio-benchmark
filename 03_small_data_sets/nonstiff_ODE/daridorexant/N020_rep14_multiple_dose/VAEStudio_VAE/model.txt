@@ -24,7 +24,7 @@ ddt_Ac = F*ka*Ad - Vm*(Ac/Vc)/(Km + Ac/Vc) - Q/Vc*Ac + Q/Vp*Ap
 ddt_Ap = Q/Vc*Ac - Q/Vp*Ap
 
 [DOSE]
-; <name>: <data column> -> <state>, kind = bolus|rate
+; <name>: <data column> -> <state>, kind = bolus|rate[, from = <time>, until = <time>]
 Dose: Dose -> Ad, kind = bolus, lag = tlag
 
 [OUTPUT]

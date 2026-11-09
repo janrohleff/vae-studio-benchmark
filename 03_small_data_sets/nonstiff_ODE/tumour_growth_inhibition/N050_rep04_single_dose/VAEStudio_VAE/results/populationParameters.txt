@@ -4,14 +4,14 @@ V_C_pop             :           1
 lambda0_pop         :      0.2492
 lambda1_pop         :      0.1463
 k1_pop              :       1.013
-k2_pop              :      0.5901
-w0_pop              :    0.009407
+k2_pop              :      0.5903
+w0_pop              :    0.009412
 
 Standard Deviation of the Random Effects 
-omega_lambda0       :      0.1782
-omega_lambda1       :      0.3681
-omega_k2            :      0.3906
-omega_w0            :      0.2884
+omega_lambda0       :      0.1776
+omega_lambda1       :      0.3677
+omega_k2            :      0.3909
+omega_w0            :        0.29
 
 Error Model Parameters ----------
-b_w                 :      0.1073
+b_w                 :      0.1072

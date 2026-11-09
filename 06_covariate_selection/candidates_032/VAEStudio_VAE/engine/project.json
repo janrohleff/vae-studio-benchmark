@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "C032_rep01",
-  "saved": "2026-10-21T22:16:37",
+  "saved": "2026-11-08T15:14:30",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -350,7 +350,8 @@
       }
     ],
     "dvid_labels": {},
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -924,9 +925,9 @@
     "ll_iter": 10000,
     "ll_tdof": 5,
     "learning_rate": "4e-3",
-    "burn_lr": "8e-3",
+    "burn_lr": "",
     "lr_decoder": "1e-2",
-    "lr_nn": "1e-3",
+    "lr_nn": "3e-3",
     "lr_encoder_node": "3e-3",
     "adam_beta1": "0.9",
     "adam_beta2": "0.999",
@@ -944,9 +945,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 14.625919103622437,
-      "cond": 1.6739161014556885,
-      "ll": 9.918111085891724
+      "pop": 14.464109897613525,
+      "cond": 1.7012529373168945,
+      "ll": 10.387612104415894
     },
     "task_settings": {}
   },
@@ -1352,5 +1353,5 @@
     true,
     true
   ],
-  "results_signature": "da10348d16374442"
+  "results_signature": "03f590b0d17d9575"
 }

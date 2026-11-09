@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep05                                                                  *
-*  October 22, 2026 at 01:27:47                                                *
+*  November 08, 2026 at 14:14:41                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,14 +8,14 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-ka_C_pop            :       1.107
-Cl_C_pop            :       4.562
+ka_C_pop            :       1.106
+Cl_C_pop            :       4.563
 V_C_pop             :       53.12
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.4204
-omega_Cl_C          :      0.2812
-omega_V_C           :      0.1416
+omega_ka_C          :       0.421
+omega_Cl_C          :      0.2815
+omega_V_C           :      0.1423
 
 Error Model Parameters ----------
 b_C                 :      0.1481
@@ -30,10 +30,10 @@ Estimation time (pure engine computation, excluding load/compile):
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        -168.97
-Akaike Information Criteria        (AIC) :        -154.97
-Corrected Bayesian Inf. Criteria  (BICc) :        -138.79
-Bayesian Information Criteria       (BIC):        -148.00
+-2 x log-likelihood                (OFV) :        -168.98
+Akaike Information Criteria        (AIC) :        -154.98
+Corrected Bayesian Inf. Criteria  (BICc) :        -138.80
+Bayesian Information Criteria       (BIC):        -148.01
 Standard error of -2LL (importance s.)   :           0.04
 
 RUN SETTINGS ___________________________________________________________________
@@ -47,7 +47,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32

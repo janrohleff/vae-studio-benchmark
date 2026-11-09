@@ -1,6 +1,6 @@
 ********************************************************************************
 *  bs_135                                                                      *
-*  October 22, 2026 at 01:45:47                                                *
+*  November 08, 2026 at 18:18:23                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,33 +8,33 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------     se_sa    rse(%)      P2.5     P97.5
-ka_C_pop            :       1.351    0.1707      12.6     1.016     1.685
-Cl_C_pop            :       3.814     0.131      3.44     3.557      4.07
-V_C_pop             :       64.41     2.368      3.68     59.77     69.05
+ka_C_pop            :       1.316    0.1676      12.7    0.9878     1.645
+Cl_C_pop            :       3.815      0.13      3.41      3.56      4.07
+V_C_pop             :       64.34     2.331      3.62     59.77     68.91
 
 Standard Deviation of the Random Effects      se_sa    rse(%)      P2.5     P97.5
-omega_ka_C          :       0.467    0.1084      23.2    0.2545    0.6795
-omega_Cl_C          :      0.3093    0.0271      8.76    0.2561    0.3624
-omega_V_C           :      0.3104    0.0293      9.44     0.253    0.3679
+omega_ka_C          :      0.4517    0.1238      27.4    0.2091    0.6944
+omega_Cl_C          :      0.3079   0.02646      8.59     0.256    0.3598
+omega_V_C           :      0.3098   0.02893      9.34    0.2531    0.3665
 
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
-b_C                 :      0.1948  0.008664      4.45    0.1778    0.2118
+b_C                 :      0.1946  0.008649      4.44    0.1777    0.2116
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 1.0 s
+    Population parameters             : 1.1 s
     Conditional distributions         : 0.3 s
     Standard errors (Fisher)          : 0.1 s
-    Log-likelihood                    : 0.7 s
+    Log-likelihood                    : 0.6 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        5578.44
-Akaike Information Criteria        (AIC) :        5592.44
-Corrected Bayesian Inf. Criteria  (BICc) :        5617.50
-Bayesian Information Criteria       (BIC):        5611.95
+-2 x log-likelihood                (OFV) :        5578.24
+Akaike Information Criteria        (AIC) :        5592.24
+Corrected Bayesian Inf. Criteria  (BICc) :        5617.29
+Bayesian Information Criteria       (BIC):        5611.75
 Standard error of -2LL (importance s.)   :           0.12
 
 RUN SETTINGS ___________________________________________________________________
@@ -48,7 +48,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32
@@ -61,7 +61,8 @@ Other tasks ---------------------------------------
 
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
-    Standard errors: iterations       : 50–500, autostop: interval 5 %
+    Standard errors: iterations       : 50–50, autostop: interval 5 %
+    Standard errors: iterations run   : 50 (maximum reached)
     Cond. distribution rounds         : 30
     Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000

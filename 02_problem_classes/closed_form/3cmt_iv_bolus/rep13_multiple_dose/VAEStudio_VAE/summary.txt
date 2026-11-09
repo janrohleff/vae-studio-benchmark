@@ -1,6 +1,6 @@
 ********************************************************************************
 *  rep13                                                                       *
-*  October 21, 2026 at 22:59:59                                                *
+*  November 08, 2026 at 11:26:12                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,18 +8,18 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-Cl_C_pop            :       5.045
-V1_C_pop            :       10.03
+Cl_C_pop            :       5.046
+V1_C_pop            :       10.04
 Q2_C_pop            :       10.09
-V2_C_pop            :       29.68
-Q3_C_pop            :       2.031
-V3_C_pop            :       95.77
+V2_C_pop            :       29.71
+Q3_C_pop            :        2.03
+V3_C_pop            :       95.75
 
 Standard Deviation of the Random Effects 
 omega_Cl_C          :      0.3029
-omega_V1_C          :      0.3039
-omega_V2_C          :      0.3138
-omega_V3_C          :      0.2746
+omega_V1_C          :      0.3036
+omega_V2_C          :       0.314
+omega_V3_C          :       0.274
 
 Error Model Parameters ----------
 b_C                 :      0.1041
@@ -51,7 +51,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Learning rate (params w/o IIV)    : 0.01
     Encoder                           : LSTM, hidden dim 50

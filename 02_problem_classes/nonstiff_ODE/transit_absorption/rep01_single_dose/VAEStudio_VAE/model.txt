@@ -23,7 +23,7 @@ ddt_Ad = ktr*T3 - ka*Ad
 ddt_Ac = ka*Ad - Cl/V*Ac
 
 [DOSE]
-; <name>: <data column> -> <state>, kind = bolus|rate
+; <name>: <data column> -> <state>, kind = bolus|rate[, from = <time>, until = <time>]
 Dose: Dose -> T1, kind = bolus
 
 [OUTPUT]

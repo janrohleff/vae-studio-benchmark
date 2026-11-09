@@ -3,17 +3,17 @@ ka_C_pop            :      0.9979
 Cl_C_pop            :        4.29
 V_C_pop             :       50.01
 R0_pop              :       99.01
-kout_pop            :     0.09593
-KD_pop              :       1.024
+kout_pop            :     0.09594
+KD_pop              :       1.025
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.3418
+omega_ka_C          :      0.3419
 omega_Cl_C          :      0.3096
-omega_V_C           :      0.1422
+omega_V_C           :       0.142
 omega_R0            :      0.1126
-omega_kout          :      0.2192
-omega_KD            :      0.3308
+omega_kout          :       0.219
+omega_KD            :      0.3306
 
 Error Model Parameters ----------
 b_C                 :       0.153
-a_R                 :        4.28
+a_R                 :       4.281

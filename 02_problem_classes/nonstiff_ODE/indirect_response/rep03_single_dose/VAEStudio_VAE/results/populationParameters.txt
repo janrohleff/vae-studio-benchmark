@@ -7,11 +7,11 @@ kout_pop            :     0.09895
 IC50_pop            :       1.074
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.3993
+omega_ka_C          :      0.3992
 omega_Cl_C          :      0.2821
-omega_V_C           :      0.2298
+omega_V_C           :      0.2297
 omega_R0            :      0.1091
-omega_kout          :      0.2847
+omega_kout          :      0.2846
 omega_IC50          :      0.4123
 
 Error Model Parameters ----------

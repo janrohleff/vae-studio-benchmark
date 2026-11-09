@@ -1,6 +1,6 @@
 {
   "format": "VAE Studio project",
   "version": 1,
-  "name": "H032_circ01",
+  "name": "H002_circ01_rtol1e-4",
   "note": "Open this file in VAE Studio. The project is the folder it is in; the full specification is engine/project.json."
 }

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep05                                                                  *
-*  October 22, 2026 at 01:36:40                                                *
+*  November 08, 2026 at 14:14:55                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,34 +8,34 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-MTT_pop             :       1.478
-ka_pop              :       1.498
-V_pop               :        50.2
-Cl_pop              :       4.849
+MTT_pop             :        1.44
+ka_pop              :       1.401
+V_pop               :       49.85
+Cl_pop              :       4.839
 
 Standard Deviation of the Random Effects 
-omega_MTT           :      0.2733
-omega_ka            :      0.3538
-omega_V             :      0.2058
-omega_Cl            :      0.3176
+omega_MTT           :      0.2564
+omega_ka            :       0.392
+omega_V             :      0.2047
+omega_Cl            :       0.317
 
 Error Model Parameters ----------
-b_C                 :       0.166
+b_C                 :      0.1647
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 1.6 s
+    Population parameters             : 1.4 s
     Conditional distributions         : 0.4 s
-    Log-likelihood                    : 1.5 s
+    Log-likelihood                    : 1.4 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        -315.94
-Akaike Information Criteria        (AIC) :        -297.94
-Corrected Bayesian Inf. Criteria  (BICc) :        -276.90
-Bayesian Information Criteria       (BIC):        -288.98
+-2 x log-likelihood                (OFV) :        -316.34
+Akaike Information Criteria        (AIC) :        -298.34
+Corrected Bayesian Inf. Criteria  (BICc) :        -277.30
+Bayesian Information Criteria       (BIC):        -289.38
 Standard error of -2LL (importance s.)   :           0.05
 
 RUN SETTINGS ___________________________________________________________________
@@ -49,7 +49,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32

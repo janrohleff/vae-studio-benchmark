@@ -2,15 +2,15 @@ Fixed Effects -------------------
 kel_pop             :         0.1
 V_pop               :          10
 R0_pop              :       100.5
-kout_pop            :     0.08701
+kout_pop            :     0.08695
 Imax_pop            :         0.9
-IC50_pop            :       4.808
-beta_kout_FEAT0001  :     -0.4481
-beta_kout_FEAT0003  :       0.807
+IC50_pop            :       4.797
+beta_kout_FEAT0001  :      -0.448
+beta_kout_FEAT0003  :      0.8065
 
 Standard Deviation of the Random Effects 
-omega_kout          :      0.6987
-omega_IC50          :      0.1336
+omega_kout          :       0.702
+omega_IC50          :      0.1245
 
 Error Model Parameters ----------
 b_R                 :      0.1011

@@ -1,49 +1,51 @@
 {
  "typ": {
-  "ka": 0.9865560978041484,
-  "Cl": 3.9855971860145973,
-  "V": 51.746749573589135,
-  "R0": 101.12481260695131,
-  "kout": 0.6691489134356604
+  "ka": 0.9878459982004765,
+  "Cl": 3.9898835394217445,
+  "V": 51.869272895667905,
+  "R0": 101.06973457652452,
+  "kout": 0.6689340570316803
  },
  "omega": {
-  "ka": 0.4297713493493407,
-  "Cl": 0.2686069911197592,
-  "V": 0.16250406597145253,
-  "R0": 0.11053051567756642,
-  "kout": 0.32164072348998746
+  "ka": 0.42813047002064236,
+  "Cl": 0.2705137300337556,
+  "V": 0.15960926024340083,
+  "R0": 0.11026893564869807,
+  "kout": 0.32193171181051794
  },
  "error": {
-  "Conc": 0.15133461276409083,
-  "Effect": 0.053541101039258486
+  "Conc": 0.15127187059195604,
+  "Effect": 0.05347425346045067
  },
  "beta": {},
  "ll": {
-  "OFV": 52791.610807984056,
-  "AIC": 52815.610807984056,
-  "BIC": 52846.872850215914,
-  "BICc": 52877.90937020054
+  "OFV": 52777.58356616254,
+  "AIC": 52801.58356616254,
+  "BIC": 52832.8456083944,
+  "BICc": 52863.882128379024
  },
  "tool": "VAE",
  "model": "circnn",
  "times": {
-  "compile": 1.2602670192718506,
-  "pop": 82.02334785461426,
-  "cond": 5.583821058273315,
-  "ll": 17.834010124206543
+  "compile": 6.914138793945312e-05,
+  "pop": 103.08173203468323,
+  "cond": 3.8179779052734375,
+  "ll": 24.13226008415222
  },
- "n_iter": 655,
+ "n_iter": 676,
  "phases": {
-  "kl_end": 84,
-  "switch_iter": 580,
-  "n_iter": 629,
-  "stop_reason": "stable",
-  "unstable": [],
+  "kl_end": 101,
+  "switch_iter": 601,
+  "n_iter": 650,
+  "stop_reason": "max",
+  "unstable": [
+   "nn"
+  ],
   "clipped": 0
  },
  "ess": [
-  3.930935885782883,
-  1.12961934250485
+  3.9690192772484183,
+  1.1453671873874187
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 100,
@@ -51,35 +53,11 @@
  "status": "ok",
  "H": 8,
  "n_weights": 40,
- "wall_total": 138.6179211139679,
+ "wall_total": 131.10035014152527,
  "start": "common",
  "nn_init": "reproducibility/VAE/scaling/nncirc/init_H008_circ01.npz",
- "cond_info": {
-  "rounds": 28,
-  "converged": 1.0
- },
- "recomputed": {
-  "tasks": [
-   "cond",
-   "ll"
-  ],
-  "settings": {
-   "cond_rounds": 30
-  },
-  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
-  "tag": "cond+ll@freeze30"
- },
- "recomputed_prev": [
-  {
-   "tasks": [
-    "cond",
-    "ll"
-   ],
-   "settings": {
-    "cond_rounds": 10
-   },
-   "reason": "conditional distributions with at most 10 adaptive rounds, 20 for daridorexant (2026-10-21)",
-   "tag": "cond+ll@rounds10/20"
-  }
- ]
+ "ode_tol": {
+  "ode_rtol": "1e-4",
+  "ode_atol": "1e-6"
+ }
 }

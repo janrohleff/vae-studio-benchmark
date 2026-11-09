@@ -2,25 +2,24 @@ Fixed Effects -------------------
 kel_pop             :         0.1
 V_pop               :          10
 R0_pop              :       100.4
-kout_pop            :     0.08679
+kout_pop            :     0.08595
 Imax_pop            :         0.9
-IC50_pop            :       4.843
-beta_kout_FEAT0001  :     -0.3071
-beta_kout_FEAT0003  :      0.6592
-beta_kout_FEAT0005  :      0.3054
-beta_kout_FEAT0008  :       1.024
-beta_kout_FEAT0012  :      0.2859
-beta_kout_FEAT0017  :      0.3569
-beta_kout_FEAT0020  :     -0.3392
-beta_kout_FEAT0032  :     -0.1083
-beta_kout_FEAT0041  :     -0.2997
-beta_kout_FEAT0050  :      0.3181
-beta_kout_FEAT0060  :      0.2599
-beta_kout_FEAT0073  :       0.326
+IC50_pop            :       4.796
+beta_kout_FEAT0001  :     -0.3125
+beta_kout_FEAT0003  :      0.6479
+beta_kout_FEAT0005  :       0.297
+beta_kout_FEAT0008  :       1.095
+beta_kout_FEAT0012  :      0.2423
+beta_kout_FEAT0017  :      0.4124
+beta_kout_FEAT0032  :     -0.1102
+beta_kout_FEAT0035  :      0.2393
+beta_kout_FEAT0041  :     -0.3654
+beta_kout_FEAT0050  :      0.3145
+beta_kout_FEAT0073  :      0.3809
 
 Standard Deviation of the Random Effects 
-omega_kout          :      0.5019
-omega_IC50          :      0.1286
+omega_kout          :      0.5187
+omega_IC50          :      0.1272
 
 Error Model Parameters ----------
-b_R                 :      0.1013
+b_R                 :      0.1011

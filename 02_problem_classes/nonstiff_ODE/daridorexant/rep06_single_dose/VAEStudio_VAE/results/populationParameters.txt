@@ -1,35 +1,35 @@
 Fixed Effects -------------------
-F_pop               :      0.4468
-tlag_pop            :      0.4098
-ka_pop              :       1.752
-Vc_pop              :       17.33
-Vp_pop              :       13.69
-Q_pop               :       3.998
-Vm_pop              :       7.565
-Km_pop              :       2.325
-beta_F_COV_LDOSE    :     -0.4738
-beta_tlag_COV_FASTED:     -0.5181
-beta_tlag_COV_FED   :      0.5876
-beta_ka_COV_FASTED  :     -0.5855
-beta_ka_COV_FED     :       -1.41
-beta_ka_COV_MORNING :      0.9992
-beta_Vc_COV_LLBW    :       0.781
-beta_Vp_COV_LFM     :      0.2089
+F_pop               :      0.4325
+tlag_pop            :      0.4122
+ka_pop              :       1.811
+Vc_pop              :       17.16
+Vp_pop              :       12.84
+Q_pop               :       3.775
+Vm_pop              :       7.742
+Km_pop              :       2.447
+beta_F_COV_LDOSE    :     -0.4506
+beta_tlag_COV_FASTED:     -0.5232
+beta_tlag_COV_FED   :        0.59
+beta_ka_COV_FASTED  :     -0.6145
+beta_ka_COV_FED     :      -1.405
+beta_ka_COV_MORNING :      0.9969
+beta_Vc_COV_LLBW    :      0.8958
+beta_Vp_COV_LFM     :      0.3073
 beta_Q_COV_LFM      :       1.226
-beta_Km_COV_LLBW    :     -0.4189
-beta_Km_COV_LAGE    :      0.3689
-beta_Km_COV_LALP    :      0.3197
+beta_Km_COV_LLBW    :     -0.4641
+beta_Km_COV_LAGE    :      0.3687
+beta_Km_COV_LALP    :      0.3202
 
 Standard Deviation of the Random Effects 
-omega_F             :      0.4831
-omega_tlag          :      0.4382
-omega_ka            :      0.8459
-omega_Vc            :      0.2262
-omega_Vp            :      0.3041
-omega_Q             :      0.4276
-omega_Vm            :      0.2154
-omega_Km            :      0.2469
+omega_F             :      0.4777
+omega_tlag          :      0.4439
+omega_ka            :      0.8542
+omega_Vc            :      0.2135
+omega_Vp            :      0.2657
+omega_Q             :      0.4348
+omega_Vm            :      0.1943
+omega_Km            :      0.2383
 
 Error Model Parameters ----------
-a_C                 :       18.31
-b_C                 :      0.1558
+a_C                 :       18.32
+b_C                 :       0.155

@@ -20,9 +20,9 @@ There is one folder per data set. Inside, every tool has its own subfolder, name
 | `01_Schoemaker_benchmark/sparse/bs_001` … `bs_500` | 500 sparse bootstrap data sets of Schoemaker et al. (2019) | Figures 2–3, Supplement S4 |
 | `02_problem_classes/<class>/<model>/rep01_single_dose` … `rep20_multiple_dose` | 16 models, 20 data sets each, 100 individuals; rep01–rep10 single dose, rep11–rep20 multiple doses | Figures 2–4 |
 | `03_small_data_sets/<class>/<model>/N020_rep01_single_dose` … | first 20 or 50 individuals of rep01–rep05 and rep11–rep15 | Figures 2–3, Table S1 |
-| `04_population_size/{1cmt_oral,indirect_response}/N00050_rep01` … `N10000_rep03` | 50 to 10 000 individuals, three nested data sets per size | Figures 2, 3 and 5 |
-| `05_neural_network/weights_010` … `weights_160` | indirect response model with a neural network in the production, 10 to 160 weights | Figure 6 |
-| `06_covariate_selection/candidates_000` … `candidates_512` | covariate selection with 0 to 512 candidate covariates | Figure 7 |
+| `04_population_size/{1cmt_oral,indirect_response}/N00050_rep01` … `N10000_rep03` | 50 to 10 000 individuals, three nested data sets per size | Figures 2, 3 and 6 |
+| `05_neural_network/weights_010` … `weights_160` | indirect response model with a neural network in the production, 10 to 160 weights | Figure 7A |
+| `06_covariate_selection/candidates_000` … `candidates_512` | covariate selection with 0 to 512 candidate covariates | Figure 7B |
 | `07_stiff_models_tolerance/rtol_1e-3` … `rtol_1e-7` | stiff models at different solver tolerances (SAEM, VAE) | Supplement S6 |
 | `08_FOCEI_rtol_1e-3/` | problem classes with FOCEI at rtol 1e-3, and the repeats with NSIG=2 (`NSIG2_repeats/`) | Supplement S6 |
 
@@ -33,7 +33,9 @@ indirect_response_binding). Model equations, true parameters and starting values
 
 Neural network study: `weights_XXX/start_weights.npz` holds the common starting weights of all three tools,
 `simulation/` the simulated data with the true production function, and `true_parameters/VAEStudio_VAE` the likelihood
-at the true parameters.
+at the true parameters. VAE Studio solves the ODEs of the neural network models with rtol 1e-4/atol 1e-6, its
+default for neural network models; at rtol 1e-3, transiently stiff phases of the training made the gradients too
+inaccurate (Supplement S1). Monolix and NONMEM use the same tolerances as in the other tests.
 
 Covariate selection: `candidates_000` holds the model without covariates (Monolix_SAEM, VAEStudio_VAE). From two
 candidates on, the folders contain the VAE run with integrated selection (`VAEStudio_VAE`) and the Monolix model

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  bs_098                                                                      *
-*  October 22, 2026 at 01:45:14                                                *
+*  November 08, 2026 at 18:17:11                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,34 +8,34 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------     se_sa    rse(%)      P2.5     P97.5
-ka_C_pop            :       1.256    0.1488      11.9    0.9639     1.547
-Cl_C_pop            :       3.822    0.1291      3.38     3.569     4.075
-V_C_pop             :       67.98     2.443      3.59      63.2     72.77
+ka_C_pop            :       1.256    0.1493      11.9     0.963     1.548
+Cl_C_pop            :       3.823    0.1292      3.38      3.57     4.076
+V_C_pop             :       67.97      2.44      3.59     63.19     72.75
 
 Standard Deviation of the Random Effects      se_sa    rse(%)      P2.5     P97.5
-omega_ka_C          :      0.3545    0.1424      40.2   0.07539    0.6337
-omega_Cl_C          :      0.3046   0.02596      8.52    0.2537    0.3554
-omega_V_C           :      0.3198    0.0285      8.91     0.264    0.3757
+omega_ka_C          :      0.3529    0.1427      40.4   0.07324    0.6325
+omega_Cl_C          :      0.3043   0.02593      8.52    0.2535    0.3551
+omega_V_C           :      0.3198   0.02856      8.93    0.2638    0.3757
 
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
-b_C                 :      0.1821  0.008444      4.64    0.1655    0.1986
+b_C                 :      0.1823  0.008454      4.64    0.1657    0.1988
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 1.0 s
+    Population parameters             : 0.9 s
     Conditional distributions         : 0.2 s
     Standard errors (Fisher)          : 0.1 s
     Log-likelihood                    : 0.6 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        5507.57
-Akaike Information Criteria        (AIC) :        5521.57
-Corrected Bayesian Inf. Criteria  (BICc) :        5546.62
-Bayesian Information Criteria       (BIC):        5541.08
-Standard error of -2LL (importance s.)   :           0.12
+-2 x log-likelihood                (OFV) :        5507.59
+Akaike Information Criteria        (AIC) :        5521.59
+Corrected Bayesian Inf. Criteria  (BICc) :        5546.65
+Bayesian Information Criteria       (BIC):        5541.11
+Standard error of -2LL (importance s.)   :           0.11
 
 RUN SETTINGS ___________________________________________________________________
 
@@ -48,7 +48,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32
@@ -61,7 +61,8 @@ Other tasks ---------------------------------------
 
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
-    Standard errors: iterations       : 50–500, autostop: interval 5 %
+    Standard errors: iterations       : 50–50, autostop: interval 5 %
+    Standard errors: iterations run   : 50 (maximum reached)
     Cond. distribution rounds         : 30
     Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000

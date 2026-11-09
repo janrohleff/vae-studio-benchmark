@@ -4,7 +4,7 @@ Cl_C_pop            :       4.031
 V_C_pop             :       51.07
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.4888
+omega_ka_C          :      0.4885
 omega_Cl_C          :      0.2923
 omega_V_C           :      0.2413
 

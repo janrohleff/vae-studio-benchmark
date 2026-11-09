@@ -1,35 +1,35 @@
 {
  "typ": {
-  "R0": 100.3572695975138,
-  "kout": 0.08650027324731377,
-  "IC50": 4.846172439850257
+  "R0": 100.40369878716275,
+  "kout": 0.08620746909837286,
+  "IC50": 4.806093662339442
  },
  "omega": {
-  "kout": 0.512450091628885,
-  "IC50": 0.1294297865988621
+  "kout": 0.4949873901716522,
+  "IC50": 0.12708070488088766
  },
  "error": {
-  "Response": 0.10120482917098335
+  "Response": 0.10123748358123424
  },
  "beta": {
-  "beta_kout_FEAT0001": -0.28101611608047294,
+  "beta_kout_FEAT0001": -0.29038714844379154,
   "beta_kout_FEAT0002": 0.0,
-  "beta_kout_FEAT0003": 0.637912451092718,
+  "beta_kout_FEAT0003": 0.6353030467848458,
   "beta_kout_FEAT0004": 0.0,
-  "beta_kout_FEAT0005": 0.3113028965751285,
+  "beta_kout_FEAT0005": 0.3198476685031928,
   "beta_kout_FEAT0006": 0.0,
   "beta_kout_FEAT0007": 0.0,
-  "beta_kout_FEAT0008": 1.073675153566186,
+  "beta_kout_FEAT0008": 1.054337043613742,
   "beta_kout_FEAT0009": 0.0,
   "beta_kout_FEAT0010": 0.0,
   "beta_kout_FEAT0011": 0.0,
-  "beta_kout_FEAT0012": 0.22787950144169483,
+  "beta_kout_FEAT0012": 0.21157210832671297,
   "beta_kout_FEAT0013": 0.0,
   "beta_kout_FEAT0014": 0.0,
   "beta_kout_FEAT0015": 0.0,
   "beta_kout_FEAT0016": 0.0,
-  "beta_kout_FEAT0017": 0.37635543990870746,
-  "beta_kout_FEAT0018": 0.2334806873742699,
+  "beta_kout_FEAT0017": 0.35948365740053156,
+  "beta_kout_FEAT0018": 0.21424993080081872,
   "beta_kout_FEAT0019": 0.0,
   "beta_kout_FEAT0020": 0.0,
   "beta_kout_FEAT0021": 0.0,
@@ -43,7 +43,7 @@
   "beta_kout_FEAT0029": 0.0,
   "beta_kout_FEAT0030": 0.0,
   "beta_kout_FEAT0031": 0.0,
-  "beta_kout_FEAT0032": -0.11507930931077136,
+  "beta_kout_FEAT0032": -0.10794149268170634,
   "beta_kout_FEAT0033": 0.0,
   "beta_kout_FEAT0034": 0.0,
   "beta_kout_FEAT0035": 0.0,
@@ -61,7 +61,7 @@
   "beta_kout_FEAT0047": 0.0,
   "beta_kout_FEAT0048": 0.0,
   "beta_kout_FEAT0049": 0.0,
-  "beta_kout_FEAT0050": 0.3284269889277432,
+  "beta_kout_FEAT0050": 0.33657961098493916,
   "beta_kout_FEAT0051": 0.0,
   "beta_kout_FEAT0052": 0.0,
   "beta_kout_FEAT0053": 0.0,
@@ -71,7 +71,7 @@
   "beta_kout_FEAT0057": 0.0,
   "beta_kout_FEAT0058": 0.0,
   "beta_kout_FEAT0059": 0.0,
-  "beta_kout_FEAT0060": 0.0,
+  "beta_kout_FEAT0060": 0.2455475782348958,
   "beta_kout_FEAT0061": 0.0,
   "beta_kout_FEAT0062": 0.0,
   "beta_kout_FEAT0063": 0.0,
@@ -84,7 +84,7 @@
   "beta_kout_FEAT0070": 0.0,
   "beta_kout_FEAT0071": 0.0,
   "beta_kout_FEAT0072": 0.0,
-  "beta_kout_FEAT0073": 0.3760143385791722,
+  "beta_kout_FEAT0073": 0.3310121836348705,
   "beta_kout_FEAT0074": 0.0,
   "beta_kout_FEAT0075": 0.0,
   "beta_kout_FEAT0076": 0.0,
@@ -183,7 +183,7 @@
   "beta_kout_FEAT0169": 0.0,
   "beta_kout_FEAT0170": 0.0,
   "beta_kout_FEAT0171": 0.0,
-  "beta_kout_FEAT0172": -0.3282738285004006,
+  "beta_kout_FEAT0172": -0.3560888216039327,
   "beta_kout_FEAT0173": 0.0,
   "beta_kout_FEAT0174": 0.0,
   "beta_kout_FEAT0175": 0.0,
@@ -218,7 +218,7 @@
   "beta_kout_FEAT0204": 0.0,
   "beta_kout_FEAT0205": 0.0,
   "beta_kout_FEAT0206": 0.0,
-  "beta_kout_FEAT0207": 0.0,
+  "beta_kout_FEAT0207": 0.35618098609733145,
   "beta_kout_FEAT0208": 0.0,
   "beta_kout_FEAT0209": 0.0,
   "beta_kout_FEAT0210": 0.0,
@@ -526,10 +526,10 @@
   "beta_IC50_FEAT0256": 0.0
  },
  "ll": {
-  "OFV": 29246.620571353713,
-  "AIC": 29280.620571353713,
-  "BIC": 29348.47546865455,
-  "BICc": 29357.685809026527
+  "OFV": 29235.11145868856,
+  "AIC": 29273.11145868856,
+  "BIC": 29348.94928508361,
+  "BICc": 29358.159625455588
  },
  "selected": [
   "kout~FEAT0001",
@@ -541,47 +541,34 @@
   "kout~FEAT0018",
   "kout~FEAT0032",
   "kout~FEAT0050",
+  "kout~FEAT0060",
   "kout~FEAT0073",
-  "kout~FEAT0172"
+  "kout~FEAT0172",
+  "kout~FEAT0207"
  ],
  "n_candidates": 256,
  "tool": "VAE",
  "model": "idrcov",
  "times": {
-  "compile": 0.20343375205993652,
-  "pop": 16.692997217178345,
-  "cond": 1.691957712173462,
-  "ll": 9.877017259597778
+  "compile": 0.2105700969696045,
+  "pop": 17.680572032928467,
+  "cond": 1.6888220310211182,
+  "ll": 10.464257001876831
  },
- "n_iter": 307,
+ "n_iter": 328,
  "phases": {
-  "kl_end": 53,
-  "switch_iter": 232,
-  "n_iter": 281,
+  "kl_end": 106,
+  "switch_iter": 253,
+  "n_iter": 302,
   "stop_reason": "stable",
   "unstable": [],
   "clipped": 1
  },
  "ess": [
-  8.487545932512411,
-  4.43128086251421
+  8.478397644683662,
+  4.638311854013609
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 400,
- "n_obs": 4000,
- "cond_info": {
-  "rounds": 3,
-  "converged": 1.0
- },
- "recomputed": {
-  "tasks": [
-   "cond",
-   "ll"
-  ],
-  "settings": {
-   "cond_rounds": 30
-  },
-  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
-  "tag": "cond+ll@freeze30"
- }
+ "n_obs": 4000
 }

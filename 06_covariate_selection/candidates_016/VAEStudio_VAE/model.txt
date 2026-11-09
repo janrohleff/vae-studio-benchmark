@@ -21,7 +21,7 @@ ddt_R = R0*kout*(1 - Imax*(A/V)/(IC50 + A/V)) - kout*R
 R(0) = R0
 
 [DOSE]
-; <name>: <data column> -> <state>, kind = bolus|rate
+; <name>: <data column> -> <state>, kind = bolus|rate[, from = <time>, until = <time>]
 Dose: Dose -> A, kind = bolus
 
 [OUTPUT]

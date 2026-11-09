@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N00050_rep03                                                                *
-*  October 22, 2026 at 01:00:02                                                *
+*  November 08, 2026 at 15:36:16                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -47,7 +47,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep14                                                                  *
-*  October 22, 2026 at 01:32:47                                                *
+*  November 08, 2026 at 14:49:17                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,24 +8,24 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-Cl_pop              :      0.1794
+Cl_pop              :      0.1795
 V1_pop              :       3.181
-Q_pop               :      0.5261
-V2_pop              :       2.764
-R0_pop              :       9.792
-kdeg_pop            :      0.5609
-kint_pop            :     0.05236
-KSS_pop             :      0.9851
+Q_pop               :      0.5255
+V2_pop              :       2.755
+R0_pop              :       9.777
+kdeg_pop            :      0.5615
+kint_pop            :     0.05235
+KSS_pop             :      0.9844
 
 Standard Deviation of the Random Effects 
-omega_Cl            :      0.2921
-omega_V1            :      0.1229
-omega_V2            :       0.231
-omega_R0            :      0.2628
+omega_Cl            :      0.2923
+omega_V1            :       0.123
+omega_V2            :      0.2308
+omega_R0            :      0.2631
 
 Error Model Parameters ----------
-b_C                 :      0.1458
-b_Rtot              :      0.1477
+b_C                 :      0.1457
+b_Rtot              :      0.1478
 
 RUN TIME _______________________________________________________________________
 
@@ -54,7 +54,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Learning rate (params w/o IIV)    : 0.01
     Encoder                           : LSTM, hidden dim 25

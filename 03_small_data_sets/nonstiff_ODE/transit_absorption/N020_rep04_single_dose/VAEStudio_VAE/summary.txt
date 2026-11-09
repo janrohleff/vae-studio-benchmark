@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep04                                                                  *
-*  October 22, 2026 at 01:36:38                                                *
+*  November 08, 2026 at 14:11:38                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,16 +8,16 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-MTT_pop             :       1.824
-ka_pop              :       2.466
+MTT_pop             :       1.823
+ka_pop              :       2.461
 V_pop               :       50.13
 Cl_pop              :       4.687
 
 Standard Deviation of the Random Effects 
-omega_MTT           :      0.4015
-omega_ka            :      0.2846
+omega_MTT           :      0.4009
+omega_ka            :      0.2906
 omega_V             :      0.1923
-omega_Cl            :      0.2016
+omega_Cl            :      0.2017
 
 Error Model Parameters ----------
 b_C                 :      0.1442
@@ -36,7 +36,7 @@ ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 Akaike Information Criteria        (AIC) :        -350.70
 Corrected Bayesian Inf. Criteria  (BICc) :        -329.64
 Bayesian Information Criteria       (BIC):        -341.74
-Standard error of -2LL (importance s.)   :           0.04
+Standard error of -2LL (importance s.)   :           0.05
 
 RUN SETTINGS ___________________________________________________________________
 
@@ -49,7 +49,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32

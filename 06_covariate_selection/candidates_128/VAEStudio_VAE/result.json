@@ -1,37 +1,37 @@
 {
  "typ": {
-  "R0": 100.37464213030476,
-  "kout": 0.0867866285322509,
-  "IC50": 4.8430465796475
+  "R0": 100.41145503346792,
+  "kout": 0.08595007845217974,
+  "IC50": 4.796449906906775
  },
  "omega": {
-  "kout": 0.501940826225521,
-  "IC50": 0.12861906433907477
+  "kout": 0.5187039529411673,
+  "IC50": 0.12720027230838768
  },
  "error": {
-  "Response": 0.10127401001319372
+  "Response": 0.10114335083860572
  },
  "beta": {
-  "beta_kout_FEAT0001": -0.30714769342331183,
+  "beta_kout_FEAT0001": -0.31253227671789424,
   "beta_kout_FEAT0002": 0.0,
-  "beta_kout_FEAT0003": 0.6592120286122347,
+  "beta_kout_FEAT0003": 0.6479301177899768,
   "beta_kout_FEAT0004": 0.0,
-  "beta_kout_FEAT0005": 0.3053634986564026,
+  "beta_kout_FEAT0005": 0.2970302675226861,
   "beta_kout_FEAT0006": 0.0,
   "beta_kout_FEAT0007": 0.0,
-  "beta_kout_FEAT0008": 1.0242791295072105,
+  "beta_kout_FEAT0008": 1.0952282587105335,
   "beta_kout_FEAT0009": 0.0,
   "beta_kout_FEAT0010": 0.0,
   "beta_kout_FEAT0011": 0.0,
-  "beta_kout_FEAT0012": 0.2859324808191018,
+  "beta_kout_FEAT0012": 0.24227694008429332,
   "beta_kout_FEAT0013": 0.0,
   "beta_kout_FEAT0014": 0.0,
   "beta_kout_FEAT0015": 0.0,
   "beta_kout_FEAT0016": 0.0,
-  "beta_kout_FEAT0017": 0.35692589656838114,
+  "beta_kout_FEAT0017": 0.4123578897091792,
   "beta_kout_FEAT0018": 0.0,
   "beta_kout_FEAT0019": 0.0,
-  "beta_kout_FEAT0020": -0.3391600315983179,
+  "beta_kout_FEAT0020": 0.0,
   "beta_kout_FEAT0021": 0.0,
   "beta_kout_FEAT0022": 0.0,
   "beta_kout_FEAT0023": 0.0,
@@ -43,16 +43,16 @@
   "beta_kout_FEAT0029": 0.0,
   "beta_kout_FEAT0030": 0.0,
   "beta_kout_FEAT0031": 0.0,
-  "beta_kout_FEAT0032": -0.10831034068028282,
+  "beta_kout_FEAT0032": -0.11022623386721782,
   "beta_kout_FEAT0033": 0.0,
   "beta_kout_FEAT0034": 0.0,
-  "beta_kout_FEAT0035": 0.0,
+  "beta_kout_FEAT0035": 0.23934914932246706,
   "beta_kout_FEAT0036": 0.0,
   "beta_kout_FEAT0037": 0.0,
   "beta_kout_FEAT0038": 0.0,
   "beta_kout_FEAT0039": 0.0,
   "beta_kout_FEAT0040": 0.0,
-  "beta_kout_FEAT0041": -0.2996912234297697,
+  "beta_kout_FEAT0041": -0.36544207441942306,
   "beta_kout_FEAT0042": 0.0,
   "beta_kout_FEAT0043": 0.0,
   "beta_kout_FEAT0044": 0.0,
@@ -61,7 +61,7 @@
   "beta_kout_FEAT0047": 0.0,
   "beta_kout_FEAT0048": 0.0,
   "beta_kout_FEAT0049": 0.0,
-  "beta_kout_FEAT0050": 0.3181002100307807,
+  "beta_kout_FEAT0050": 0.31449719131643417,
   "beta_kout_FEAT0051": 0.0,
   "beta_kout_FEAT0052": 0.0,
   "beta_kout_FEAT0053": 0.0,
@@ -71,7 +71,7 @@
   "beta_kout_FEAT0057": 0.0,
   "beta_kout_FEAT0058": 0.0,
   "beta_kout_FEAT0059": 0.0,
-  "beta_kout_FEAT0060": 0.25989037171831986,
+  "beta_kout_FEAT0060": 0.0,
   "beta_kout_FEAT0061": 0.0,
   "beta_kout_FEAT0062": 0.0,
   "beta_kout_FEAT0063": 0.0,
@@ -84,7 +84,7 @@
   "beta_kout_FEAT0070": 0.0,
   "beta_kout_FEAT0071": 0.0,
   "beta_kout_FEAT0072": 0.0,
-  "beta_kout_FEAT0073": 0.3259807315843517,
+  "beta_kout_FEAT0073": 0.38088191231966817,
   "beta_kout_FEAT0074": 0.0,
   "beta_kout_FEAT0075": 0.0,
   "beta_kout_FEAT0076": 0.0,
@@ -270,10 +270,10 @@
   "beta_IC50_FEAT0128": 0.0
  },
  "ll": {
-  "OFV": 29243.78594479405,
-  "AIC": 29279.78594479405,
-  "BIC": 29351.632306641994,
-  "BICc": 29360.84264701397
+  "OFV": 29249.438493573714,
+  "AIC": 29283.438493573714,
+  "BIC": 29351.29339087455,
+  "BICc": 29360.50373124653
  },
  "selected": [
   "kout~FEAT0001",
@@ -282,51 +282,35 @@
   "kout~FEAT0008",
   "kout~FEAT0012",
   "kout~FEAT0017",
-  "kout~FEAT0020",
   "kout~FEAT0032",
+  "kout~FEAT0035",
   "kout~FEAT0041",
   "kout~FEAT0050",
-  "kout~FEAT0060",
   "kout~FEAT0073"
  ],
  "n_candidates": 128,
  "tool": "VAE",
  "model": "idrcov",
  "times": {
-  "compile": 0.20888209342956543,
-  "pop": 15.952409982681274,
-  "cond": 1.6558520793914795,
-  "ll": 9.875709056854248
+  "compile": 0.20527911186218262,
+  "pop": 18.228596925735474,
+  "cond": 1.654407024383545,
+  "ll": 10.361433029174805
  },
- "n_iter": 320,
+ "n_iter": 367,
  "phases": {
-  "kl_end": 55,
-  "switch_iter": 245,
-  "n_iter": 294,
+  "kl_end": 106,
+  "switch_iter": 292,
+  "n_iter": 341,
   "stop_reason": "stable",
   "unstable": [],
   "clipped": 0
  },
  "ess": [
-  8.497453277330292,
-  4.33577403924453
+  8.505946720031638,
+  4.067022700495245
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 400,
- "n_obs": 4000,
- "cond_info": {
-  "rounds": 3,
-  "converged": 1.0
- },
- "recomputed": {
-  "tasks": [
-   "cond",
-   "ll"
-  ],
-  "settings": {
-   "cond_rounds": 30
-  },
-  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
-  "tag": "cond+ll@freeze30"
- }
+ "n_obs": 4000
 }

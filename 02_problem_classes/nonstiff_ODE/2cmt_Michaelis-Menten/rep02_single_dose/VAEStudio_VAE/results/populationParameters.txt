@@ -1,15 +1,15 @@
 Fixed Effects -------------------
-Vm_pop              :       18.82
-Km_pop              :        1.87
-Q_pop               :       4.882
-V1_pop              :       10.07
-V2_pop              :       30.01
+Vm_pop              :       18.66
+Km_pop              :       1.832
+Q_pop               :       4.891
+V1_pop              :       10.06
+V2_pop              :       30.13
 
 Standard Deviation of the Random Effects 
-omega_Vm            :       0.304
-omega_Km            :      0.1931
-omega_V1            :      0.2501
-omega_V2            :      0.2608
+omega_Vm            :       0.308
+omega_Km            :      0.1743
+omega_V1            :      0.2498
+omega_V2            :      0.2616
 
 Error Model Parameters ----------
-b_C                 :      0.1471
+b_C                 :      0.1472

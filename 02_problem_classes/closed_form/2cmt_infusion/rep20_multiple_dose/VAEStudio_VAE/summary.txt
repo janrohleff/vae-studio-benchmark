@@ -1,6 +1,6 @@
 ********************************************************************************
 *  rep20                                                                       *
-*  October 21, 2026 at 22:56:37                                                *
+*  November 08, 2026 at 11:25:28                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,19 +8,19 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-Cl_C_pop            :       4.933
-V1_C_pop            :       9.522
-Q_C_pop             :       7.999
-V2_C_pop            :       40.82
+Cl_C_pop            :       4.931
+V1_C_pop            :       9.517
+Q_C_pop             :       8.001
+V2_C_pop            :       40.81
 
 Standard Deviation of the Random Effects 
-omega_Cl_C          :      0.3173
-omega_V1_C          :      0.2806
+omega_Cl_C          :      0.3172
+omega_V1_C          :      0.2818
 omega_Q_C           :      0.2701
-omega_V2_C          :      0.2637
+omega_V2_C          :      0.2638
 
 Error Model Parameters ----------
-b_C                 :     0.09998
+b_C                 :     0.09987
 
 RUN TIME _______________________________________________________________________
 
@@ -32,10 +32,10 @@ Estimation time (pure engine computation, excluding load/compile):
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        5070.15
-Akaike Information Criteria        (AIC) :        5088.15
-Corrected Bayesian Inf. Criteria  (BICc) :        5127.46
-Bayesian Information Criteria       (BIC):        5111.60
+-2 x log-likelihood                (OFV) :        5070.09
+Akaike Information Criteria        (AIC) :        5088.09
+Corrected Bayesian Inf. Criteria  (BICc) :        5127.40
+Bayesian Information Criteria       (BIC):        5111.54
 Standard error of -2LL (importance s.)   :           0.09
 
 RUN SETTINGS ___________________________________________________________________
@@ -49,7 +49,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 50
     Precision                         : float32

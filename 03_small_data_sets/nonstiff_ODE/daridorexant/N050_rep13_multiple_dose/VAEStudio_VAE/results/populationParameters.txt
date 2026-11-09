@@ -1,35 +1,35 @@
 Fixed Effects -------------------
-F_pop               :      0.3791
-tlag_pop            :      0.3147
-ka_pop              :       1.714
-Vc_pop              :       15.53
-Vp_pop              :       11.48
-Q_pop               :       2.408
-Vm_pop              :       7.761
-Km_pop              :       2.997
-beta_F_COV_LDOSE    :     -0.4388
-beta_tlag_COV_FASTED:     -0.3504
-beta_tlag_COV_FED   :      0.7741
-beta_ka_COV_FASTED  :     0.07174
-beta_ka_COV_FED     :      -1.738
-beta_ka_COV_MORNING :      0.7685
-beta_Vc_COV_LLBW    :      0.5724
-beta_Vp_COV_LFM     :      0.4788
-beta_Q_COV_LFM      :        1.56
-beta_Km_COV_LLBW    :     -0.5472
-beta_Km_COV_LAGE    :      0.2161
-beta_Km_COV_LALP    :      0.1311
+F_pop               :      0.3718
+tlag_pop            :      0.3202
+ka_pop              :       1.711
+Vc_pop              :        15.3
+Vp_pop              :       11.08
+Q_pop               :       2.303
+Vm_pop              :       8.161
+Km_pop              :       3.228
+beta_F_COV_LDOSE    :     -0.4305
+beta_tlag_COV_FASTED:     -0.3589
+beta_tlag_COV_FED   :      0.7611
+beta_ka_COV_FASTED  :     0.07124
+beta_ka_COV_FED     :      -1.737
+beta_ka_COV_MORNING :      0.7792
+beta_Vc_COV_LLBW    :      0.5416
+beta_Vp_COV_LFM     :      0.5668
+beta_Q_COV_LFM      :       1.641
+beta_Km_COV_LLBW    :     -0.4773
+beta_Km_COV_LAGE    :      0.2432
+beta_Km_COV_LALP    :      0.1224
 
 Standard Deviation of the Random Effects 
-omega_F             :      0.4703
-omega_tlag          :       0.464
-omega_ka            :      0.8936
-omega_Vc            :      0.1805
-omega_Vp            :      0.2926
-omega_Q             :      0.3592
-omega_Vm            :      0.2491
-omega_Km            :      0.2779
+omega_F             :      0.4635
+omega_tlag          :      0.4684
+omega_ka            :      0.8804
+omega_Vc            :      0.1796
+omega_Vp            :      0.2925
+omega_Q             :      0.3346
+omega_Vm            :      0.2655
+omega_Km            :      0.2584
 
 Error Model Parameters ----------
-a_C                 :       18.22
-b_C                 :       0.167
+a_C                 :       18.27
+b_C                 :      0.1667

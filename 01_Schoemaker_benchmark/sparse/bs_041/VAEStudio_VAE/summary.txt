@@ -1,6 +1,6 @@
 ********************************************************************************
 *  bs_041                                                                      *
-*  October 22, 2026 at 01:44:23                                                *
+*  November 08, 2026 at 18:15:21                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,33 +8,33 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------     se_sa    rse(%)      P2.5     P97.5
-ka_C_pop            :       1.044    0.1005      9.63    0.8468     1.241
-Cl_C_pop            :       3.952    0.1344       3.4     3.689     4.216
-V_C_pop             :       69.05     2.542      3.68     64.07     74.03
+ka_C_pop            :       1.063    0.1201      11.3    0.8279     1.299
+Cl_C_pop            :       3.944     0.137      3.47     3.675     4.213
+V_C_pop             :       69.15     2.576      3.72      64.1      74.2
 
 Standard Deviation of the Random Effects      se_sa    rse(%)      P2.5     P97.5
-omega_ka_C          :      0.3967    0.1081      27.2    0.1849    0.6085
-omega_Cl_C          :      0.2979   0.02693      9.04    0.2451    0.3507
-omega_V_C           :       0.312   0.03051      9.78    0.2522    0.3718
+omega_ka_C          :      0.4051    0.1355      33.4    0.1395    0.6706
+omega_Cl_C          :      0.3011   0.02756      9.15    0.2471    0.3552
+omega_V_C           :      0.3102      0.03      9.67    0.2514     0.369
 
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
-b_C                 :      0.1874  0.008769      4.68    0.1702    0.2046
+b_C                 :      0.1874  0.008828      4.71    0.1701    0.2047
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
     Population parameters             : 0.9 s
-    Conditional distributions         : 0.3 s
-    Standard errors (Fisher)          : 0.2 s
-    Log-likelihood                    : 0.6 s
+    Conditional distributions         : 0.2 s
+    Standard errors (Fisher)          : 0.1 s
+    Log-likelihood                    : 0.7 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :        5503.07
-Akaike Information Criteria        (AIC) :        5517.07
-Corrected Bayesian Inf. Criteria  (BICc) :        5542.12
-Bayesian Information Criteria       (BIC):        5536.58
+-2 x log-likelihood                (OFV) :        5503.30
+Akaike Information Criteria        (AIC) :        5517.30
+Corrected Bayesian Inf. Criteria  (BICc) :        5542.36
+Bayesian Information Criteria       (BIC):        5536.81
 Standard error of -2LL (importance s.)   :           0.12
 
 RUN SETTINGS ___________________________________________________________________
@@ -48,7 +48,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32
@@ -61,7 +61,8 @@ Other tasks ---------------------------------------
 
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
-    Standard errors: iterations       : 50–500, autostop: interval 5 %
+    Standard errors: iterations       : 50–50, autostop: interval 5 %
+    Standard errors: iterations run   : 50 (maximum reached)
     Cond. distribution rounds         : 30
     Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000

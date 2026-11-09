@@ -1,6 +1,6 @@
 ********************************************************************************
 *  C256_rep01                                                                  *
-*  October 21, 2026 at 22:19:34                                                *
+*  November 08, 2026 at 15:15:59                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -11,24 +11,26 @@ Fixed Effects -------------------
 kel_pop             :         0.1
 V_pop               :          10
 R0_pop              :       100.4
-kout_pop            :      0.0865
+kout_pop            :     0.08621
 Imax_pop            :         0.9
-IC50_pop            :       4.846
-beta_kout_FEAT0001  :      -0.281
-beta_kout_FEAT0003  :      0.6379
-beta_kout_FEAT0005  :      0.3113
-beta_kout_FEAT0008  :       1.074
-beta_kout_FEAT0012  :      0.2279
-beta_kout_FEAT0017  :      0.3764
-beta_kout_FEAT0018  :      0.2335
-beta_kout_FEAT0032  :     -0.1151
-beta_kout_FEAT0050  :      0.3284
-beta_kout_FEAT0073  :       0.376
-beta_kout_FEAT0172  :     -0.3283
+IC50_pop            :       4.806
+beta_kout_FEAT0001  :     -0.2904
+beta_kout_FEAT0003  :      0.6353
+beta_kout_FEAT0005  :      0.3198
+beta_kout_FEAT0008  :       1.054
+beta_kout_FEAT0012  :      0.2116
+beta_kout_FEAT0017  :      0.3595
+beta_kout_FEAT0018  :      0.2142
+beta_kout_FEAT0032  :     -0.1079
+beta_kout_FEAT0050  :      0.3366
+beta_kout_FEAT0060  :      0.2455
+beta_kout_FEAT0073  :       0.331
+beta_kout_FEAT0172  :     -0.3561
+beta_kout_FEAT0207  :      0.3562
 
 Standard Deviation of the Random Effects 
-omega_kout          :      0.5125
-omega_IC50          :      0.1294
+omega_kout          :       0.495
+omega_IC50          :      0.1271
 
 Error Model Parameters ----------
 b_R                 :      0.1012
@@ -37,16 +39,16 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 16.7 s
+    Population parameters             : 17.7 s
     Conditional distributions         : 1.7 s
-    Log-likelihood                    : 9.9 s
+    Log-likelihood                    : 10.5 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :       29246.62
-Akaike Information Criteria        (AIC) :       29280.62
-Corrected Bayesian Inf. Criteria  (BICc) :       29357.69
-Bayesian Information Criteria       (BIC):       29348.48
+-2 x log-likelihood                (OFV) :       29235.11
+Akaike Information Criteria        (AIC) :       29273.11
+Corrected Bayesian Inf. Criteria  (BICc) :       29358.16
+Bayesian Information Criteria       (BIC):       29348.95
 Standard error of -2LL (importance s.)   :           0.12
 
 RUN SETTINGS ___________________________________________________________________
@@ -60,7 +62,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Learning rate (params w/o IIV)    : 0.01
     Encoder                           : LSTM, hidden dim 50

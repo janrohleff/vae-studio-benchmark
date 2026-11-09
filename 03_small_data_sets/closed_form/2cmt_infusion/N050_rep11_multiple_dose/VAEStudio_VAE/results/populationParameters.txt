@@ -1,5 +1,5 @@
 Fixed Effects -------------------
-Cl_C_pop            :       5.134
+Cl_C_pop            :       5.133
 V1_C_pop            :       9.672
 Q_C_pop             :       7.799
 V2_C_pop            :       38.58

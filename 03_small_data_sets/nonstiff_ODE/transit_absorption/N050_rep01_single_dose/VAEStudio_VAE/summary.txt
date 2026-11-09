@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N050_rep01                                                                  *
-*  October 22, 2026 at 01:37:05                                                *
+*  November 08, 2026 at 13:52:54                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -9,13 +9,13 @@ ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
 MTT_pop             :       1.393
-ka_pop              :       1.563
+ka_pop              :       1.564
 V_pop               :       51.97
 Cl_pop              :       5.101
 
 Standard Deviation of the Random Effects 
-omega_MTT           :      0.3307
-omega_ka            :      0.2367
+omega_MTT           :      0.3308
+omega_ka            :      0.2362
 omega_V             :      0.1663
 omega_Cl            :      0.2884
 
@@ -26,9 +26,9 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 3.7 s
+    Population parameters             : 3.6 s
     Conditional distributions         : 0.7 s
-    Log-likelihood                    : 3.6 s
+    Log-likelihood                    : 3.5 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
@@ -49,7 +49,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32

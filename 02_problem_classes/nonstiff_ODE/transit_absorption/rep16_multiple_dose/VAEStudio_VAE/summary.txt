@@ -1,6 +1,6 @@
 ********************************************************************************
 *  rep16                                                                       *
-*  October 21, 2026 at 23:50:36                                                *
+*  November 08, 2026 at 11:41:11                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,14 +8,14 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-MTT_pop             :       1.659
-ka_pop              :       2.029
+MTT_pop             :        1.66
+ka_pop              :       2.031
 V_pop               :       50.32
 Cl_pop              :        5.01
 
 Standard Deviation of the Random Effects 
-omega_MTT           :      0.3631
-omega_ka            :       0.294
+omega_MTT           :       0.363
+omega_ka            :      0.2946
 omega_V             :      0.2094
 omega_Cl            :      0.2935
 
@@ -26,9 +26,9 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 15.5 s
-    Conditional distributions         : 2.4 s
-    Log-likelihood                    : 14.7 s
+    Population parameters             : 15.2 s
+    Conditional distributions         : 2.2 s
+    Log-likelihood                    : 13.7 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
@@ -49,7 +49,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 50
     Precision                         : float32

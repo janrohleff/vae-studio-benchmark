@@ -30,7 +30,7 @@ R(0) = R0
 ddt_P = Bind - kint*P
 
 [DOSE]
-; <name>: <data column> -> <state>, kind = bolus|rate
+; <name>: <data column> -> <state>, kind = bolus|rate[, from = <time>, until = <time>]
 Dose: Dose -> A1, kind = bolus
 
 [OUTPUT]

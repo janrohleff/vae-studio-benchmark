@@ -1,27 +1,27 @@
 {
  "typ": {
-  "R0": 100.48085700064935,
-  "kout": 0.08654151259687876,
-  "IC50": 4.790989124632407
+  "R0": 100.3823003998983,
+  "kout": 0.08703604777549383,
+  "IC50": 4.863786626041173
  },
  "omega": {
-  "kout": 0.7576679936062428,
-  "IC50": 0.12726469485204592
+  "kout": 0.7601577867335785,
+  "IC50": 0.12740021799377754
  },
  "error": {
-  "Response": 0.10109487605708681
+  "Response": 0.10116235659533923
  },
  "beta": {
-  "beta_kout_FEAT0001": -0.4904277856143764,
+  "beta_kout_FEAT0001": -0.4906231794211719,
   "beta_kout_FEAT0002": 0.0,
   "beta_IC50_FEAT0001": 0.0,
   "beta_IC50_FEAT0002": 0.0
  },
  "ll": {
-  "OFV": 29467.85413874535,
-  "AIC": 29481.85413874535,
-  "BIC": 29509.79439057511,
-  "BICc": 29519.004730947087
+  "OFV": 29467.99110406522,
+  "AIC": 29481.99110406522,
+  "BIC": 29509.931355894976,
+  "BICc": 29519.141696266954
  },
  "selected": [
   "kout~FEAT0001"
@@ -30,40 +30,25 @@
  "tool": "VAE",
  "model": "idrcov",
  "times": {
-  "compile": 0.20751214027404785,
-  "pop": 11.793287992477417,
-  "cond": 1.6472117900848389,
-  "ll": 9.94480586051941
+  "compile": 0.21017098426818848,
+  "pop": 18.519006967544556,
+  "cond": 1.6426489353179932,
+  "ll": 9.961040258407593
  },
- "n_iter": 257,
+ "n_iter": 331,
  "phases": {
-  "kl_end": 47,
-  "switch_iter": 182,
-  "n_iter": 231,
+  "kl_end": 68,
+  "switch_iter": 256,
+  "n_iter": 305,
   "stop_reason": "stable",
   "unstable": [],
-  "clipped": 0
+  "clipped": 1
  },
  "ess": [
-  8.5800255608745,
-  5.071341442268784
+  8.56454106171711,
+  4.974420534347699
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 400,
- "n_obs": 4000,
- "cond_info": {
-  "rounds": 3,
-  "converged": 1.0
- },
- "recomputed": {
-  "tasks": [
-   "cond",
-   "ll"
-  ],
-  "settings": {
-   "cond_rounds": 30
-  },
-  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
-  "tag": "cond+ll@freeze30"
- }
+ "n_obs": 4000
 }

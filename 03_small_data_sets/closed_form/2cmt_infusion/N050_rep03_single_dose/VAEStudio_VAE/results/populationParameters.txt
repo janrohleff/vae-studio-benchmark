@@ -11,4 +11,4 @@ omega_Q_C           :      0.2657
 omega_V2_C          :      0.2995
 
 Error Model Parameters ----------
-b_C                 :      0.0995
+b_C                 :     0.09951

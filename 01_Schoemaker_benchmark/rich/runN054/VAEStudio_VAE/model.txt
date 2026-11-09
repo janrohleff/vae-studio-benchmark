@@ -20,7 +20,7 @@ ddt_A1 = -Vm * (A1 / V1) / (Km + A1 / V1) - (Q / V1) * A1 + (Q / V2) * A2
 ddt_A2 = (Q / V1) * A1 - (Q / V2) * A2
 
 [DOSE]
-; <name>: <data column> -> <state>, kind = bolus|rate
+; <name>: <data column> -> <state>, kind = bolus|rate[, from = <time>, until = <time>]
 AMT: AMT -> A1, kind = rate, duration = 1
 
 [OUTPUT]

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  rep07                                                                       *
-*  October 21, 2026 at 22:44:23                                                *
+*  November 08, 2026 at 11:52:23                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -16,12 +16,12 @@ kout_pop            :      0.0981
 IC50_pop            :      0.9999
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.4502
+omega_ka_C          :      0.4501
 omega_Cl_C          :      0.3092
 omega_V_C           :      0.2441
-omega_R0            :      0.0912
+omega_R0            :     0.09121
 omega_kout          :      0.3094
-omega_IC50          :      0.5052
+omega_IC50          :      0.5053
 
 Error Model Parameters ----------
 b_C                 :      0.1531
@@ -31,9 +31,9 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 3.4 s
+    Population parameters             : 3.5 s
     Conditional distributions         : 0.8 s
-    Log-likelihood                    : 3.8 s
+    Log-likelihood                    : 3.9 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
@@ -54,7 +54,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 50
     Precision                         : float32

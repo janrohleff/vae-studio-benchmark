@@ -1,6 +1,6 @@
 ********************************************************************************
 *  C512_rep01                                                                  *
-*  October 21, 2026 at 22:20:33                                                *
+*  November 08, 2026 at 15:16:33                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -10,32 +10,30 @@ ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 Fixed Effects -------------------
 kel_pop             :         0.1
 V_pop               :          10
-R0_pop              :       100.4
-kout_pop            :     0.08602
+R0_pop              :       100.3
+kout_pop            :     0.08647
 Imax_pop            :         0.9
-IC50_pop            :       4.816
-beta_kout_FEAT0001  :     -0.3026
-beta_kout_FEAT0003  :      0.6714
-beta_kout_FEAT0005  :       0.418
-beta_kout_FEAT0008  :       1.088
-beta_kout_FEAT0012  :      0.3522
-beta_kout_FEAT0017  :      0.3895
-beta_kout_FEAT0018  :      0.2795
-beta_kout_FEAT0020  :     -0.3879
-beta_kout_FEAT0032  :     -0.1056
-beta_kout_FEAT0047  :        0.26
-beta_kout_FEAT0050  :      0.3083
-beta_kout_FEAT0187  :     -0.2596
-beta_kout_FEAT0207  :      0.5193
-beta_kout_FEAT0214  :      0.3652
-beta_kout_FEAT0236  :      0.2733
-beta_kout_FEAT0347  :     -0.3897
-beta_kout_FEAT0361  :     -0.3444
-beta_kout_FEAT0373  :      0.2779
+IC50_pop            :       4.881
+beta_kout_FEAT0001  :     -0.2958
+beta_kout_FEAT0003  :      0.6745
+beta_kout_FEAT0005  :      0.3909
+beta_kout_FEAT0008  :       1.085
+beta_kout_FEAT0012  :      0.3222
+beta_kout_FEAT0017  :      0.3826
+beta_kout_FEAT0018  :      0.2819
+beta_kout_FEAT0020  :     -0.3741
+beta_kout_FEAT0032  :    -0.09935
+beta_kout_FEAT0047  :      0.2566
+beta_kout_FEAT0050  :      0.3334
+beta_kout_FEAT0187  :     -0.2936
+beta_kout_FEAT0207  :      0.4763
+beta_kout_FEAT0236  :      0.2875
+beta_kout_FEAT0361  :     -0.3201
+beta_kout_FEAT0373  :      0.2745
 
 Standard Deviation of the Random Effects 
-omega_kout          :       0.455
-omega_IC50          :      0.1288
+omega_kout          :      0.4638
+omega_IC50          :      0.1376
 
 Error Model Parameters ----------
 b_R                 :      0.1012
@@ -44,16 +42,16 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 27.9 s
-    Conditional distributions         : 1.7 s
-    Log-likelihood                    : 9.9 s
+    Population parameters             : 21.1 s
+    Conditional distributions         : 1.6 s
+    Log-likelihood                    : 10.3 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
--2 x log-likelihood                (OFV) :       29192.79
-Akaike Information Criteria        (AIC) :       29240.79
-Corrected Bayesian Inf. Criteria  (BICc) :       29345.80
-Bayesian Information Criteria       (BIC):       29336.59
+-2 x log-likelihood                (OFV) :       29205.90
+Akaike Information Criteria        (AIC) :       29249.90
+Corrected Bayesian Inf. Criteria  (BICc) :       29346.93
+Bayesian Information Criteria       (BIC):       29337.71
 Standard error of -2LL (importance s.)   :           0.12
 
 RUN SETTINGS ___________________________________________________________________
@@ -67,7 +65,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Learning rate (params w/o IIV)    : 0.01
     Encoder                           : LSTM, hidden dim 50

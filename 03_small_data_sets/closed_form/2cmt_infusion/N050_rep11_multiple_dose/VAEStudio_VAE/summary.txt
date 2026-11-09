@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N050_rep11                                                                  *
-*  October 22, 2026 at 01:28:07                                                *
+*  November 08, 2026 at 14:20:22                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,7 +8,7 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-Cl_C_pop            :       5.134
+Cl_C_pop            :       5.133
 V1_C_pop            :       9.672
 Q_C_pop             :       7.799
 V2_C_pop            :       38.58
@@ -49,7 +49,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32

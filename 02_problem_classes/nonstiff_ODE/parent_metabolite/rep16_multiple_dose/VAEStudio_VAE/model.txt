@@ -22,7 +22,7 @@ ddt_Ap = ka*Ad - Cl/V*Ap
 ddt_Am = Cl/V*Ap - Clmet/Vmet*Am
 
 [DOSE]
-; <name>: <data column> -> <state>, kind = bolus|rate
+; <name>: <data column> -> <state>, kind = bolus|rate[, from = <time>, until = <time>]
 Dose: Dose -> Ad, kind = bolus
 
 [OUTPUT]

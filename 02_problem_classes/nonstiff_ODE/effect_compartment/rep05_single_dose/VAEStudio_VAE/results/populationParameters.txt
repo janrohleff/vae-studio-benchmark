@@ -1,20 +1,20 @@
 Fixed Effects -------------------
-ka_C_pop            :      0.9625
-Cl_C_pop            :       4.101
-V_C_pop             :       49.15
-ke0_pop             :      0.2996
-E0_pop              :       10.17
-Emax_pop            :       50.99
-EC50_pop            :       2.139
+ka_C_pop            :      0.9569
+Cl_C_pop            :       4.104
+V_C_pop             :       49.07
+ke0_pop             :      0.2989
+E0_pop              :       10.09
+Emax_pop            :       50.19
+EC50_pop            :       2.063
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :       0.449
+omega_ka_C          :      0.4498
 omega_Cl_C          :      0.3395
-omega_V_C           :      0.2078
-omega_ke0           :      0.2757
-omega_E0            :     0.08732
-omega_Emax          :      0.1771
-omega_EC50          :      0.2426
+omega_V_C           :      0.2068
+omega_ke0           :      0.2776
+omega_E0            :     0.09059
+omega_Emax          :      0.1798
+omega_EC50          :      0.2478
 
 Error Model Parameters ----------
 b_C                 :      0.1525

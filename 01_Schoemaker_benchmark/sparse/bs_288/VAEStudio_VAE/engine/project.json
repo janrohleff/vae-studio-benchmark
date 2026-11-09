@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "bs_288",
-  "saved": "2026-10-22T01:48:05",
+  "saved": "2026-11-08T18:23:14",
   "source_name": "bs_288.csv",
   "data_file": "bs_288.csv",
   "mapping": {
@@ -98,7 +98,8 @@
       }
     ],
     "dvid_labels": {},
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -233,7 +234,7 @@
     "cond_tdof": 5,
     "se_enabled": true,
     "se_min_iter": 50,
-    "se_max_iter": 500,
+    "se_max_iter": 50,
     "se_ci": 0.05,
     "vpc_enabled": false,
     "vpc_sim": 500,
@@ -246,9 +247,9 @@
     "ll_iter": 10000,
     "ll_tdof": 5,
     "learning_rate": "4e-3",
-    "burn_lr": "8e-3",
+    "burn_lr": "",
     "lr_decoder": "1e-2",
-    "lr_nn": "1e-3",
+    "lr_nn": "3e-3",
     "lr_encoder_node": "3e-3",
     "adam_beta1": "0.9",
     "adam_beta2": "0.999",
@@ -266,10 +267,10 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 0.990056037902832,
-      "cond": 0.22510075569152832,
-      "se": 0.11666607856750488,
-      "ll": 0.6229848861694336
+      "pop": 0.9408152103424072,
+      "cond": 0.21970319747924805,
+      "se": 0.057595014572143555,
+      "ll": 0.5765607357025146
     },
     "task_settings": {}
   },
@@ -395,5 +396,5 @@
     true,
     true
   ],
-  "results_signature": "3d4b84e04a2e7f81"
+  "results_signature": "b2e75a34586472af"
 }

@@ -1,14 +1,14 @@
 Fixed Effects -------------------
-MTT_pop             :       1.545
-ka_pop              :       1.393
-V_pop               :       50.76
-Cl_pop              :       5.052
+MTT_pop             :       1.526
+ka_pop              :       1.351
+V_pop               :       50.74
+Cl_pop              :        5.05
 
 Standard Deviation of the Random Effects 
-omega_MTT           :      0.2932
-omega_ka            :      0.2696
-omega_V             :      0.2071
-omega_Cl            :      0.2989
+omega_MTT           :      0.2972
+omega_ka            :      0.2376
+omega_V             :       0.207
+omega_Cl            :      0.2991
 
 Error Model Parameters ----------
-b_C                 :      0.1557
+b_C                 :      0.1556

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  bs_320                                                                      *
-*  October 22, 2026 at 01:48:34                                                *
+*  November 08, 2026 at 18:24:15                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,23 +8,23 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------     se_sa    rse(%)      P2.5     P97.5
-ka_C_pop            :       1.084    0.1031      9.51    0.8822     1.286
-Cl_C_pop            :       3.848     0.129      3.35     3.595     4.101
-V_C_pop             :       72.27     2.768      3.83     66.84     77.69
+ka_C_pop            :       1.084    0.1096      10.1    0.8688     1.298
+Cl_C_pop            :       3.848    0.1307       3.4     3.592     4.104
+V_C_pop             :       72.26     2.782      3.85     66.81     77.71
 
 Standard Deviation of the Random Effects      se_sa    rse(%)      P2.5     P97.5
-omega_ka_C          :      0.3465    0.1291      37.3   0.09333    0.5996
-omega_Cl_C          :      0.2859   0.02748      9.61     0.232    0.3397
-omega_V_C           :      0.3148   0.02988      9.49    0.2563    0.3734
+omega_ka_C          :      0.3464    0.1729      49.9  0.007557    0.6853
+omega_Cl_C          :      0.2858   0.02771      9.69    0.2315    0.3401
+omega_V_C           :      0.3148   0.03013      9.57    0.2558    0.3739
 
 Error Model Parameters ----------     se_sa    rse(%)      P2.5     P97.5
-b_C                 :      0.1944  0.008786      4.52    0.1771    0.2116
+b_C                 :      0.1943  0.008752       4.5    0.1772    0.2115
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 0.9 s
+    Population parameters             : 0.8 s
     Conditional distributions         : 0.3 s
     Standard errors (Fisher)          : 0.1 s
     Log-likelihood                    : 0.6 s
@@ -48,7 +48,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32
@@ -61,7 +61,8 @@ Other tasks ---------------------------------------
 
     Conditional distr. samples        : 500
     Conditional distr. proposal       : t distribution, 5 degrees of freedom
-    Standard errors: iterations       : 50–500, autostop: interval 5 %
+    Standard errors: iterations       : 50–50, autostop: interval 5 %
+    Standard errors: iterations run   : 50 (maximum reached)
     Cond. distribution rounds         : 30
     Cond. distr. min. ESS per subject : 25 % of the samples
     Importance samples                : 10000

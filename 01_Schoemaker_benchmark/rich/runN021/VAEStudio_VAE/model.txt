@@ -17,7 +17,7 @@ C = A1 / V
 ddt_A1 = -Vm * (A1 / V) / (Km + A1 / V)
 
 [DOSE]
-; <name>: <data column> -> <state>, kind = bolus|rate
+; <name>: <data column> -> <state>, kind = bolus|rate[, from = <time>, until = <time>]
 AMT: AMT -> A1, kind = rate, duration = 1
 
 [OUTPUT]

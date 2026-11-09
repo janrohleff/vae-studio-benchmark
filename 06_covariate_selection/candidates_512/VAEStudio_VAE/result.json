@@ -1,37 +1,37 @@
 {
  "typ": {
-  "R0": 100.375503656466,
-  "kout": 0.08601945608963882,
-  "IC50": 4.81620649587475
+  "R0": 100.29302214844823,
+  "kout": 0.08646778937890008,
+  "IC50": 4.880671654573737
  },
  "omega": {
-  "kout": 0.45497428861114614,
-  "IC50": 0.12884372926864404
+  "kout": 0.46375304418374186,
+  "IC50": 0.13759464878146502
  },
  "error": {
-  "Response": 0.10122540742093723
+  "Response": 0.10124475240048529
  },
  "beta": {
-  "beta_kout_FEAT0001": -0.3025764346871497,
+  "beta_kout_FEAT0001": -0.2958369571337473,
   "beta_kout_FEAT0002": 0.0,
-  "beta_kout_FEAT0003": 0.6714472660753474,
+  "beta_kout_FEAT0003": 0.6745132052544187,
   "beta_kout_FEAT0004": 0.0,
-  "beta_kout_FEAT0005": 0.41797154175605006,
+  "beta_kout_FEAT0005": 0.39094145893426174,
   "beta_kout_FEAT0006": 0.0,
   "beta_kout_FEAT0007": 0.0,
-  "beta_kout_FEAT0008": 1.0877952534206503,
+  "beta_kout_FEAT0008": 1.0848501381262343,
   "beta_kout_FEAT0009": 0.0,
   "beta_kout_FEAT0010": 0.0,
   "beta_kout_FEAT0011": 0.0,
-  "beta_kout_FEAT0012": 0.35221595235786024,
+  "beta_kout_FEAT0012": 0.3222101261681631,
   "beta_kout_FEAT0013": 0.0,
   "beta_kout_FEAT0014": 0.0,
   "beta_kout_FEAT0015": 0.0,
   "beta_kout_FEAT0016": 0.0,
-  "beta_kout_FEAT0017": 0.38953129807965237,
-  "beta_kout_FEAT0018": 0.27953255420108114,
+  "beta_kout_FEAT0017": 0.38261158460999367,
+  "beta_kout_FEAT0018": 0.28187941997480004,
   "beta_kout_FEAT0019": 0.0,
-  "beta_kout_FEAT0020": -0.38785076832419646,
+  "beta_kout_FEAT0020": -0.37405377017438707,
   "beta_kout_FEAT0021": 0.0,
   "beta_kout_FEAT0022": 0.0,
   "beta_kout_FEAT0023": 0.0,
@@ -43,7 +43,7 @@
   "beta_kout_FEAT0029": 0.0,
   "beta_kout_FEAT0030": 0.0,
   "beta_kout_FEAT0031": 0.0,
-  "beta_kout_FEAT0032": -0.10557358982083127,
+  "beta_kout_FEAT0032": -0.09934554570236705,
   "beta_kout_FEAT0033": 0.0,
   "beta_kout_FEAT0034": 0.0,
   "beta_kout_FEAT0035": 0.0,
@@ -58,10 +58,10 @@
   "beta_kout_FEAT0044": 0.0,
   "beta_kout_FEAT0045": 0.0,
   "beta_kout_FEAT0046": 0.0,
-  "beta_kout_FEAT0047": 0.26001593458705335,
+  "beta_kout_FEAT0047": 0.2565531645896907,
   "beta_kout_FEAT0048": 0.0,
   "beta_kout_FEAT0049": 0.0,
-  "beta_kout_FEAT0050": 0.3082859225520847,
+  "beta_kout_FEAT0050": 0.3334081847785659,
   "beta_kout_FEAT0051": 0.0,
   "beta_kout_FEAT0052": 0.0,
   "beta_kout_FEAT0053": 0.0,
@@ -198,7 +198,7 @@
   "beta_kout_FEAT0184": 0.0,
   "beta_kout_FEAT0185": 0.0,
   "beta_kout_FEAT0186": 0.0,
-  "beta_kout_FEAT0187": -0.25957712999334226,
+  "beta_kout_FEAT0187": -0.2936300277129266,
   "beta_kout_FEAT0188": 0.0,
   "beta_kout_FEAT0189": 0.0,
   "beta_kout_FEAT0190": 0.0,
@@ -218,14 +218,14 @@
   "beta_kout_FEAT0204": 0.0,
   "beta_kout_FEAT0205": 0.0,
   "beta_kout_FEAT0206": 0.0,
-  "beta_kout_FEAT0207": 0.5193157126767113,
+  "beta_kout_FEAT0207": 0.4762691468227777,
   "beta_kout_FEAT0208": 0.0,
   "beta_kout_FEAT0209": 0.0,
   "beta_kout_FEAT0210": 0.0,
   "beta_kout_FEAT0211": 0.0,
   "beta_kout_FEAT0212": 0.0,
   "beta_kout_FEAT0213": 0.0,
-  "beta_kout_FEAT0214": 0.36523518749765993,
+  "beta_kout_FEAT0214": 0.0,
   "beta_kout_FEAT0215": 0.0,
   "beta_kout_FEAT0216": 0.0,
   "beta_kout_FEAT0217": 0.0,
@@ -247,7 +247,7 @@
   "beta_kout_FEAT0233": 0.0,
   "beta_kout_FEAT0234": 0.0,
   "beta_kout_FEAT0235": 0.0,
-  "beta_kout_FEAT0236": 0.273259319365808,
+  "beta_kout_FEAT0236": 0.287488975738766,
   "beta_kout_FEAT0237": 0.0,
   "beta_kout_FEAT0238": 0.0,
   "beta_kout_FEAT0239": 0.0,
@@ -358,7 +358,7 @@
   "beta_kout_FEAT0344": 0.0,
   "beta_kout_FEAT0345": 0.0,
   "beta_kout_FEAT0346": 0.0,
-  "beta_kout_FEAT0347": -0.3896627905295662,
+  "beta_kout_FEAT0347": 0.0,
   "beta_kout_FEAT0348": 0.0,
   "beta_kout_FEAT0349": 0.0,
   "beta_kout_FEAT0350": 0.0,
@@ -372,7 +372,7 @@
   "beta_kout_FEAT0358": 0.0,
   "beta_kout_FEAT0359": 0.0,
   "beta_kout_FEAT0360": 0.0,
-  "beta_kout_FEAT0361": -0.3443740550658603,
+  "beta_kout_FEAT0361": -0.32006176981186146,
   "beta_kout_FEAT0362": 0.0,
   "beta_kout_FEAT0363": 0.0,
   "beta_kout_FEAT0364": 0.0,
@@ -384,7 +384,7 @@
   "beta_kout_FEAT0370": 0.0,
   "beta_kout_FEAT0371": 0.0,
   "beta_kout_FEAT0372": 0.0,
-  "beta_kout_FEAT0373": 0.2778895137307464,
+  "beta_kout_FEAT0373": 0.27450681858469733,
   "beta_kout_FEAT0374": 0.0,
   "beta_kout_FEAT0375": 0.0,
   "beta_kout_FEAT0376": 0.0,
@@ -1038,10 +1038,10 @@
   "beta_IC50_FEAT0512": 0.0
  },
  "ll": {
-  "OFV": 29192.790886324135,
-  "AIC": 29240.790886324135,
-  "BIC": 29336.586035454726,
-  "BICc": 29345.796375826703
+  "OFV": 29205.90257551999,
+  "AIC": 29249.90257551999,
+  "BIC": 29337.714795556367,
+  "BICc": 29346.925135928344
  },
  "selected": [
   "kout~FEAT0001",
@@ -1057,9 +1057,7 @@
   "kout~FEAT0050",
   "kout~FEAT0187",
   "kout~FEAT0207",
-  "kout~FEAT0214",
   "kout~FEAT0236",
-  "kout~FEAT0347",
   "kout~FEAT0361",
   "kout~FEAT0373"
  ],
@@ -1067,40 +1065,25 @@
  "tool": "VAE",
  "model": "idrcov",
  "times": {
-  "compile": 0.20565104484558105,
-  "pop": 27.85827112197876,
-  "cond": 1.6978187561035156,
-  "ll": 9.888962984085083
+  "compile": 0.2092130184173584,
+  "pop": 21.127455949783325,
+  "cond": 1.621354103088379,
+  "ll": 10.284837007522583
  },
- "n_iter": 348,
+ "n_iter": 291,
  "phases": {
-  "kl_end": 54,
-  "switch_iter": 273,
-  "n_iter": 322,
+  "kl_end": 106,
+  "switch_iter": 216,
+  "n_iter": 265,
   "stop_reason": "stable",
   "unstable": [],
   "clipped": 0
  },
  "ess": [
-  8.476188802011704,
-  4.672959794594858
+  8.445653540029575,
+  4.61092843862972
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 400,
- "n_obs": 4000,
- "cond_info": {
-  "rounds": 3,
-  "converged": 1.0
- },
- "recomputed": {
-  "tasks": [
-   "cond",
-   "ll"
-  ],
-  "settings": {
-   "cond_rounds": 30
-  },
-  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
-  "tag": "cond+ll@freeze30"
- }
+ "n_obs": 4000
 }

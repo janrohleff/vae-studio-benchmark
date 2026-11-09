@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N020_rep13                                                                  *
-*  October 22, 2026 at 01:34:08                                                *
+*  November 08, 2026 at 14:43:31                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,32 +8,32 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-Cl_pop              :      0.2012
-V1_pop              :       2.879
-Q_pop               :      0.4819
-V2_pop              :        2.63
-R0_pop              :       9.829
-kdeg_pop            :       0.491
-kint_pop            :     0.05012
+Cl_pop              :      0.2007
+V1_pop              :       2.877
+Q_pop               :      0.4821
+V2_pop              :       2.635
+R0_pop              :       9.827
+kdeg_pop            :       0.492
+kint_pop            :     0.05021
 KD_pop              :       1.063
 
 Standard Deviation of the Random Effects 
-omega_Cl            :      0.2609
+omega_Cl            :      0.2598
 omega_V1            :      0.2466
-omega_V2            :      0.2456
-omega_R0            :      0.3473
+omega_V2            :       0.239
+omega_R0            :      0.3484
 
 Error Model Parameters ----------
-b_C                 :       0.154
+b_C                 :      0.1544
 b_Rtot              :      0.1611
 
 RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 8.9 s
-    Conditional distributions         : 1.2 s
-    Log-likelihood                    : 6.4 s
+    Population parameters             : 8.6 s
+    Conditional distributions         : 1.1 s
+    Log-likelihood                    : 6.3 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
@@ -54,7 +54,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Learning rate (params w/o IIV)    : 0.01
     Encoder                           : LSTM, hidden dim 25

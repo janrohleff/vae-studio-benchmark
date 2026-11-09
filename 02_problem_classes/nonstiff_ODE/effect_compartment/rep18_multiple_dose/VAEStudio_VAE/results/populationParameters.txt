@@ -8,11 +8,11 @@ Emax_pop            :       48.64
 EC50_pop            :       1.873
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :       0.386
+omega_ka_C          :      0.3859
 omega_Cl_C          :      0.2942
 omega_V_C           :      0.1953
 omega_ke0           :      0.2994
-omega_E0            :     0.08905
+omega_E0            :     0.08889
 omega_Emax          :      0.2148
 omega_EC50          :      0.2675
 

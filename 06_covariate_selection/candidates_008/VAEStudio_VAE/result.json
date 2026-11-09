@@ -1,25 +1,25 @@
 {
  "typ": {
-  "R0": 100.38225253389885,
-  "kout": 0.08650483206513007,
-  "IC50": 4.833201423626507
+  "R0": 100.34535464013912,
+  "kout": 0.08622953085973267,
+  "IC50": 4.845429426768023
  },
  "omega": {
-  "kout": 0.57526665123975,
-  "IC50": 0.12640666869231582
+  "kout": 0.5778781896856799,
+  "IC50": 0.12541481613167335
  },
  "error": {
-  "Response": 0.10121401716883553
+  "Response": 0.1012655336160953
  },
  "beta": {
-  "beta_kout_FEAT0001": -0.2612010032726772,
+  "beta_kout_FEAT0001": -0.26107629318476616,
   "beta_kout_FEAT0002": 0.0,
-  "beta_kout_FEAT0003": 0.6425764024007935,
+  "beta_kout_FEAT0003": 0.6452811475484325,
   "beta_kout_FEAT0004": 0.0,
-  "beta_kout_FEAT0005": 0.3775493980743756,
+  "beta_kout_FEAT0005": 0.3815889716637507,
   "beta_kout_FEAT0006": 0.0,
   "beta_kout_FEAT0007": 0.0,
-  "beta_kout_FEAT0008": 1.1078222021529651,
+  "beta_kout_FEAT0008": 1.11377617189743,
   "beta_IC50_FEAT0001": 0.0,
   "beta_IC50_FEAT0002": 0.0,
   "beta_IC50_FEAT0003": 0.0,
@@ -30,10 +30,10 @@
   "beta_IC50_FEAT0008": 0.0
  },
  "ll": {
-  "OFV": 29308.566737288136,
-  "AIC": 29328.566737288136,
-  "BIC": 29368.481382759215,
-  "BICc": 29377.691723131193
+  "OFV": 29308.51077205043,
+  "AIC": 29328.51077205043,
+  "BIC": 29368.42541752151,
+  "BICc": 29377.635757893488
  },
  "selected": [
   "kout~FEAT0001",
@@ -45,40 +45,25 @@
  "tool": "VAE",
  "model": "idrcov",
  "times": {
-  "compile": 0.20287513732910156,
-  "pop": 15.744486093521118,
-  "cond": 1.6680970191955566,
-  "ll": 9.944652080535889
+  "compile": 0.20295286178588867,
+  "pop": 15.788484811782837,
+  "cond": 1.6066229343414307,
+  "ll": 10.178399085998535
  },
- "n_iter": 313,
+ "n_iter": 340,
  "phases": {
-  "kl_end": 54,
-  "switch_iter": 238,
-  "n_iter": 287,
+  "kl_end": 87,
+  "switch_iter": 265,
+  "n_iter": 314,
   "stop_reason": "stable",
   "unstable": [],
   "clipped": 0
  },
  "ess": [
-  8.523967836633538,
-  3.271960410272427
+  8.53751894773783,
+  3.50834459939811
  ],
  "enc_hidden_dim": 50,
  "n_subjects": 400,
- "n_obs": 4000,
- "cond_info": {
-  "rounds": 3,
-  "converged": 1.0
- },
- "recomputed": {
-  "tasks": [
-   "cond",
-   "ll"
-  ],
-  "settings": {
-   "cond_rounds": 30
-  },
-  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
-  "tag": "cond+ll@freeze30"
- }
+ "n_obs": 4000
 }

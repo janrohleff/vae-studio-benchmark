@@ -1,17 +1,17 @@
 Fixed Effects -------------------
 ke_C_pop            :           5
 V_C_pop             :           1
-lambda0_pop         :      0.2551
-lambda1_pop         :      0.1701
+lambda0_pop         :       0.255
+lambda1_pop         :      0.1702
 k1_pop              :      0.9454
-k2_pop              :      0.4981
-w0_pop              :    0.009908
+k2_pop              :      0.4977
+w0_pop              :    0.009921
 
 Standard Deviation of the Random Effects 
-omega_lambda0       :      0.1688
-omega_lambda1       :      0.3417
-omega_k2            :      0.3534
-omega_w0            :       0.183
+omega_lambda0       :      0.1684
+omega_lambda1       :      0.3414
+omega_k2            :      0.3532
+omega_w0            :      0.1848
 
 Error Model Parameters ----------
-b_w                 :     0.09285
+b_w                 :     0.09287

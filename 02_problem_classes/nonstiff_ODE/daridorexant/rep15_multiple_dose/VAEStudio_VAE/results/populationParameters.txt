@@ -1,35 +1,35 @@
 Fixed Effects -------------------
-F_pop               :      0.3946
-tlag_pop            :      0.4972
-ka_pop              :       1.043
-Vc_pop              :       14.71
-Vp_pop              :       12.13
-Q_pop               :        3.18
-Vm_pop              :       7.505
-Km_pop              :       2.971
-beta_F_COV_LDOSE    :     -0.3064
-beta_tlag_COV_FASTED:     -0.5435
-beta_tlag_COV_FED   :      0.4226
-beta_ka_COV_FASTED  :      0.2111
-beta_ka_COV_FED     :     -0.9003
-beta_ka_COV_MORNING :      0.7322
-beta_Vc_COV_LLBW    :      0.5834
-beta_Vp_COV_LFM     :      0.4733
-beta_Q_COV_LFM      :       1.165
-beta_Km_COV_LLBW    :     -0.2994
-beta_Km_COV_LAGE    :      0.3736
-beta_Km_COV_LALP    :      0.2631
+F_pop               :      0.3931
+tlag_pop            :      0.4978
+ka_pop              :       1.038
+Vc_pop              :       14.36
+Vp_pop              :       12.18
+Q_pop               :       3.237
+Vm_pop              :       7.811
+Km_pop              :       3.117
+beta_F_COV_LDOSE    :     -0.3087
+beta_tlag_COV_FASTED:     -0.5499
+beta_tlag_COV_FED   :      0.4345
+beta_ka_COV_FASTED  :      0.1989
+beta_ka_COV_FED     :     -0.8834
+beta_ka_COV_MORNING :      0.7206
+beta_Vc_COV_LLBW    :      0.5343
+beta_Vp_COV_LFM     :      0.4995
+beta_Q_COV_LFM      :       1.193
+beta_Km_COV_LLBW    :     -0.2863
+beta_Km_COV_LAGE    :       0.378
+beta_Km_COV_LALP    :      0.2739
 
 Standard Deviation of the Random Effects 
-omega_F             :      0.3976
-omega_tlag          :      0.4536
-omega_ka            :      0.7458
-omega_Vc            :      0.1986
-omega_Vp            :      0.3449
-omega_Q             :        0.36
-omega_Vm            :       0.289
-omega_Km            :       0.297
+omega_F             :      0.3978
+omega_tlag          :      0.4682
+omega_ka            :      0.7431
+omega_Vc            :      0.1935
+omega_Vp            :      0.3509
+omega_Q             :       0.375
+omega_Vm            :      0.2872
+omega_Km            :      0.3031
 
 Error Model Parameters ----------
-a_C                 :       19.15
-b_C                 :      0.1587
+a_C                 :       19.05
+b_C                 :      0.1585

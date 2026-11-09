@@ -1,18 +1,18 @@
 Fixed Effects -------------------
 Cl_C_pop            :       27.69
 V_C_pop             :        55.4
-Circ0_pop           :       5.235
-MTT_pop             :       87.84
+Circ0_pop           :       5.234
+MTT_pop             :       87.86
 gamma_pop           :       0.169
-Slope_pop           :       9.826
+Slope_pop           :       9.827
 
 Standard Deviation of the Random Effects 
-omega_Cl_C          :      0.3346
-omega_V_C           :      0.1552
-omega_Circ0         :       0.264
-omega_MTT           :      0.1425
-omega_Slope         :      0.3446
+omega_Cl_C          :      0.3348
+omega_V_C           :      0.1549
+omega_Circ0         :      0.2641
+omega_MTT           :      0.1429
+omega_Slope         :       0.345
 
 Error Model Parameters ----------
-b_C                 :      0.1631
+b_C                 :      0.1632
 b_Circ              :      0.2106

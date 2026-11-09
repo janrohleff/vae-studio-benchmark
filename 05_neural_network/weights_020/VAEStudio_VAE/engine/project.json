@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "name": "H004_circ01",
-  "saved": "2026-10-21T23:52:58",
+  "name": "H004_circ01_rtol1e-4",
+  "saved": "2026-11-08T23:14:03",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -74,7 +74,8 @@
       "1": "Conc",
       "2": "Effect"
     },
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -339,16 +340,16 @@
     "enc_dropout": "0.0",
     "enc_bidirectional": false,
     "nn_hidden_dim": 30,
-    "ode_rtol": "1e-3",
+    "ode_rtol": "1e-4",
     "ode_atol": "1e-6",
     "ode_stiff": false,
     "ode_solver": "Tsit5",
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 271.6524519920349,
-      "cond": 2.673901081085205,
-      "ll": 16.02888798713684
+      "pop": 82.47728681564331,
+      "cond": 3.9539120197296143,
+      "ll": 24.11741805076599
     },
     "task_settings": {}
   },
@@ -454,5 +455,5 @@
     true,
     true
   ],
-  "results_signature": "ed4c0b65648b67c5"
+  "results_signature": "d7f22757ffb5849f"
 }

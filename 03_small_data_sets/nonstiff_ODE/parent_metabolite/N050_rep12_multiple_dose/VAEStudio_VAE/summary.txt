@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N050_rep12                                                                  *
-*  October 22, 2026 at 01:27:29                                                *
+*  November 08, 2026 at 14:38:05                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -8,15 +8,15 @@
 ESTIMATION OF THE POPULATION PARAMETERS ________________________________________
 
 Fixed Effects -------------------
-ka_pop              :      0.9134
-V_pop               :       50.43
+ka_pop              :      0.9135
+V_pop               :       50.44
 Cl_pop              :       9.561
 Vmet_pop            :       30.16
 Clmet_pop           :       3.156
 
 Standard Deviation of the Random Effects 
 omega_ka            :      0.3123
-omega_V             :      0.2487
+omega_V             :      0.2488
 omega_Cl            :      0.2843
 omega_Vmet          :       0.246
 omega_Clmet         :      0.2808
@@ -29,9 +29,9 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 3.6 s
-    Conditional distributions         : 0.8 s
-    Log-likelihood                    : 4.4 s
+    Population parameters             : 3.5 s
+    Conditional distributions         : 0.9 s
+    Log-likelihood                    : 4.7 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 
@@ -52,7 +52,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 25
     Precision                         : float32

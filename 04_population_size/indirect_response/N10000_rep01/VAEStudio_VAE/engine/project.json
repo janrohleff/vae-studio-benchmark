@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "N10000_rep01",
-  "saved": "2026-10-22T00:36:00",
+  "saved": "2026-11-08T17:20:21",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -74,7 +74,8 @@
       "1": "Conc",
       "2": "Effect"
     },
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -295,9 +296,9 @@
     "ll_iter": 10000,
     "ll_tdof": 5,
     "learning_rate": "4e-3",
-    "burn_lr": "8e-3",
+    "burn_lr": "",
     "lr_decoder": "1e-2",
-    "lr_nn": "1e-3",
+    "lr_nn": "3e-3",
     "lr_encoder_node": "3e-3",
     "adam_beta1": "0.9",
     "adam_beta2": "0.999",
@@ -315,9 +316,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 351.40655994415283,
-      "cond": 49.18160009384155,
-      "ll": 279.14677238464355
+      "pop": 343.43622612953186,
+      "cond": 51.002053022384644,
+      "ll": 295.76064896583557
     },
     "task_settings": {}
   },
@@ -10323,5 +10324,5 @@
     true,
     true
   ],
-  "results_signature": "54e2ad73c2ffb4cd"
+  "results_signature": "1ae69297c18b18af"
 }

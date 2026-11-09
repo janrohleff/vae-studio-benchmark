@@ -1,7 +1,7 @@
 Fixed Effects -------------------
 MTT_pop             :       1.473
-ka_pop              :       1.543
-V_pop               :       50.72
+ka_pop              :       1.541
+V_pop               :       50.71
 Cl_pop              :       4.725
 
 Standard Deviation of the Random Effects 

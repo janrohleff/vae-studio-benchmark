@@ -1,6 +1,6 @@
 ********************************************************************************
 *  rep03                                                                       *
-*  October 21, 2026 at 22:55:52                                                *
+*  November 08, 2026 at 11:22:27                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -13,7 +13,7 @@ Cl_C_pop            :       4.041
 V_C_pop             :       50.74
 
 Standard Deviation of the Random Effects 
-omega_ka_C          :      0.3907
+omega_ka_C          :      0.3908
 omega_Cl_C          :      0.3313
 omega_V_C           :      0.2529
 
@@ -47,7 +47,7 @@ Population parameters (VAE) ----------------------
     Total iterations                  : 225
     Gradient clipping                 : 5 x median norm
     Gradient steps per iteration      : 8
-    E-step                            : importance-weighted (higher accuracy)
+    E-step                            : importance-weighted
     Learning rate (encoder / latents) : 0.004
     Encoder                           : LSTM, hidden dim 50
     Precision                         : float32

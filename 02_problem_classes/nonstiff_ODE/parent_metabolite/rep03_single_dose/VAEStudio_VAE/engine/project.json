@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "rep03",
-  "saved": "2026-10-21T22:53:16",
+  "saved": "2026-11-08T11:47:37",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -74,7 +74,8 @@
       "1": "Parent",
       "2": "Metabolite"
     },
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -300,9 +301,9 @@
     "ll_iter": 10000,
     "ll_tdof": 5,
     "learning_rate": "4e-3",
-    "burn_lr": "8e-3",
+    "burn_lr": "",
     "lr_decoder": "1e-2",
-    "lr_nn": "1e-3",
+    "lr_nn": "3e-3",
     "lr_encoder_node": "3e-3",
     "adam_beta1": "0.9",
     "adam_beta2": "0.999",
@@ -320,9 +321,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 3.013779401779175,
-      "cond": 0.9499990940093994,
-      "ll": 4.813629150390625
+      "pop": 3.2932519912719727,
+      "cond": 0.9018499851226807,
+      "ll": 4.56547999382019
     },
     "task_settings": {}
   },
@@ -428,5 +429,5 @@
     true,
     true
   ],
-  "results_signature": "4905d81d3c64b9b8"
+  "results_signature": "aad2fc3a016cac6e"
 }

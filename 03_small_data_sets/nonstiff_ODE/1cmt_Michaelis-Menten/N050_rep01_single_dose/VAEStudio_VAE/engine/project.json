@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "N050_rep01",
-  "saved": "2026-10-22T01:30:03",
+  "saved": "2026-11-08T13:52:37",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -62,7 +62,8 @@
       }
     ],
     "dvid_labels": {},
-    "dvid_covariates": {}
+    "dvid_covariates": {},
+    "adm_labels": {}
   },
   "structural": {
     "version": 1,
@@ -249,9 +250,9 @@
     "ll_iter": 10000,
     "ll_tdof": 5,
     "learning_rate": "4e-3",
-    "burn_lr": "8e-3",
+    "burn_lr": "",
     "lr_decoder": "1e-2",
-    "lr_nn": "1e-3",
+    "lr_nn": "3e-3",
     "lr_encoder_node": "3e-3",
     "adam_beta1": "0.9",
     "adam_beta2": "0.999",
@@ -269,9 +270,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 5.068539142608643,
-      "cond": 0.5158190727233887,
-      "ll": 2.053663969039917
+      "pop": 4.478158712387085,
+      "cond": 0.5168588161468506,
+      "ll": 2.0477399826049805
     },
     "task_settings": {}
   },
@@ -327,5 +328,5 @@
     true,
     true
   ],
-  "results_signature": "76bf068ffe6835e2"
+  "results_signature": "002608b4cfa4bc49"
 }

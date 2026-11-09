@@ -1,81 +1,53 @@
 {
  "typ": {
-  "ka": 1.0005809274772588,
-  "Cl": 4.034201814215009,
-  "V": 50.18957187883594,
-  "R0": 100.1084021853988,
-  "kout": 0.10064878862119597,
-  "IC50": 0.9941023855085426
+  "ka": 1.001208770369994,
+  "Cl": 4.035275184609914,
+  "V": 50.18134363017755,
+  "R0": 100.11703857171779,
+  "kout": 0.10056726251090352,
+  "IC50": 0.9936644484683702
  },
  "omega": {
-  "ka": 0.40312573168622373,
-  "Cl": 0.2937876032597158,
-  "V": 0.19862826287101898,
-  "R0": 0.10014216533387356,
-  "kout": 0.3046139570263473,
-  "IC50": 0.39734733327494315
+  "ka": 0.40286195830285126,
+  "Cl": 0.29377989948507444,
+  "V": 0.19876180683752967,
+  "R0": 0.10018685450262386,
+  "kout": 0.30468216129963066,
+  "IC50": 0.39698529525975257
  },
  "error": {
-  "Conc": 0.15122428513622416,
-  "Effect": 4.030206260514479
+  "Conc": 0.15111051232793132,
+  "Effect": 4.028560143078383
  },
  "beta": {},
  "ll": {
-  "OFV": 311662.6098751761,
-  "AIC": 311690.6098751761,
-  "BIC": 311781.8505798559,
-  "BICc": 311804.03088962386
+  "OFV": 311661.97210154304,
+  "AIC": 311689.97210154304,
+  "BIC": 311781.21280622284,
+  "BICc": 311803.3931159908
  },
  "tool": "VAE",
  "model": "idr",
  "times": {
-  "compile": 8.988380432128906e-05,
-  "pop": 173.13970184326172,
-  "cond": 24.99630117416382,
-  "ll": 138.23493719100952
+  "compile": 9.298324584960938e-05,
+  "pop": 163.39834213256836,
+  "cond": 26.086704969406128,
+  "ll": 147.88935089111328
  },
- "n_iter": 242,
+ "n_iter": 241,
  "phases": {
-  "kl_end": 67,
-  "switch_iter": 167,
-  "n_iter": 216,
+  "kl_end": 66,
+  "switch_iter": 166,
+  "n_iter": 215,
   "stop_reason": "stable",
   "unstable": [],
-  "clipped": 2
+  "clipped": 0
  },
  "ess": [
-  5.869357130768363,
-  1.149296574604255
+  5.883915254949468,
+  1.1598370765385955
  ],
  "enc_hidden_dim": 100,
  "n_subjects": 5000,
- "n_obs": 79996,
- "cond_info": {
-  "rounds": 17,
-  "converged": 1.0
- },
- "recomputed": {
-  "tasks": [
-   "cond",
-   "ll"
-  ],
-  "settings": {
-   "cond_rounds": 30
-  },
-  "reason": "conditional distributions: converged subjects frozen, at most 30 adaptive rounds; type-stable likelihood/conditional loops (2026-10-21)",
-  "tag": "cond+ll@freeze30"
- },
- "recomputed_prev": [
-  {
-   "tasks": [
-    "cond",
-    "ll"
-   ],
-   "settings": {
-    "cond_rounds": 20
-   },
-   "reason": "conditional distributions with at most 10 adaptive rounds, 20 for daridorexant, IDR and the effect compartment model (2026-10-21)",
-   "tag": "cond+ll@rounds10/20"
-  }
- ]
+ "n_obs": 79996
 }
