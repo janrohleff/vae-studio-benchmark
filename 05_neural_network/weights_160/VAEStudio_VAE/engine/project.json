@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "name": "H032_circ01_rtol1e-4",
-  "saved": "2026-11-09T00:14:01",
+  "name": "H032_circ01_auto",
+  "saved": "2026-11-09T11:33:08",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -340,16 +340,16 @@
     "enc_dropout": "0.0",
     "enc_bidirectional": false,
     "nn_hidden_dim": 30,
-    "ode_rtol": "1e-4",
+    "ode_rtol": "1e-3",
     "ode_atol": "1e-6",
     "ode_stiff": false,
-    "ode_solver": "Tsit5",
+    "ode_solver": "AutoTsit5",
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 504.2932827472687,
-      "cond": 5.835612058639526,
-      "ll": 37.34352993965149
+      "pop": 306.4393322467804,
+      "cond": 4.739810943603516,
+      "ll": 28.815797090530396
     },
     "task_settings": {}
   },
@@ -455,5 +455,5 @@
     true,
     true
   ],
-  "results_signature": "2f4f49e125d45be3"
+  "results_signature": "0b323c27a3da91e0"
 }

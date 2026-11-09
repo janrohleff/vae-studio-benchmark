@@ -33,9 +33,9 @@ indirect_response_binding). Model equations, true parameters and starting values
 
 Neural network study: `weights_XXX/start_weights.npz` holds the common starting weights of all three tools,
 `simulation/` the simulated data with the true production function, and `true_parameters/VAEStudio_VAE` the likelihood
-at the true parameters. VAE Studio solves the ODEs of the neural network models with rtol 1e-4/atol 1e-6, its
-default for neural network models; at rtol 1e-3, transiently stiff phases of the training made the gradients too
-inaccurate (Supplement S1). Monolix and NONMEM use the same tolerances as in the other tests.
+at the true parameters. All three tools use the same tolerances as in the other tests (rtol 1e-3/atol 1e-6). For
+the neural network models, VAE Studio uses Tsit5 with automatic switching to the stiff solver Rosenbrock23 where
+the training passes through stiff phases (solver mode *Auto*, comparable to LSODA in NONMEM; Supplement S1).
 
 Covariate selection: `candidates_000` holds the model without covariates (Monolix_SAEM, VAEStudio_VAE). From two
 candidates on, the folders contain the VAE run with integrated selection (`VAEStudio_VAE`) and the Monolix model
