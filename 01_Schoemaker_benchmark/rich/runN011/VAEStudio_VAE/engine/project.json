@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN011",
-  "saved": "2026-11-08T18:01:33",
+  "saved": "2026-11-13T23:14:34",
   "source_name": "Bolus_1CPTMM_all.csv",
   "data_file": "Bolus_1CPTMM_all.csv",
   "mapping": {
@@ -308,10 +308,10 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 20.46716809272766,
-      "cond": 0.951422929763794,
-      "se": 0.1113138198852539,
-      "ll": 5.471739292144775
+      "pop": 19.427791118621826,
+      "cond": 0.8901288509368896,
+      "se": 0.11057209968566895,
+      "ll": 5.014434099197388
     },
     "task_settings": {}
   },

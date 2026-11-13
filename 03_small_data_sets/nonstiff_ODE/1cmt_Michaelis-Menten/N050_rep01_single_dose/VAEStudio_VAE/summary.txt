@@ -1,6 +1,6 @@
 ********************************************************************************
 *  N050_rep01                                                                  *
-*  November 08, 2026 at 13:52:37                                               *
+*  November 13, 2026 at 20:56:43                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -26,7 +26,7 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 4.5 s
+    Population parameters             : 4.2 s
     Conditional distributions         : 0.5 s
     Log-likelihood                    : 2.0 s
 

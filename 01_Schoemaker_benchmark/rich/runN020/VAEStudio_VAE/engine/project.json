@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN020",
-  "saved": "2026-11-08T18:01:56",
+  "saved": "2026-11-13T23:15:03",
   "source_name": "Infusion_1CPTMM_sd.csv",
   "data_file": "Infusion_1CPTMM_sd.csv",
   "mapping": {
@@ -317,10 +317,10 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 5.314062833786011,
-      "cond": 0.7777829170227051,
-      "se": 0.11304306983947754,
-      "ll": 3.91989803314209
+      "pop": 5.16156792640686,
+      "cond": 0.6856911182403564,
+      "se": 0.1111443042755127,
+      "ll": 3.487894058227539
     },
     "task_settings": {}
   },

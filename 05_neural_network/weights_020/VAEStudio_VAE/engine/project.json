@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "H004_circ01_auto",
-  "saved": "2026-11-09T11:06:48",
+  "saved": "2026-11-13T23:47:42",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -347,9 +347,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 78.63263416290283,
-      "cond": 3.1522748470306396,
-      "ll": 19.742986917495728
+      "pop": 77.1245129108429,
+      "cond": 3.244673013687134,
+      "ll": 20.066723108291626
     },
     "task_settings": {}
   },

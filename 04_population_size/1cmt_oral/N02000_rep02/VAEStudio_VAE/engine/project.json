@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "N02000_rep02",
-  "saved": "2026-11-08T15:38:54",
+  "saved": "2026-11-13T21:59:40",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -231,9 +231,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 19.55524206161499,
-      "cond": 1.9245750904083252,
-      "ll": 9.574397802352905
+      "pop": 19.69177794456482,
+      "cond": 1.9616179466247559,
+      "ll": 14.14195203781128
     },
     "task_settings": {}
   },

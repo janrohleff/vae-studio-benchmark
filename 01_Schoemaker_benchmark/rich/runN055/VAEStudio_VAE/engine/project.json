@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN055",
-  "saved": "2026-11-08T18:09:27",
+  "saved": "2026-11-13T23:21:18",
   "source_name": "Infusion_2CPTMM_md.csv",
   "data_file": "Infusion_2CPTMM_md.csv",
   "mapping": {
@@ -379,10 +379,10 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 52.569775104522705,
-      "cond": 5.400761127471924,
-      "se": 0.5896179676055908,
-      "ll": 34.32490301132202
+      "pop": 33.83922982215881,
+      "cond": 2.6239309310913086,
+      "se": 0.26287102699279785,
+      "ll": 16.101440906524658
     },
     "task_settings": {}
   },

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN070",
-  "saved": "2026-11-08T18:14:01",
+  "saved": "2026-11-13T23:24:39",
   "source_name": "Oral_2CPTMM_all.csv",
   "data_file": "Oral_2CPTMM_all.csv",
   "mapping": {
@@ -404,10 +404,10 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 39.43425893783569,
-      "cond": 3.461596965789795,
-      "se": 0.5539119243621826,
-      "ll": 21.63847780227661
+      "pop": 30.517377138137817,
+      "cond": 2.30515718460083,
+      "se": 0.26938796043395996,
+      "ll": 14.182590007781982
     },
     "task_settings": {}
   },

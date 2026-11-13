@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "N020_rep13",
-  "saved": "2026-11-08T14:43:31",
+  "saved": "2026-11-13T21:22:03",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -399,9 +399,9 @@
     "precision": "float64",
     "seed": 1234,
     "runtimes": {
-      "pop": 8.597434043884277,
-      "cond": 1.075592041015625,
-      "ll": 6.290278911590576
+      "pop": 7.778788089752197,
+      "cond": 0.8533639907836914,
+      "ll": 4.676195859909058
     },
     "task_settings": {}
   },

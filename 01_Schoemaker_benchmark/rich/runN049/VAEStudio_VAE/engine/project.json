@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "runN049",
-  "saved": "2026-11-08T18:07:42",
+  "saved": "2026-11-13T23:20:14",
   "source_name": "Infusion_2CPT_all.csv",
   "data_file": "Infusion_2CPT_all.csv",
   "mapping": {
@@ -349,10 +349,10 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 5.789278268814087,
-      "cond": 0.43308115005493164,
-      "se": 0.10687804222106934,
-      "ll": 1.7300820350646973
+      "pop": 5.84623122215271,
+      "cond": 0.4204599857330322,
+      "se": 0.05782294273376465,
+      "ll": 1.9228479862213135
     },
     "task_settings": {}
   },

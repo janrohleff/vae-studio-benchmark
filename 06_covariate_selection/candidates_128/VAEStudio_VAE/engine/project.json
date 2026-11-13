@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "C128_rep01",
-  "saved": "2026-11-08T15:15:28",
+  "saved": "2026-11-13T21:39:29",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -2865,9 +2865,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 18.228596925735474,
-      "cond": 1.654407024383545,
-      "ll": 10.361433029174805
+      "pop": 15.120575904846191,
+      "cond": 1.356062412261963,
+      "ll": 8.305413007736206
     },
     "task_settings": {}
   },

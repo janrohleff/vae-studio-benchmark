@@ -78,7 +78,7 @@ SIGMA belongs to which parameter).
   (`fpilinux8.pnm` from NONMEM's `run/` folder; without it the run is serial, then remove the `PARAFILE=` options
   from `$EST`). Run in a path without spaces.
 
-### VAE Studio (`VAEStudio_VAE`)
+### VAE Studio 0.9.7 (`VAEStudio_VAE`)
 
 A run folder is a VAE Studio project: the project file `<run>.vae`, the data file, `model.txt` (structural model
 in plain text), `summary.txt` and `results/` (readable results) and `engine/` (everything the engine needs,

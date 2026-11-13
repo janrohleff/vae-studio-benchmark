@@ -27,10 +27,10 @@
  "tool": "VAE",
  "model": "circnn",
  "times": {
-  "compile": 7.319450378417969e-05,
-  "pop": 293.1581439971924,
-  "cond": 4.165329933166504,
-  "ll": 24.9203679561615
+  "compile": 0.00019812583923339844,
+  "pop": 176.07915997505188,
+  "cond": 4.025281190872192,
+  "ll": 23.75689172744751
  },
  "n_iter": 662,
  "phases": {
@@ -53,7 +53,7 @@
  "status": "ok",
  "H": 16,
  "n_weights": 80,
- "wall_total": 322.31303334236145,
+ "wall_total": 203.9313449859619,
  "start": "common",
  "nn_init": "reproducibility/VAE/scaling/nncirc/init_H016_circ01.npz",
  "ode": {

@@ -1,6 +1,6 @@
 ********************************************************************************
 *  H004_circ01_auto                                                            *
-*  November 09, 2026 at 11:06:48                                               *
+*  November 13, 2026 at 23:47:42                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -29,9 +29,9 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 1 min 19 s
+    Population parameters             : 1 min 17 s
     Conditional distributions         : 3.2 s
-    Log-likelihood                    : 19.7 s
+    Log-likelihood                    : 20.1 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 

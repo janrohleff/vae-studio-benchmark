@@ -1,6 +1,6 @@
 ********************************************************************************
 *  rep15                                                                       *
-*  November 08, 2026 at 11:53:53                                               *
+*  November 13, 2026 at 19:42:11                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -31,9 +31,9 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 6.4 s
-    Conditional distributions         : 1.0 s
-    Log-likelihood                    : 5.7 s
+    Population parameters             : 5.7 s
+    Conditional distributions         : 0.9 s
+    Log-likelihood                    : 4.8 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 

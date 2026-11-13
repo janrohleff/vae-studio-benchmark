@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "rep02",
-  "saved": "2026-11-08T13:16:01",
+  "saved": "2026-11-13T20:45:09",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -333,9 +333,9 @@
     "precision": "float64",
     "seed": 1234,
     "runtimes": {
-      "pop": 10.696635961532593,
-      "cond": 1.855255126953125,
-      "ll": 10.370274782180786
+      "pop": 9.553223848342896,
+      "cond": 1.3429949283599854,
+      "ll": 7.383606195449829
     },
     "task_settings": {}
   },

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "N10000_rep03",
-  "saved": "2026-11-08T16:12:08",
+  "saved": "2026-11-13T22:13:36",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -231,9 +231,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 99.3915069103241,
-      "cond": 8.939013957977295,
-      "ll": 44.04841494560242
+      "pop": 99.14402389526367,
+      "cond": 9.090826034545898,
+      "ll": 66.23105096817017
     },
     "task_settings": {}
   },

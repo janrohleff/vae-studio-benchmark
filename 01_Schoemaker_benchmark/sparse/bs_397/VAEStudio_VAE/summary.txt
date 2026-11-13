@@ -1,6 +1,6 @@
 ********************************************************************************
 *  bs_397                                                                      *
-*  November 08, 2026 at 18:26:41                                               *
+*  November 13, 2026 at 23:38:21                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -27,7 +27,7 @@ Estimation time (pure engine computation, excluding load/compile):
     Population parameters             : 1.1 s
     Conditional distributions         : 0.2 s
     Standard errors (Fisher)          : 0.1 s
-    Log-likelihood                    : 0.6 s
+    Log-likelihood                    : 0.7 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 

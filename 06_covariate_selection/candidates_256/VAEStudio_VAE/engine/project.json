@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "C256_rep01",
-  "saved": "2026-11-08T15:15:59",
+  "saved": "2026-11-13T21:39:55",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -5425,9 +5425,9 @@
     "precision": "float32",
     "seed": 1234,
     "runtimes": {
-      "pop": 17.680572032928467,
-      "cond": 1.6888220310211182,
-      "ll": 10.464257001876831
+      "pop": 14.990916967391968,
+      "cond": 1.2930939197540283,
+      "ll": 8.370763778686523
     },
     "task_settings": {}
   },

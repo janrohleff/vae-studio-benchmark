@@ -1,6 +1,6 @@
 ********************************************************************************
 *  runN070                                                                     *
-*  November 08, 2026 at 18:14:01                                               *
+*  November 13, 2026 at 23:24:39                                               *
 *  VAE Studio                                                                  *
 ********************************************************************************
 
@@ -30,10 +30,10 @@ RUN TIME _______________________________________________________________________
 
 Estimation time (pure engine computation, excluding load/compile):
 
-    Population parameters             : 39.4 s
-    Conditional distributions         : 3.5 s
-    Standard errors (Fisher)          : 0.6 s
-    Log-likelihood                    : 21.6 s
+    Population parameters             : 30.5 s
+    Conditional distributions         : 2.3 s
+    Standard errors (Fisher)          : 0.3 s
+    Log-likelihood                    : 14.2 s
 
 ESTIMATION OF THE LOG-LIKELIHOOD _______________________________________________
 

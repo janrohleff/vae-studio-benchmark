@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "N050_rep05",
-  "saved": "2026-11-08T14:17:23",
+  "saved": "2026-11-13T21:09:20",
   "source_name": "data.csv",
   "data_file": "data.csv",
   "mapping": {
@@ -608,9 +608,9 @@
     "precision": "float64",
     "seed": 1234,
     "runtimes": {
-      "pop": 22.672230005264282,
-      "cond": 4.076289176940918,
-      "ll": 8.407402992248535
+      "pop": 17.91564702987671,
+      "cond": 3.3058571815490723,
+      "ll": 5.846298933029175
     },
     "task_settings": {}
   },
